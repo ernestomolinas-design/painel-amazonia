@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-21T17:28:35-03:00",
+  "updatedAt": "2026-05-21T19:03:00-03:00",
   "date": "2026-05-21",
   "sourceMode": "operational",
   "metadata": {
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 1254,
-      "delta7": -45,
-      "delta30": -251,
+      "current": 1252,
+      "delta7": -47,
+      "delta30": -253,
       "risk": "baixo",
       "mlt": 1163,
       "p95": 1507,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-05-21",
-          "level": 1254,
+          "level": 1252,
           "mlt": 1163,
           "p05": 756,
           "p95": 1507,
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-05-21",
-          "level": 1254,
+          "level": 1252,
           "mlt": 1163,
           "p05": 756,
           "p95": 1507,
@@ -25465,9 +25465,9 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 672,
-      "delta7": 58,
-      "delta30": 165,
+      "current": 673,
+      "delta7": 59,
+      "delta30": 166,
       "risk": "baixo",
       "mlt": 758,
       "p95": 998,
@@ -25708,7 +25708,7 @@
         },
         {
           "date": "2026-05-21",
-          "level": 672,
+          "level": 673,
           "mlt": 758,
           "p05": 507,
           "p95": 998,
@@ -28630,7 +28630,7 @@
         },
         {
           "date": "2026-05-21",
-          "level": 672,
+          "level": 673,
           "mlt": 758,
           "p05": 507,
           "p95": 998,
