@@ -1,0 +1,73 @@
+name: Update hydro dashboard data
+
+on:
+  schedule:
+    # 11:15 UTC = 08:15 BRT
+    - cron: "15 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboard-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install xarray netCDF4 numpy pandas
+
+      - name: Generate dashboard.json
+        run: |
+          python scripts/gerador_dashboard_json_amazonia_operacional.py \
+            --output public/data/dashboard.json
+
+      - name: Validate generated JSON
+        run: |
+          test -s public/data/dashboard.json
+          python -m json.tool public/data/dashboard.json > /tmp/dashboard.validated.json
+
+      - name: Show dashboard summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("public/data/dashboard.json").read_text(encoding="utf-8"))
+
+          print("date:", data.get("date"))
+          print("sourceMode:", data.get("sourceMode"))
+
+          print("\nMain stations:")
+          for station in data.get("mainStations", []):
+              print("-", station.get("name"), station.get("source"), station.get("current"))
+
+          print("\nUpper basin stations:")
+          for station in data.get("upperBasinStations", []):
+              print("-", station.get("name"), station.get("source"), station.get("current"))
+
+          print("\nClimate last rows:")
+          for row in data.get("climateHistory", [])[-3:]:
+              print(row)
+
+          warnings = data.get("metadata", {}).get("warnings", [])
+          print("\nwarnings:", len(warnings))
+          for warning in warnings[:20]:
+              print("-", warning)
+          PY
+
+      - name: Commit updated dashboard.json
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update hydro dashboard data"
+          file_pattern: public/data/dashboard.json
