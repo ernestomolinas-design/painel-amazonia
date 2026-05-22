@@ -3,7 +3,7 @@ name: Update hydro dashboard data
 on:
   schedule:
     # Diário às 08:15 BRT / 11:15 UTC
-    - cron: "15 8 * * *"
+    - cron: "15 11 * * *"
 
     # Teste temporário: roda também no minuto 55 de toda hora
     - cron: "50 * * * *"
