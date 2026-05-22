@@ -6,7 +6,7 @@ on:
     - cron: "15 11 * * *"
 
     # Teste temporário: roda também no minuto 55 de toda hora
-    - cron: "50 * * * *"
+    - cron: "*/5 * * * *"
 
   workflow_dispatch:
 
