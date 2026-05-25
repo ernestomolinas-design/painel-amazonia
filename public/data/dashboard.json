@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T09:58:08-03:00",
+  "updatedAt": "2026-05-25T17:56:36-03:00",
   "date": "2026-05-25",
   "sourceMode": "operational",
   "metadata": {
@@ -3203,9 +3203,9 @@
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 1349,
-      "delta7": 12,
-      "delta30": 70,
+      "current": 1347,
+      "delta7": 10,
+      "delta30": 68,
       "risk": "baixo",
       "mlt": 1370,
       "p95": 1509,
@@ -3407,7 +3407,7 @@
         {
           "date": "2026-05-20",
           "level": 1340,
-          "mlt": 1365,
+          "mlt": 1364,
           "p05": 1190,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -3446,7 +3446,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 1349,
+          "level": 1347,
           "mlt": 1370,
           "p05": 1195,
           "p95": 1509,
@@ -3537,7 +3537,7 @@
         {
           "date": "2025-06-05",
           "level": 1437,
-          "mlt": 1380,
+          "mlt": 1379,
           "p05": 1212,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -6329,7 +6329,7 @@
         {
           "date": "2026-05-20",
           "level": 1340,
-          "mlt": 1365,
+          "mlt": 1364,
           "p05": 1190,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -6368,7 +6368,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 1349,
+          "level": 1347,
           "mlt": 1370,
           "p05": 1195,
           "p95": 1509,
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 1221,
-      "delta7": -119,
-      "delta30": -303,
+      "current": 1222,
+      "delta7": -118,
+      "delta30": -302,
       "risk": "baixo",
       "mlt": 1127,
       "p95": 1470,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 1221,
+          "level": 1222,
           "mlt": 1127,
           "p05": 708,
           "p95": 1470,
@@ -16397,7 +16397,7 @@
           "level": 1077,
           "mlt": 841,
           "p05": 412,
-          "p95": 1222,
+          "p95": 1223,
           "source": "real-ana-telemetria"
         },
         {
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 1221,
+          "level": 1222,
           "mlt": 1127,
           "p05": 708,
           "p95": 1470,
@@ -19105,9 +19105,9 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 716,
-      "delta7": -3,
-      "delta30": -61,
+      "current": 715,
+      "delta7": -4,
+      "delta30": -62,
       "risk": "baixo",
       "mlt": 709,
       "p95": 879,
@@ -19348,7 +19348,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 716,
+          "level": 715,
           "mlt": 709,
           "p05": 433,
           "p95": 879,
@@ -22270,7 +22270,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 716,
+          "level": 715,
           "mlt": 709,
           "p05": 433,
           "p95": 879,
@@ -25465,9 +25465,9 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 716,
-      "delta7": 71,
-      "delta30": 182,
+      "current": 719,
+      "delta7": 74,
+      "delta30": 185,
       "risk": "baixo",
       "mlt": 779,
       "p95": 1012,
@@ -25708,7 +25708,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 716,
+          "level": 719,
           "mlt": 779,
           "p05": 536,
           "p95": 1012,
@@ -25944,7 +25944,7 @@
           "date": "2025-06-23",
           "level": 950,
           "mlt": 882,
-          "p05": 718,
+          "p05": 719,
           "p95": 1038,
           "source": "real-ana-telemetria"
         },
@@ -28630,7 +28630,7 @@
         },
         {
           "date": "2026-05-25",
-          "level": 716,
+          "level": 719,
           "mlt": 779,
           "p05": 536,
           "p95": 1012,
@@ -28941,9 +28941,9 @@
     {
       "label": "Mai/26",
       "nino34": null,
-      "atlNorth": 0.14,
-      "atlSouth": 0.4,
-      "atlDipole": -0.26,
+      "atlNorth": 0.16,
+      "atlSouth": 0.33,
+      "atlDipole": -0.17,
       "atlDipoleSource": "TNA-TSA",
       "source": "NOAA/PSL + NOAA/OOPC weekly"
     }
