@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-05-24T17:20:45-03:00",
-  "date": "2026-05-24",
+  "updatedAt": "2026-05-25T09:58:08-03:00",
+  "date": "2026-05-25",
   "sourceMode": "operational",
   "metadata": {
     "warnings": [],
@@ -23,27 +23,19 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 2763,
-      "delta7": 23,
-      "delta30": 107,
+      "current": 2766,
+      "delta7": 24,
+      "delta30": 105,
       "risk": "baixo",
-      "mlt": 2800,
-      "p95": 2985,
-      "p05": 2581,
+      "mlt": 2802,
+      "p95": 2987,
+      "p05": 2587,
       "station_code": "14990000",
       "levels30d": [
         {
-          "date": "2026-04-25",
-          "level": 2656,
-          "mlt": 2699,
-          "p05": 2456,
-          "p95": 2921,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2026-04-26",
           "level": 2661,
-          "mlt": 2703,
+          "mlt": 2704,
           "p05": 2462,
           "p95": 2924,
           "source": "real-ana-telemetria"
@@ -75,7 +67,7 @@
         {
           "date": "2026-04-30",
           "level": 2675,
-          "mlt": 2719,
+          "mlt": 2720,
           "p05": 2484,
           "p95": 2933,
           "source": "real-ana-telemetria"
@@ -83,7 +75,7 @@
         {
           "date": "2026-05-01",
           "level": 2680,
-          "mlt": 2723,
+          "mlt": 2724,
           "p05": 2491,
           "p95": 2936,
           "source": "real-ana-telemetria"
@@ -91,7 +83,7 @@
         {
           "date": "2026-05-02",
           "level": 2683,
-          "mlt": 2727,
+          "mlt": 2728,
           "p05": 2496,
           "p95": 2936,
           "source": "real-ana-telemetria"
@@ -99,7 +91,7 @@
         {
           "date": "2026-05-03",
           "level": 2688,
-          "mlt": 2731,
+          "mlt": 2732,
           "p05": 2504,
           "p95": 2938,
           "source": "real-ana-telemetria"
@@ -123,16 +115,16 @@
         {
           "date": "2026-05-06",
           "level": 2704,
-          "mlt": 2742,
-          "p05": 2520,
+          "mlt": 2743,
+          "p05": 2522,
           "p95": 2946,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-07",
           "level": 2708,
-          "mlt": 2746,
-          "p05": 2524,
+          "mlt": 2747,
+          "p05": 2525,
           "p95": 2948,
           "source": "real-ana-telemetria"
         },
@@ -140,15 +132,15 @@
           "date": "2026-05-08",
           "level": 2711,
           "mlt": 2750,
-          "p05": 2528,
+          "p05": 2529,
           "p95": 2951,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-09",
           "level": 2714,
-          "mlt": 2753,
-          "p05": 2530,
+          "mlt": 2754,
+          "p05": 2533,
           "p95": 2954,
           "source": "real-ana-telemetria"
         },
@@ -156,7 +148,7 @@
           "date": "2026-05-10",
           "level": 2716,
           "mlt": 2757,
-          "p05": 2535,
+          "p05": 2536,
           "p95": 2956,
           "source": "real-ana-telemetria"
         },
@@ -164,7 +156,7 @@
           "date": "2026-05-11",
           "level": 2718,
           "mlt": 2761,
-          "p05": 2539,
+          "p05": 2540,
           "p95": 2960,
           "source": "real-ana-telemetria"
         },
@@ -172,15 +164,15 @@
           "date": "2026-05-12",
           "level": 2721,
           "mlt": 2764,
-          "p05": 2541,
+          "p05": 2545,
           "p95": 2960,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-13",
           "level": 2727,
-          "mlt": 2767,
-          "p05": 2546,
+          "mlt": 2768,
+          "p05": 2547,
           "p95": 2961,
           "source": "real-ana-telemetria"
         },
@@ -188,7 +180,7 @@
           "date": "2026-05-14",
           "level": 2729,
           "mlt": 2771,
-          "p05": 2550,
+          "p05": 2551,
           "p95": 2964,
           "source": "real-ana-telemetria"
         },
@@ -196,39 +188,39 @@
           "date": "2026-05-15",
           "level": 2734,
           "mlt": 2774,
-          "p05": 2552,
+          "p05": 2556,
           "p95": 2966,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-16",
           "level": 2738,
-          "mlt": 2777,
-          "p05": 2556,
+          "mlt": 2778,
+          "p05": 2559,
           "p95": 2968,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-17",
           "level": 2740,
-          "mlt": 2780,
-          "p05": 2559,
+          "mlt": 2781,
+          "p05": 2563,
           "p95": 2971,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 2742,
-          "mlt": 2783,
-          "p05": 2563,
+          "mlt": 2784,
+          "p05": 2565,
           "p95": 2973,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-19",
           "level": 2745,
-          "mlt": 2786,
-          "p05": 2566,
+          "mlt": 2787,
+          "p05": 2568,
           "p95": 2973,
           "source": "real-ana-telemetria"
         },
@@ -252,41 +244,41 @@
           "date": "2026-05-22",
           "level": 2756,
           "mlt": 2795,
-          "p05": 2576,
+          "p05": 2577,
           "p95": 2982,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-23",
           "level": 2760,
-          "mlt": 2797,
-          "p05": 2578,
+          "mlt": 2798,
+          "p05": 2580,
           "p95": 2984,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 2763,
+          "level": 2764,
           "mlt": 2800,
-          "p05": 2581,
+          "p05": 2584,
           "p95": 2985,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 2766,
+          "mlt": 2802,
+          "p05": 2587,
+          "p95": 2987,
           "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
         {
-          "date": "2025-05-25",
-          "level": 2843,
-          "mlt": 2802,
-          "p05": 2584,
-          "p95": 2987,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2025-05-26",
           "level": 2846,
-          "mlt": 2804,
-          "p05": 2589,
+          "mlt": 2805,
+          "p05": 2590,
           "p95": 2988,
           "source": "real-ana-telemetria"
         },
@@ -351,7 +343,7 @@
           "level": 2861,
           "mlt": 2823,
           "p05": 2628,
-          "p95": 2994,
+          "p95": 2993,
           "source": "real-ana-telemetria"
         },
         {
@@ -445,7 +437,7 @@
         {
           "date": "2025-06-15",
           "level": 2884,
-          "mlt": 2840,
+          "mlt": 2839,
           "p05": 2660,
           "p95": 2994,
           "source": "real-ana-telemetria"
@@ -501,7 +493,7 @@
         {
           "date": "2025-06-22",
           "level": 2892,
-          "mlt": 2842,
+          "mlt": 2841,
           "p05": 2664,
           "p95": 2994,
           "source": "real-ana-telemetria"
@@ -519,7 +511,7 @@
           "level": 2893,
           "mlt": 2841,
           "p05": 2664,
-          "p95": 2995,
+          "p95": 2994,
           "source": "real-ana-telemetria"
         },
         {
@@ -2726,7 +2718,7 @@
           "date": "2026-03-27",
           "level": 2525,
           "mlt": 2569,
-          "p05": 2346,
+          "p05": 2345,
           "p95": 2800,
           "source": "real-ana-telemetria"
         },
@@ -2765,7 +2757,7 @@
         {
           "date": "2026-04-01",
           "level": 2548,
-          "mlt": 2592,
+          "mlt": 2593,
           "p05": 2372,
           "p95": 2824,
           "source": "real-ana-telemetria"
@@ -2798,14 +2790,14 @@
           "date": "2026-04-05",
           "level": 2564,
           "mlt": 2611,
-          "p05": 2396,
+          "p05": 2395,
           "p95": 2845,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-06",
           "level": 2566,
-          "mlt": 2615,
+          "mlt": 2616,
           "p05": 2400,
           "p95": 2848,
           "source": "real-ana-telemetria"
@@ -2822,7 +2814,7 @@
           "date": "2026-04-08",
           "level": 2575,
           "mlt": 2625,
-          "p05": 2410,
+          "p05": 2409,
           "p95": 2857,
           "source": "real-ana-telemetria"
         },
@@ -2830,7 +2822,7 @@
           "date": "2026-04-09",
           "level": 2580,
           "mlt": 2629,
-          "p05": 2415,
+          "p05": 2414,
           "p95": 2861,
           "source": "real-ana-telemetria"
         },
@@ -2838,7 +2830,7 @@
           "date": "2026-04-10",
           "level": 2584,
           "mlt": 2634,
-          "p05": 2421,
+          "p05": 2420,
           "p95": 2864,
           "source": "real-ana-telemetria"
         },
@@ -2887,21 +2879,21 @@
           "level": 2619,
           "mlt": 2661,
           "p05": 2442,
-          "p95": 2888,
+          "p95": 2889,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-17",
           "level": 2624,
           "mlt": 2665,
-          "p05": 2443,
+          "p05": 2442,
           "p95": 2893,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-18",
           "level": 2627,
-          "mlt": 2669,
+          "mlt": 2670,
           "p05": 2443,
           "p95": 2897,
           "source": "real-ana-telemetria"
@@ -2935,7 +2927,7 @@
           "level": 2643,
           "mlt": 2687,
           "p05": 2446,
-          "p95": 2911,
+          "p95": 2912,
           "source": "real-ana-telemetria"
         },
         {
@@ -2949,7 +2941,7 @@
         {
           "date": "2026-04-24",
           "level": 2653,
-          "mlt": 2695,
+          "mlt": 2696,
           "p05": 2451,
           "p95": 2917,
           "source": "real-ana-telemetria"
@@ -2957,7 +2949,7 @@
         {
           "date": "2026-04-25",
           "level": 2656,
-          "mlt": 2699,
+          "mlt": 2700,
           "p05": 2456,
           "p95": 2921,
           "source": "real-ana-telemetria"
@@ -2965,7 +2957,7 @@
         {
           "date": "2026-04-26",
           "level": 2661,
-          "mlt": 2703,
+          "mlt": 2704,
           "p05": 2462,
           "p95": 2924,
           "source": "real-ana-telemetria"
@@ -2997,7 +2989,7 @@
         {
           "date": "2026-04-30",
           "level": 2675,
-          "mlt": 2719,
+          "mlt": 2720,
           "p05": 2484,
           "p95": 2933,
           "source": "real-ana-telemetria"
@@ -3005,7 +2997,7 @@
         {
           "date": "2026-05-01",
           "level": 2680,
-          "mlt": 2723,
+          "mlt": 2724,
           "p05": 2491,
           "p95": 2936,
           "source": "real-ana-telemetria"
@@ -3013,7 +3005,7 @@
         {
           "date": "2026-05-02",
           "level": 2683,
-          "mlt": 2727,
+          "mlt": 2728,
           "p05": 2496,
           "p95": 2936,
           "source": "real-ana-telemetria"
@@ -3021,7 +3013,7 @@
         {
           "date": "2026-05-03",
           "level": 2688,
-          "mlt": 2731,
+          "mlt": 2732,
           "p05": 2504,
           "p95": 2938,
           "source": "real-ana-telemetria"
@@ -3045,16 +3037,16 @@
         {
           "date": "2026-05-06",
           "level": 2704,
-          "mlt": 2742,
-          "p05": 2520,
+          "mlt": 2743,
+          "p05": 2522,
           "p95": 2946,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-07",
           "level": 2708,
-          "mlt": 2746,
-          "p05": 2524,
+          "mlt": 2747,
+          "p05": 2525,
           "p95": 2948,
           "source": "real-ana-telemetria"
         },
@@ -3062,15 +3054,15 @@
           "date": "2026-05-08",
           "level": 2711,
           "mlt": 2750,
-          "p05": 2528,
+          "p05": 2529,
           "p95": 2951,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-09",
           "level": 2714,
-          "mlt": 2753,
-          "p05": 2530,
+          "mlt": 2754,
+          "p05": 2533,
           "p95": 2954,
           "source": "real-ana-telemetria"
         },
@@ -3078,7 +3070,7 @@
           "date": "2026-05-10",
           "level": 2716,
           "mlt": 2757,
-          "p05": 2535,
+          "p05": 2536,
           "p95": 2956,
           "source": "real-ana-telemetria"
         },
@@ -3086,7 +3078,7 @@
           "date": "2026-05-11",
           "level": 2718,
           "mlt": 2761,
-          "p05": 2539,
+          "p05": 2540,
           "p95": 2960,
           "source": "real-ana-telemetria"
         },
@@ -3094,15 +3086,15 @@
           "date": "2026-05-12",
           "level": 2721,
           "mlt": 2764,
-          "p05": 2541,
+          "p05": 2545,
           "p95": 2960,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-13",
           "level": 2727,
-          "mlt": 2767,
-          "p05": 2546,
+          "mlt": 2768,
+          "p05": 2547,
           "p95": 2961,
           "source": "real-ana-telemetria"
         },
@@ -3110,7 +3102,7 @@
           "date": "2026-05-14",
           "level": 2729,
           "mlt": 2771,
-          "p05": 2550,
+          "p05": 2551,
           "p95": 2964,
           "source": "real-ana-telemetria"
         },
@@ -3118,39 +3110,39 @@
           "date": "2026-05-15",
           "level": 2734,
           "mlt": 2774,
-          "p05": 2552,
+          "p05": 2556,
           "p95": 2966,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-16",
           "level": 2738,
-          "mlt": 2777,
-          "p05": 2556,
+          "mlt": 2778,
+          "p05": 2559,
           "p95": 2968,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-17",
           "level": 2740,
-          "mlt": 2780,
-          "p05": 2559,
+          "mlt": 2781,
+          "p05": 2563,
           "p95": 2971,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 2742,
-          "mlt": 2783,
-          "p05": 2563,
+          "mlt": 2784,
+          "p05": 2565,
           "p95": 2973,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-19",
           "level": 2745,
-          "mlt": 2786,
-          "p05": 2566,
+          "mlt": 2787,
+          "p05": 2568,
           "p95": 2973,
           "source": "real-ana-telemetria"
         },
@@ -3174,24 +3166,32 @@
           "date": "2026-05-22",
           "level": 2756,
           "mlt": 2795,
-          "p05": 2576,
+          "p05": 2577,
           "p95": 2982,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-23",
           "level": 2760,
-          "mlt": 2797,
-          "p05": 2578,
+          "mlt": 2798,
+          "p05": 2580,
           "p95": 2984,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 2763,
+          "level": 2764,
           "mlt": 2800,
-          "p05": 2581,
+          "p05": 2584,
           "p95": 2985,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 2766,
+          "mlt": 2802,
+          "p05": 2587,
+          "p95": 2987,
           "source": "real-ana-telemetria"
         }
       ],
@@ -3203,23 +3203,15 @@
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 1348,
-      "delta7": 13,
-      "delta30": 74,
+      "current": 1349,
+      "delta7": 12,
+      "delta30": 70,
       "risk": "baixo",
-      "mlt": 1369,
+      "mlt": 1370,
       "p95": 1509,
-      "p05": 1194,
+      "p05": 1195,
       "station_code": "16030000",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 1274,
-          "mlt": 1311,
-          "p05": 1134,
-          "p95": 1474,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 1279,
@@ -3239,7 +3231,7 @@
         {
           "date": "2026-04-28",
           "level": 1282,
-          "mlt": 1319,
+          "mlt": 1320,
           "p05": 1143,
           "p95": 1475,
           "source": "real-ana-telemetria"
@@ -3248,15 +3240,15 @@
           "date": "2026-04-29",
           "level": 1285,
           "mlt": 1322,
-          "p05": 1145,
+          "p05": 1147,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-30",
           "level": 1288,
-          "mlt": 1324,
-          "p05": 1148,
+          "mlt": 1325,
+          "p05": 1150,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -3271,8 +3263,8 @@
         {
           "date": "2026-05-02",
           "level": 1294,
-          "mlt": 1329,
-          "p05": 1155,
+          "mlt": 1330,
+          "p05": 1156,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -3280,15 +3272,15 @@
           "date": "2026-05-03",
           "level": 1298,
           "mlt": 1332,
-          "p05": 1157,
+          "p05": 1158,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-04",
           "level": 1302,
-          "mlt": 1334,
-          "p05": 1159,
+          "mlt": 1335,
+          "p05": 1161,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -3304,7 +3296,7 @@
           "date": "2026-05-06",
           "level": 1310,
           "mlt": 1339,
-          "p05": 1165,
+          "p05": 1166,
           "p95": 1478,
           "source": "real-ana-telemetria"
         },
@@ -3312,7 +3304,7 @@
           "date": "2026-05-07",
           "level": 1313,
           "mlt": 1341,
-          "p05": 1166,
+          "p05": 1168,
           "p95": 1481,
           "source": "real-ana-telemetria"
         },
@@ -3320,38 +3312,38 @@
           "date": "2026-05-08",
           "level": 1316,
           "mlt": 1343,
-          "p05": 1169,
+          "p05": 1170,
           "p95": 1484,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-09",
           "level": 1318,
-          "mlt": 1345,
-          "p05": 1172,
+          "mlt": 1346,
+          "p05": 1173,
           "p95": 1486,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-10",
           "level": 1320,
-          "mlt": 1347,
-          "p05": 1174,
+          "mlt": 1348,
+          "p05": 1175,
           "p95": 1489,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-11",
           "level": 1321,
-          "mlt": 1349,
-          "p05": 1176,
+          "mlt": 1350,
+          "p05": 1177,
           "p95": 1492,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 1325,
-          "mlt": 1351,
+          "mlt": 1352,
           "p05": 1178,
           "p95": 1495,
           "source": "real-ana-telemetria"
@@ -3360,7 +3352,7 @@
           "date": "2026-05-13",
           "level": 1328,
           "mlt": 1353,
-          "p05": 1180,
+          "p05": 1181,
           "p95": 1499,
           "source": "real-ana-telemetria"
         },
@@ -3368,7 +3360,7 @@
           "date": "2026-05-14",
           "level": 1330,
           "mlt": 1355,
-          "p05": 1183,
+          "p05": 1184,
           "p95": 1502,
           "source": "real-ana-telemetria"
         },
@@ -3376,14 +3368,14 @@
           "date": "2026-05-15",
           "level": 1332,
           "mlt": 1357,
-          "p05": 1184,
+          "p05": 1186,
           "p95": 1504,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-16",
           "level": 1334,
-          "mlt": 1358,
+          "mlt": 1359,
           "p05": 1186,
           "p95": 1506,
           "source": "real-ana-telemetria"
@@ -3392,14 +3384,14 @@
           "date": "2026-05-17",
           "level": 1335,
           "mlt": 1360,
-          "p05": 1186,
+          "p05": 1187,
           "p95": 1508,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 1337,
-          "mlt": 1361,
+          "mlt": 1362,
           "p05": 1187,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -3408,23 +3400,23 @@
           "date": "2026-05-19",
           "level": 1338,
           "mlt": 1363,
-          "p05": 1187,
+          "p05": 1189,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 1340,
-          "mlt": 1364,
-          "p05": 1189,
+          "mlt": 1365,
+          "p05": 1190,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 1343,
-          "mlt": 1365,
-          "p05": 1190,
+          "mlt": 1366,
+          "p05": 1191,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -3432,7 +3424,7 @@
           "date": "2026-05-22",
           "level": 1346,
           "mlt": 1367,
-          "p05": 1191,
+          "p05": 1193,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -3440,7 +3432,7 @@
           "date": "2026-05-23",
           "level": 1347,
           "mlt": 1368,
-          "p05": 1193,
+          "p05": 1194,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -3451,22 +3443,22 @@
           "p05": 1194,
           "p95": 1509,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1349,
+          "mlt": 1370,
+          "p05": 1195,
+          "p95": 1509,
+          "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
         {
-          "date": "2025-05-25",
-          "level": 1435,
-          "mlt": 1370,
-          "p05": 1194,
-          "p95": 1509,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2025-05-26",
           "level": 1436,
           "mlt": 1371,
-          "p05": 1195,
+          "p05": 1196,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -3617,7 +3609,7 @@
         {
           "date": "2025-06-14",
           "level": 1443,
-          "mlt": 1381,
+          "mlt": 1380,
           "p05": 1215,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -5905,7 +5897,7 @@
         {
           "date": "2026-03-27",
           "level": 1171,
-          "mlt": 1212,
+          "mlt": 1213,
           "p05": 1008,
           "p95": 1395,
           "source": "real-ana-telemetria"
@@ -5914,7 +5906,7 @@
           "date": "2026-03-28",
           "level": 1175,
           "mlt": 1216,
-          "p05": 1015,
+          "p05": 1014,
           "p95": 1398,
           "source": "real-ana-telemetria"
         },
@@ -5930,7 +5922,7 @@
           "date": "2026-03-30",
           "level": 1181,
           "mlt": 1224,
-          "p05": 1023,
+          "p05": 1022,
           "p95": 1403,
           "source": "real-ana-telemetria"
         },
@@ -6001,7 +5993,7 @@
         {
           "date": "2026-04-08",
           "level": 1213,
-          "mlt": 1257,
+          "mlt": 1258,
           "p05": 1063,
           "p95": 1435,
           "source": "real-ana-telemetria"
@@ -6010,14 +6002,14 @@
           "date": "2026-04-09",
           "level": 1217,
           "mlt": 1261,
-          "p05": 1068,
+          "p05": 1067,
           "p95": 1438,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-10",
           "level": 1220,
-          "mlt": 1264,
+          "mlt": 1265,
           "p05": 1072,
           "p95": 1441,
           "source": "real-ana-telemetria"
@@ -6026,7 +6018,7 @@
           "date": "2026-04-11",
           "level": 1223,
           "mlt": 1268,
-          "p05": 1080,
+          "p05": 1079,
           "p95": 1443,
           "source": "real-ana-telemetria"
         },
@@ -6065,7 +6057,7 @@
         {
           "date": "2026-04-16",
           "level": 1241,
-          "mlt": 1284,
+          "mlt": 1285,
           "p05": 1106,
           "p95": 1459,
           "source": "real-ana-telemetria"
@@ -6073,7 +6065,7 @@
         {
           "date": "2026-04-17",
           "level": 1244,
-          "mlt": 1287,
+          "mlt": 1288,
           "p05": 1112,
           "p95": 1461,
           "source": "real-ana-telemetria"
@@ -6107,7 +6099,7 @@
           "level": 1257,
           "mlt": 1300,
           "p05": 1131,
-          "p95": 1470,
+          "p95": 1471,
           "source": "real-ana-telemetria"
         },
         {
@@ -6129,7 +6121,7 @@
         {
           "date": "2026-04-24",
           "level": 1271,
-          "mlt": 1308,
+          "mlt": 1309,
           "p05": 1133,
           "p95": 1473,
           "source": "real-ana-telemetria"
@@ -6137,7 +6129,7 @@
         {
           "date": "2026-04-25",
           "level": 1274,
-          "mlt": 1311,
+          "mlt": 1312,
           "p05": 1134,
           "p95": 1474,
           "source": "real-ana-telemetria"
@@ -6161,7 +6153,7 @@
         {
           "date": "2026-04-28",
           "level": 1282,
-          "mlt": 1319,
+          "mlt": 1320,
           "p05": 1143,
           "p95": 1475,
           "source": "real-ana-telemetria"
@@ -6170,15 +6162,15 @@
           "date": "2026-04-29",
           "level": 1285,
           "mlt": 1322,
-          "p05": 1145,
+          "p05": 1147,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-30",
           "level": 1288,
-          "mlt": 1324,
-          "p05": 1148,
+          "mlt": 1325,
+          "p05": 1150,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -6193,8 +6185,8 @@
         {
           "date": "2026-05-02",
           "level": 1294,
-          "mlt": 1329,
-          "p05": 1155,
+          "mlt": 1330,
+          "p05": 1156,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -6202,15 +6194,15 @@
           "date": "2026-05-03",
           "level": 1298,
           "mlt": 1332,
-          "p05": 1157,
+          "p05": 1158,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-04",
           "level": 1302,
-          "mlt": 1334,
-          "p05": 1159,
+          "mlt": 1335,
+          "p05": 1161,
           "p95": 1476,
           "source": "real-ana-telemetria"
         },
@@ -6226,7 +6218,7 @@
           "date": "2026-05-06",
           "level": 1310,
           "mlt": 1339,
-          "p05": 1165,
+          "p05": 1166,
           "p95": 1478,
           "source": "real-ana-telemetria"
         },
@@ -6234,7 +6226,7 @@
           "date": "2026-05-07",
           "level": 1313,
           "mlt": 1341,
-          "p05": 1166,
+          "p05": 1168,
           "p95": 1481,
           "source": "real-ana-telemetria"
         },
@@ -6242,38 +6234,38 @@
           "date": "2026-05-08",
           "level": 1316,
           "mlt": 1343,
-          "p05": 1169,
+          "p05": 1170,
           "p95": 1484,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-09",
           "level": 1318,
-          "mlt": 1345,
-          "p05": 1172,
+          "mlt": 1346,
+          "p05": 1173,
           "p95": 1486,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-10",
           "level": 1320,
-          "mlt": 1347,
-          "p05": 1174,
+          "mlt": 1348,
+          "p05": 1175,
           "p95": 1489,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-11",
           "level": 1321,
-          "mlt": 1349,
-          "p05": 1176,
+          "mlt": 1350,
+          "p05": 1177,
           "p95": 1492,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 1325,
-          "mlt": 1351,
+          "mlt": 1352,
           "p05": 1178,
           "p95": 1495,
           "source": "real-ana-telemetria"
@@ -6282,7 +6274,7 @@
           "date": "2026-05-13",
           "level": 1328,
           "mlt": 1353,
-          "p05": 1180,
+          "p05": 1181,
           "p95": 1499,
           "source": "real-ana-telemetria"
         },
@@ -6290,7 +6282,7 @@
           "date": "2026-05-14",
           "level": 1330,
           "mlt": 1355,
-          "p05": 1183,
+          "p05": 1184,
           "p95": 1502,
           "source": "real-ana-telemetria"
         },
@@ -6298,14 +6290,14 @@
           "date": "2026-05-15",
           "level": 1332,
           "mlt": 1357,
-          "p05": 1184,
+          "p05": 1186,
           "p95": 1504,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-16",
           "level": 1334,
-          "mlt": 1358,
+          "mlt": 1359,
           "p05": 1186,
           "p95": 1506,
           "source": "real-ana-telemetria"
@@ -6314,14 +6306,14 @@
           "date": "2026-05-17",
           "level": 1335,
           "mlt": 1360,
-          "p05": 1186,
+          "p05": 1187,
           "p95": 1508,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 1337,
-          "mlt": 1361,
+          "mlt": 1362,
           "p05": 1187,
           "p95": 1509,
           "source": "real-ana-telemetria"
@@ -6330,23 +6322,23 @@
           "date": "2026-05-19",
           "level": 1338,
           "mlt": 1363,
-          "p05": 1187,
+          "p05": 1189,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 1340,
-          "mlt": 1364,
-          "p05": 1189,
+          "mlt": 1365,
+          "p05": 1190,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 1343,
-          "mlt": 1365,
-          "p05": 1190,
+          "mlt": 1366,
+          "p05": 1191,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -6354,7 +6346,7 @@
           "date": "2026-05-22",
           "level": 1346,
           "mlt": 1367,
-          "p05": 1191,
+          "p05": 1193,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -6362,7 +6354,7 @@
           "date": "2026-05-23",
           "level": 1347,
           "mlt": 1368,
-          "p05": 1193,
+          "p05": 1194,
           "p95": 1509,
           "source": "real-ana-telemetria"
         },
@@ -6371,6 +6363,14 @@
           "level": 1348,
           "mlt": 1369,
           "p05": 1194,
+          "p95": 1509,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1349,
+          "mlt": 1370,
+          "p05": 1195,
           "p95": 1509,
           "source": "real-ana-telemetria"
         }
@@ -6383,28 +6383,20 @@
       "name": "Óbidos",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 746,
+      "current": 747,
       "delta7": 10,
-      "delta30": 49,
+      "delta30": 50,
       "risk": "baixo",
-      "mlt": 746,
+      "mlt": 747,
       "p95": 839,
       "p05": 622,
       "station_code": "17050001",
       "levels30d": [
         {
-          "date": "2026-04-25",
-          "level": 697,
-          "mlt": 720,
-          "p05": 587,
-          "p95": 835,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2026-04-26",
           "level": 697,
           "mlt": 721,
-          "p05": 588,
+          "p05": 589,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
@@ -6412,15 +6404,15 @@
           "date": "2026-04-27",
           "level": 698,
           "mlt": 723,
-          "p05": 589,
+          "p05": 592,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-28",
           "level": 699,
-          "mlt": 724,
-          "p05": 592,
+          "mlt": 725,
+          "p05": 593,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -6428,7 +6420,7 @@
           "date": "2026-04-29",
           "level": 700,
           "mlt": 726,
-          "p05": 593,
+          "p05": 594,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -6436,7 +6428,7 @@
           "date": "2026-04-30",
           "level": 702,
           "mlt": 727,
-          "p05": 594,
+          "p05": 597,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -6452,7 +6444,7 @@
           "date": "2026-05-02",
           "level": 707,
           "mlt": 730,
-          "p05": 597,
+          "p05": 600,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
@@ -6460,23 +6452,23 @@
           "date": "2026-05-03",
           "level": 710,
           "mlt": 731,
-          "p05": 600,
+          "p05": 602,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-04",
           "level": 717,
-          "mlt": 732,
-          "p05": 602,
+          "mlt": 733,
+          "p05": 603,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-05",
           "level": 720,
-          "mlt": 733,
-          "p05": 603,
+          "mlt": 734,
+          "p05": 606,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -6484,7 +6476,7 @@
           "date": "2026-05-06",
           "level": 724,
           "mlt": 735,
-          "p05": 606,
+          "p05": 609,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -6492,7 +6484,7 @@
           "date": "2026-05-07",
           "level": 726,
           "mlt": 736,
-          "p05": 609,
+          "p05": 610,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -6500,7 +6492,7 @@
           "date": "2026-05-08",
           "level": 727,
           "mlt": 737,
-          "p05": 610,
+          "p05": 611,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -6508,7 +6500,7 @@
           "date": "2026-05-09",
           "level": 727,
           "mlt": 738,
-          "p05": 611,
+          "p05": 615,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -6516,23 +6508,23 @@
           "date": "2026-05-10",
           "level": 727,
           "mlt": 739,
-          "p05": 615,
+          "p05": 616,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-11",
           "level": 726,
-          "mlt": 739,
-          "p05": 616,
+          "mlt": 740,
+          "p05": 618,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 729,
-          "mlt": 740,
-          "p05": 618,
+          "mlt": 741,
+          "p05": 619,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -6540,7 +6532,7 @@
           "date": "2026-05-13",
           "level": 731,
           "mlt": 741,
-          "p05": 619,
+          "p05": 620,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -6556,7 +6548,7 @@
           "date": "2026-05-15",
           "level": 733,
           "mlt": 743,
-          "p05": 620,
+          "p05": 621,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -6572,14 +6564,14 @@
           "date": "2026-05-17",
           "level": 736,
           "mlt": 744,
-          "p05": 621,
+          "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 737,
-          "mlt": 744,
+          "mlt": 745,
           "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
@@ -6627,21 +6619,21 @@
         {
           "date": "2026-05-24",
           "level": 746,
-          "mlt": 746,
+          "mlt": 747,
+          "p05": 622,
+          "p95": 839,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 747,
+          "mlt": 747,
           "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
-        {
-          "date": "2025-05-25",
-          "level": 777,
-          "mlt": 747,
-          "p05": 622,
-          "p95": 839,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2025-05-26",
           "level": 777,
@@ -9085,16 +9077,16 @@
         {
           "date": "2026-03-27",
           "level": 635,
-          "mlt": 654,
+          "mlt": 655,
           "p05": 502,
-          "p95": 780,
+          "p95": 781,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-03-28",
           "level": 636,
           "mlt": 657,
-          "p05": 507,
+          "p05": 506,
           "p95": 783,
           "source": "real-ana-telemetria"
         },
@@ -9142,7 +9134,7 @@
           "date": "2026-04-03",
           "level": 649,
           "mlt": 673,
-          "p05": 520,
+          "p05": 519,
           "p95": 795,
           "source": "real-ana-telemetria"
         },
@@ -9158,7 +9150,7 @@
           "date": "2026-04-05",
           "level": 656,
           "mlt": 678,
-          "p05": 529,
+          "p05": 528,
           "p95": 800,
           "source": "real-ana-telemetria"
         },
@@ -9222,7 +9214,7 @@
           "date": "2026-04-13",
           "level": 666,
           "mlt": 697,
-          "p05": 573,
+          "p05": 574,
           "p95": 826,
           "source": "real-ana-telemetria"
         },
@@ -9230,7 +9222,7 @@
           "date": "2026-04-14",
           "level": 668,
           "mlt": 699,
-          "p05": 574,
+          "p05": 575,
           "p95": 826,
           "source": "real-ana-telemetria"
         },
@@ -9247,14 +9239,14 @@
           "level": 670,
           "mlt": 703,
           "p05": 576,
-          "p95": 826,
+          "p95": 827,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-17",
           "level": 671,
           "mlt": 705,
-          "p05": 577,
+          "p05": 578,
           "p95": 828,
           "source": "real-ana-telemetria"
         },
@@ -9262,7 +9254,7 @@
           "date": "2026-04-18",
           "level": 676,
           "mlt": 707,
-          "p05": 578,
+          "p05": 579,
           "p95": 830,
           "source": "real-ana-telemetria"
         },
@@ -9270,7 +9262,7 @@
           "date": "2026-04-19",
           "level": 681,
           "mlt": 709,
-          "p05": 579,
+          "p05": 581,
           "p95": 830,
           "source": "real-ana-telemetria"
         },
@@ -9278,7 +9270,7 @@
           "date": "2026-04-20",
           "level": 684,
           "mlt": 711,
-          "p05": 581,
+          "p05": 582,
           "p95": 831,
           "source": "real-ana-telemetria"
         },
@@ -9286,7 +9278,7 @@
           "date": "2026-04-21",
           "level": 687,
           "mlt": 713,
-          "p05": 582,
+          "p05": 583,
           "p95": 833,
           "source": "real-ana-telemetria"
         },
@@ -9294,7 +9286,7 @@
           "date": "2026-04-22",
           "level": 689,
           "mlt": 715,
-          "p05": 583,
+          "p05": 584,
           "p95": 834,
           "source": "real-ana-telemetria"
         },
@@ -9310,7 +9302,7 @@
           "date": "2026-04-24",
           "level": 696,
           "mlt": 718,
-          "p05": 584,
+          "p05": 587,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
@@ -9318,7 +9310,7 @@
           "date": "2026-04-25",
           "level": 697,
           "mlt": 720,
-          "p05": 587,
+          "p05": 588,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
@@ -9326,7 +9318,7 @@
           "date": "2026-04-26",
           "level": 697,
           "mlt": 721,
-          "p05": 588,
+          "p05": 589,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
@@ -9334,15 +9326,15 @@
           "date": "2026-04-27",
           "level": 698,
           "mlt": 723,
-          "p05": 589,
+          "p05": 592,
           "p95": 835,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-28",
           "level": 699,
-          "mlt": 724,
-          "p05": 592,
+          "mlt": 725,
+          "p05": 593,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -9350,7 +9342,7 @@
           "date": "2026-04-29",
           "level": 700,
           "mlt": 726,
-          "p05": 593,
+          "p05": 594,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -9358,7 +9350,7 @@
           "date": "2026-04-30",
           "level": 702,
           "mlt": 727,
-          "p05": 594,
+          "p05": 597,
           "p95": 836,
           "source": "real-ana-telemetria"
         },
@@ -9374,7 +9366,7 @@
           "date": "2026-05-02",
           "level": 707,
           "mlt": 730,
-          "p05": 597,
+          "p05": 600,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
@@ -9382,23 +9374,23 @@
           "date": "2026-05-03",
           "level": 710,
           "mlt": 731,
-          "p05": 600,
+          "p05": 602,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-04",
           "level": 717,
-          "mlt": 732,
-          "p05": 602,
+          "mlt": 733,
+          "p05": 603,
           "p95": 837,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-05",
           "level": 720,
-          "mlt": 733,
-          "p05": 603,
+          "mlt": 734,
+          "p05": 606,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -9406,7 +9398,7 @@
           "date": "2026-05-06",
           "level": 724,
           "mlt": 735,
-          "p05": 606,
+          "p05": 609,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -9414,7 +9406,7 @@
           "date": "2026-05-07",
           "level": 726,
           "mlt": 736,
-          "p05": 609,
+          "p05": 610,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -9422,7 +9414,7 @@
           "date": "2026-05-08",
           "level": 727,
           "mlt": 737,
-          "p05": 610,
+          "p05": 611,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -9430,7 +9422,7 @@
           "date": "2026-05-09",
           "level": 727,
           "mlt": 738,
-          "p05": 611,
+          "p05": 615,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
@@ -9438,23 +9430,23 @@
           "date": "2026-05-10",
           "level": 727,
           "mlt": 739,
-          "p05": 615,
+          "p05": 616,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-11",
           "level": 726,
-          "mlt": 739,
-          "p05": 616,
+          "mlt": 740,
+          "p05": 618,
           "p95": 838,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 729,
-          "mlt": 740,
-          "p05": 618,
+          "mlt": 741,
+          "p05": 619,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -9462,7 +9454,7 @@
           "date": "2026-05-13",
           "level": 731,
           "mlt": 741,
-          "p05": 619,
+          "p05": 620,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -9478,7 +9470,7 @@
           "date": "2026-05-15",
           "level": 733,
           "mlt": 743,
-          "p05": 620,
+          "p05": 621,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
@@ -9494,14 +9486,14 @@
           "date": "2026-05-17",
           "level": 736,
           "mlt": 744,
-          "p05": 621,
+          "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 737,
-          "mlt": 744,
+          "mlt": 745,
           "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
@@ -9549,7 +9541,15 @@
         {
           "date": "2026-05-24",
           "level": 746,
-          "mlt": 746,
+          "mlt": 747,
+          "p05": 622,
+          "p95": 839,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 747,
+          "mlt": 747,
           "p05": 622,
           "p95": 839,
           "source": "real-ana-telemetria"
@@ -9564,8 +9564,8 @@
       "river": "Rio Amazonas / Tapajós",
       "basin": "Pontos críticos",
       "current": 713,
-      "delta7": 9,
-      "delta30": 40,
+      "delta7": 7,
+      "delta30": 41,
       "risk": "baixo",
       "mlt": 716,
       "p95": 798,
@@ -9573,18 +9573,10 @@
       "station_code": "17900000",
       "levels30d": [
         {
-          "date": "2026-04-25",
-          "level": 673,
-          "mlt": 701,
-          "p05": 578,
-          "p95": 797,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2026-04-26",
           "level": 672,
-          "mlt": 702,
-          "p05": 578,
+          "mlt": 703,
+          "p05": 581,
           "p95": 797,
           "source": "real-ana-telemetria"
         },
@@ -9600,7 +9592,7 @@
           "date": "2026-04-28",
           "level": 674,
           "mlt": 705,
-          "p05": 581,
+          "p05": 583,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -9608,7 +9600,7 @@
           "date": "2026-04-29",
           "level": 676,
           "mlt": 706,
-          "p05": 583,
+          "p05": 585,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -9616,7 +9608,7 @@
           "date": "2026-04-30",
           "level": 677,
           "mlt": 707,
-          "p05": 585,
+          "p05": 587,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -9624,15 +9616,15 @@
           "date": "2026-05-01",
           "level": 679,
           "mlt": 708,
-          "p05": 587,
+          "p05": 589,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-02",
           "level": 683,
-          "mlt": 708,
-          "p05": 589,
+          "mlt": 709,
+          "p05": 591,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -9640,7 +9632,7 @@
           "date": "2026-05-03",
           "level": 685,
           "mlt": 709,
-          "p05": 591,
+          "p05": 592,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -9648,7 +9640,7 @@
           "date": "2026-05-04",
           "level": 692,
           "mlt": 710,
-          "p05": 592,
+          "p05": 594,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -9656,15 +9648,15 @@
           "date": "2026-05-05",
           "level": 695,
           "mlt": 711,
-          "p05": 594,
+          "p05": 596,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-06",
           "level": 699,
-          "mlt": 711,
-          "p05": 596,
+          "mlt": 712,
+          "p05": 598,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -9679,8 +9671,8 @@
         {
           "date": "2026-05-08",
           "level": 701,
-          "mlt": 712,
-          "p05": 598,
+          "mlt": 713,
+          "p05": 600,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -9704,7 +9696,7 @@
           "date": "2026-05-11",
           "level": 697,
           "mlt": 714,
-          "p05": 600,
+          "p05": 601,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -9727,7 +9719,7 @@
         {
           "date": "2026-05-14",
           "level": 702,
-          "mlt": 714,
+          "mlt": 715,
           "p05": 601,
           "p95": 799,
           "source": "real-ana-telemetria"
@@ -9776,7 +9768,7 @@
           "date": "2026-05-20",
           "level": 709,
           "mlt": 716,
-          "p05": 601,
+          "p05": 602,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -9811,22 +9803,22 @@
           "p05": 602,
           "p95": 798,
           "source": "real-ana-telemetria"
-        }
-      ],
-      "levels12m": [
+        },
         {
-          "date": "2025-05-25",
-          "level": 737,
+          "date": "2026-05-25",
+          "level": 713,
           "mlt": 716,
           "p05": 602,
           "p95": 798,
           "source": "real-ana-telemetria"
-        },
+        }
+      ],
+      "levels12m": [
         {
           "date": "2025-05-26",
           "level": 738,
           "mlt": 716,
-          "p05": 601,
+          "p05": 602,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -10026,7 +10018,7 @@
           "date": "2025-06-20",
           "level": 726,
           "mlt": 705,
-          "p05": 595,
+          "p05": 596,
           "p95": 787,
           "source": "real-ana-telemetria"
         },
@@ -10050,7 +10042,7 @@
           "date": "2025-06-23",
           "level": 724,
           "mlt": 702,
-          "p05": 591,
+          "p05": 592,
           "p95": 784,
           "source": "real-ana-telemetria"
         },
@@ -12299,7 +12291,7 @@
           "level": 633,
           "mlt": 657,
           "p05": 513,
-          "p95": 764,
+          "p95": 765,
           "source": "real-ana-telemetria"
         },
         {
@@ -12329,7 +12321,7 @@
         {
           "date": "2026-04-04",
           "level": 641,
-          "mlt": 666,
+          "mlt": 667,
           "p05": 520,
           "p95": 773,
           "source": "real-ana-telemetria"
@@ -12347,14 +12339,14 @@
           "level": 646,
           "mlt": 671,
           "p05": 533,
-          "p95": 776,
+          "p95": 777,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-07",
           "level": 647,
           "mlt": 673,
-          "p05": 539,
+          "p05": 538,
           "p95": 781,
           "source": "real-ana-telemetria"
         },
@@ -12362,7 +12354,7 @@
           "date": "2026-04-08",
           "level": 647,
           "mlt": 675,
-          "p05": 546,
+          "p05": 545,
           "p95": 785,
           "source": "real-ana-telemetria"
         },
@@ -12402,7 +12394,7 @@
           "date": "2026-04-13",
           "level": 648,
           "mlt": 684,
-          "p05": 568,
+          "p05": 569,
           "p95": 792,
           "source": "real-ana-telemetria"
         },
@@ -12410,15 +12402,15 @@
           "date": "2026-04-14",
           "level": 649,
           "mlt": 686,
-          "p05": 569,
+          "p05": 572,
           "p95": 792,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-15",
           "level": 650,
-          "mlt": 687,
-          "p05": 572,
+          "mlt": 688,
+          "p05": 573,
           "p95": 793,
           "source": "real-ana-telemetria"
         },
@@ -12434,7 +12426,7 @@
           "date": "2026-04-17",
           "level": 653,
           "mlt": 691,
-          "p05": 573,
+          "p05": 574,
           "p95": 794,
           "source": "real-ana-telemetria"
         },
@@ -12442,14 +12434,14 @@
           "date": "2026-04-18",
           "level": 657,
           "mlt": 692,
-          "p05": 574,
+          "p05": 575,
           "p95": 796,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-19",
           "level": 663,
-          "mlt": 693,
+          "mlt": 694,
           "p05": 576,
           "p95": 796,
           "source": "real-ana-telemetria"
@@ -12474,7 +12466,7 @@
           "date": "2026-04-22",
           "level": 669,
           "mlt": 698,
-          "p05": 576,
+          "p05": 577,
           "p95": 797,
           "source": "real-ana-telemetria"
         },
@@ -12490,7 +12482,7 @@
           "date": "2026-04-24",
           "level": 673,
           "mlt": 700,
-          "p05": 577,
+          "p05": 578,
           "p95": 797,
           "source": "real-ana-telemetria"
         },
@@ -12505,8 +12497,8 @@
         {
           "date": "2026-04-26",
           "level": 672,
-          "mlt": 702,
-          "p05": 578,
+          "mlt": 703,
+          "p05": 581,
           "p95": 797,
           "source": "real-ana-telemetria"
         },
@@ -12522,7 +12514,7 @@
           "date": "2026-04-28",
           "level": 674,
           "mlt": 705,
-          "p05": 581,
+          "p05": 583,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -12530,7 +12522,7 @@
           "date": "2026-04-29",
           "level": 676,
           "mlt": 706,
-          "p05": 583,
+          "p05": 585,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -12538,7 +12530,7 @@
           "date": "2026-04-30",
           "level": 677,
           "mlt": 707,
-          "p05": 585,
+          "p05": 587,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -12546,15 +12538,15 @@
           "date": "2026-05-01",
           "level": 679,
           "mlt": 708,
-          "p05": 587,
+          "p05": 589,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-02",
           "level": 683,
-          "mlt": 708,
-          "p05": 589,
+          "mlt": 709,
+          "p05": 591,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -12562,7 +12554,7 @@
           "date": "2026-05-03",
           "level": 685,
           "mlt": 709,
-          "p05": 591,
+          "p05": 592,
           "p95": 798,
           "source": "real-ana-telemetria"
         },
@@ -12570,7 +12562,7 @@
           "date": "2026-05-04",
           "level": 692,
           "mlt": 710,
-          "p05": 592,
+          "p05": 594,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -12578,15 +12570,15 @@
           "date": "2026-05-05",
           "level": 695,
           "mlt": 711,
-          "p05": 594,
+          "p05": 596,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-06",
           "level": 699,
-          "mlt": 711,
-          "p05": 596,
+          "mlt": 712,
+          "p05": 598,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -12601,8 +12593,8 @@
         {
           "date": "2026-05-08",
           "level": 701,
-          "mlt": 712,
-          "p05": 598,
+          "mlt": 713,
+          "p05": 600,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -12626,7 +12618,7 @@
           "date": "2026-05-11",
           "level": 697,
           "mlt": 714,
-          "p05": 600,
+          "p05": 601,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -12649,7 +12641,7 @@
         {
           "date": "2026-05-14",
           "level": 702,
-          "mlt": 714,
+          "mlt": 715,
           "p05": 601,
           "p95": 799,
           "source": "real-ana-telemetria"
@@ -12698,7 +12690,7 @@
           "date": "2026-05-20",
           "level": 709,
           "mlt": 716,
-          "p05": 601,
+          "p05": 602,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -12733,6 +12725,14 @@
           "p05": 602,
           "p95": 798,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 713,
+          "mlt": 716,
+          "p05": 602,
+          "p95": 798,
+          "source": "real-ana-telemetria"
         }
       ],
       "source": "real-ana-telemetria",
@@ -12745,23 +12745,15 @@
       "name": "Tabatinga",
       "river": "Solimões",
       "basin": "Solimões",
-      "current": 1171,
+      "current": 1172,
       "delta7": 6,
-      "delta30": 57,
+      "delta30": 56,
       "risk": "baixo",
-      "mlt": 1137,
+      "mlt": 1133,
       "p95": 1265,
-      "p05": 955,
+      "p05": 944,
       "station_code": "10100000",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 1114,
-          "mlt": 1159,
-          "p05": 1008,
-          "p95": 1265,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 1116,
@@ -12925,7 +12917,7 @@
         {
           "date": "2026-05-16",
           "level": 1164,
-          "mlt": 1157,
+          "mlt": 1156,
           "p05": 1012,
           "p95": 1265,
           "source": "real-ana-telemetria"
@@ -12993,17 +12985,17 @@
           "p05": 955,
           "p95": 1265,
           "source": "real-ana-telemetria"
-        }
-      ],
-      "levels12m": [
+        },
         {
-          "date": "2025-05-25",
-          "level": 1255,
+          "date": "2026-05-25",
+          "level": 1172,
           "mlt": 1133,
           "p05": 944,
           "p95": 1265,
           "source": "real-ana-telemetria"
-        },
+        }
+      ],
+      "levels12m": [
         {
           "date": "2025-05-26",
           "level": 1256,
@@ -13056,7 +13048,7 @@
           "date": "2025-06-01",
           "level": 1253,
           "mlt": 1104,
-          "p05": 840,
+          "p05": 841,
           "p95": 1260,
           "source": "real-ana-telemetria"
         },
@@ -13176,7 +13168,7 @@
           "date": "2025-06-16",
           "level": 1218,
           "mlt": 1006,
-          "p05": 645,
+          "p05": 646,
           "p95": 1246,
           "source": "real-ana-telemetria"
         },
@@ -13200,14 +13192,14 @@
           "date": "2025-06-19",
           "level": 1204,
           "mlt": 982,
-          "p05": 581,
+          "p05": 582,
           "p95": 1237,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-20",
           "level": 1200,
-          "mlt": 973,
+          "mlt": 974,
           "p05": 576,
           "p95": 1234,
           "source": "real-ana-telemetria"
@@ -13240,7 +13232,7 @@
           "date": "2025-06-24",
           "level": 1175,
           "mlt": 938,
-          "p05": 499,
+          "p05": 500,
           "p95": 1223,
           "source": "real-ana-telemetria"
         },
@@ -15504,7 +15496,7 @@
           "date": "2026-04-03",
           "level": 1109,
           "mlt": 1116,
-          "p05": 907,
+          "p05": 906,
           "p95": 1255,
           "source": "real-ana-telemetria"
         },
@@ -15568,14 +15560,14 @@
           "date": "2026-04-11",
           "level": 1094,
           "mlt": 1137,
-          "p05": 948,
+          "p05": 947,
           "p95": 1261,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-12",
           "level": 1094,
-          "mlt": 1140,
+          "mlt": 1139,
           "p05": 951,
           "p95": 1262,
           "source": "real-ana-telemetria"
@@ -15583,7 +15575,7 @@
         {
           "date": "2026-04-13",
           "level": 1096,
-          "mlt": 1142,
+          "mlt": 1141,
           "p05": 952,
           "p95": 1262,
           "source": "real-ana-telemetria"
@@ -15632,7 +15624,7 @@
           "date": "2026-04-19",
           "level": 1107,
           "mlt": 1152,
-          "p05": 975,
+          "p05": 974,
           "p95": 1265,
           "source": "real-ana-telemetria"
         },
@@ -15656,7 +15648,7 @@
           "date": "2026-04-22",
           "level": 1110,
           "mlt": 1156,
-          "p05": 1001,
+          "p05": 1000,
           "p95": 1265,
           "source": "real-ana-telemetria"
         },
@@ -15847,7 +15839,7 @@
         {
           "date": "2026-05-16",
           "level": 1164,
-          "mlt": 1157,
+          "mlt": 1156,
           "p05": 1012,
           "p95": 1265,
           "source": "real-ana-telemetria"
@@ -15915,6 +15907,14 @@
           "p05": 955,
           "p95": 1265,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1172,
+          "mlt": 1133,
+          "p05": 944,
+          "p95": 1265,
+          "source": "real-ana-telemetria"
         }
       ],
       "source": "real-ana-telemetria",
@@ -15925,23 +15925,15 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 1225,
-      "delta7": -136,
-      "delta30": -296,
+      "current": 1221,
+      "delta7": -119,
+      "delta30": -303,
       "risk": "baixo",
-      "mlt": 1136,
-      "p95": 1475,
-      "p05": 733,
+      "mlt": 1127,
+      "p95": 1470,
+      "p05": 708,
       "station_code": "15400000",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 1521,
-          "mlt": 1374,
-          "p05": 972,
-          "p95": 1657,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 1524,
@@ -15969,7 +15961,7 @@
         {
           "date": "2026-04-29",
           "level": 1508,
-          "mlt": 1349,
+          "mlt": 1348,
           "p05": 944,
           "p95": 1654,
           "source": "real-ana-telemetria"
@@ -15993,7 +15985,7 @@
         {
           "date": "2026-05-02",
           "level": 1478,
-          "mlt": 1327,
+          "mlt": 1326,
           "p05": 928,
           "p95": 1646,
           "source": "real-ana-telemetria"
@@ -16001,7 +15993,7 @@
         {
           "date": "2026-05-03",
           "level": 1463,
-          "mlt": 1319,
+          "mlt": 1318,
           "p05": 924,
           "p95": 1642,
           "source": "real-ana-telemetria"
@@ -16009,7 +16001,7 @@
         {
           "date": "2026-05-04",
           "level": 1449,
-          "mlt": 1311,
+          "mlt": 1310,
           "p05": 919,
           "p95": 1630,
           "source": "real-ana-telemetria"
@@ -16025,7 +16017,7 @@
         {
           "date": "2026-05-06",
           "level": 1405,
-          "mlt": 1294,
+          "mlt": 1293,
           "p05": 900,
           "p95": 1624,
           "source": "real-ana-telemetria"
@@ -16049,7 +16041,7 @@
         {
           "date": "2026-05-09",
           "level": 1330,
-          "mlt": 1268,
+          "mlt": 1267,
           "p05": 868,
           "p95": 1598,
           "source": "real-ana-telemetria"
@@ -16105,7 +16097,7 @@
         {
           "date": "2026-05-16",
           "level": 1358,
-          "mlt": 1207,
+          "mlt": 1206,
           "p05": 785,
           "p95": 1543,
           "source": "real-ana-telemetria"
@@ -16121,7 +16113,7 @@
         {
           "date": "2026-05-18",
           "level": 1340,
-          "mlt": 1190,
+          "mlt": 1189,
           "p05": 770,
           "p95": 1519,
           "source": "real-ana-telemetria"
@@ -16173,17 +16165,17 @@
           "p05": 733,
           "p95": 1475,
           "source": "real-ana-telemetria"
-        }
-      ],
-      "levels12m": [
+        },
         {
-          "date": "2025-05-25",
-          "level": 1178,
+          "date": "2026-05-25",
+          "level": 1221,
           "mlt": 1127,
           "p05": 708,
           "p95": 1470,
           "source": "real-ana-telemetria"
-        },
+        }
+      ],
+      "levels12m": [
         {
           "date": "2025-05-26",
           "level": 1161,
@@ -16203,7 +16195,7 @@
         {
           "date": "2025-05-28",
           "level": 1150,
-          "mlt": 1097,
+          "mlt": 1098,
           "p05": 664,
           "p95": 1456,
           "source": "real-ana-telemetria"
@@ -16251,7 +16243,7 @@
         {
           "date": "2025-06-03",
           "level": 1167,
-          "mlt": 1039,
+          "mlt": 1040,
           "p05": 601,
           "p95": 1405,
           "source": "real-ana-telemetria"
@@ -16259,7 +16251,7 @@
         {
           "date": "2025-06-04",
           "level": 1165,
-          "mlt": 1029,
+          "mlt": 1030,
           "p05": 585,
           "p95": 1393,
           "source": "real-ana-telemetria"
@@ -16275,7 +16267,7 @@
         {
           "date": "2025-06-06",
           "level": 1148,
-          "mlt": 1010,
+          "mlt": 1011,
           "p05": 571,
           "p95": 1375,
           "source": "real-ana-telemetria"
@@ -16284,14 +16276,14 @@
           "date": "2025-06-07",
           "level": 1134,
           "mlt": 1001,
-          "p05": 562,
+          "p05": 563,
           "p95": 1368,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-08",
           "level": 1119,
-          "mlt": 991,
+          "mlt": 992,
           "p05": 546,
           "p95": 1359,
           "source": "real-ana-telemetria"
@@ -16301,7 +16293,7 @@
           "level": 1100,
           "mlt": 982,
           "p05": 533,
-          "p95": 1354,
+          "p95": 1353,
           "source": "real-ana-telemetria"
         },
         {
@@ -16309,21 +16301,21 @@
           "level": 1085,
           "mlt": 972,
           "p05": 520,
-          "p95": 1341,
+          "p95": 1340,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-11",
           "level": 1069,
           "mlt": 962,
-          "p05": 512,
+          "p05": 513,
           "p95": 1331,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-12",
           "level": 1052,
-          "mlt": 951,
+          "mlt": 952,
           "p05": 500,
           "p95": 1327,
           "source": "real-ana-telemetria"
@@ -16339,7 +16331,7 @@
         {
           "date": "2025-06-14",
           "level": 1039,
-          "mlt": 930,
+          "mlt": 931,
           "p05": 477,
           "p95": 1314,
           "source": "real-ana-telemetria"
@@ -16347,7 +16339,7 @@
         {
           "date": "2025-06-15",
           "level": 1034,
-          "mlt": 919,
+          "mlt": 920,
           "p05": 468,
           "p95": 1305,
           "source": "real-ana-telemetria"
@@ -16355,7 +16347,7 @@
         {
           "date": "2025-06-16",
           "level": 1035,
-          "mlt": 908,
+          "mlt": 909,
           "p05": 458,
           "p95": 1296,
           "source": "real-ana-telemetria"
@@ -16363,15 +16355,15 @@
         {
           "date": "2025-06-17",
           "level": 1041,
-          "mlt": 897,
-          "p05": 440,
+          "mlt": 898,
+          "p05": 442,
           "p95": 1287,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-18",
           "level": 1046,
-          "mlt": 886,
+          "mlt": 887,
           "p05": 426,
           "p95": 1280,
           "source": "real-ana-telemetria"
@@ -16387,9 +16379,9 @@
         {
           "date": "2025-06-20",
           "level": 1040,
-          "mlt": 863,
+          "mlt": 864,
           "p05": 418,
-          "p95": 1245,
+          "p95": 1244,
           "source": "real-ana-telemetria"
         },
         {
@@ -16403,7 +16395,7 @@
         {
           "date": "2025-06-22",
           "level": 1077,
-          "mlt": 840,
+          "mlt": 841,
           "p05": 412,
           "p95": 1222,
           "source": "real-ana-telemetria"
@@ -16411,17 +16403,17 @@
         {
           "date": "2025-06-23",
           "level": 1075,
-          "mlt": 829,
+          "mlt": 830,
           "p05": 400,
-          "p95": 1216,
+          "p95": 1218,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-24",
           "level": 1068,
-          "mlt": 818,
+          "mlt": 819,
           "p05": 395,
-          "p95": 1206,
+          "p95": 1210,
           "source": "real-ana-telemetria"
         },
         {
@@ -18645,13 +18637,13 @@
           "level": 1365,
           "mlt": 1482,
           "p05": 1268,
-          "p95": 1676,
+          "p95": 1677,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-03-30",
           "level": 1393,
-          "mlt": 1480,
+          "mlt": 1481,
           "p05": 1252,
           "p95": 1674,
           "source": "real-ana-telemetria"
@@ -18659,7 +18651,7 @@
         {
           "date": "2026-03-31",
           "level": 1414,
-          "mlt": 1478,
+          "mlt": 1479,
           "p05": 1239,
           "p95": 1674,
           "source": "real-ana-telemetria"
@@ -18676,14 +18668,14 @@
           "date": "2026-04-02",
           "level": 1449,
           "mlt": 1474,
-          "p05": 1214,
+          "p05": 1213,
           "p95": 1673,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-03",
           "level": 1458,
-          "mlt": 1471,
+          "mlt": 1472,
           "p05": 1198,
           "p95": 1673,
           "source": "real-ana-telemetria"
@@ -18699,16 +18691,16 @@
         {
           "date": "2026-04-05",
           "level": 1481,
-          "mlt": 1465,
-          "p05": 1188,
-          "p95": 1672,
+          "mlt": 1466,
+          "p05": 1187,
+          "p95": 1673,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-04-06",
           "level": 1480,
           "mlt": 1462,
-          "p05": 1186,
+          "p05": 1185,
           "p95": 1672,
           "source": "real-ana-telemetria"
         },
@@ -18723,9 +18715,9 @@
         {
           "date": "2026-04-08",
           "level": 1470,
-          "mlt": 1454,
+          "mlt": 1455,
           "p05": 1166,
-          "p95": 1671,
+          "p95": 1672,
           "source": "real-ana-telemetria"
         },
         {
@@ -18747,7 +18739,7 @@
         {
           "date": "2026-04-11",
           "level": 1433,
-          "mlt": 1441,
+          "mlt": 1442,
           "p05": 1141,
           "p95": 1669,
           "source": "real-ana-telemetria"
@@ -18788,7 +18780,7 @@
           "date": "2026-04-16",
           "level": 1449,
           "mlt": 1420,
-          "p05": 1087,
+          "p05": 1086,
           "p95": 1665,
           "source": "real-ana-telemetria"
         },
@@ -18804,7 +18796,7 @@
           "date": "2026-04-18",
           "level": 1478,
           "mlt": 1411,
-          "p05": 1052,
+          "p05": 1051,
           "p95": 1664,
           "source": "real-ana-telemetria"
         },
@@ -18812,7 +18804,7 @@
           "date": "2026-04-19",
           "level": 1485,
           "mlt": 1406,
-          "p05": 1041,
+          "p05": 1040,
           "p95": 1664,
           "source": "real-ana-telemetria"
         },
@@ -18820,7 +18812,7 @@
           "date": "2026-04-20",
           "level": 1495,
           "mlt": 1402,
-          "p05": 1037,
+          "p05": 1036,
           "p95": 1664,
           "source": "real-ana-telemetria"
         },
@@ -18836,7 +18828,7 @@
           "date": "2026-04-22",
           "level": 1505,
           "mlt": 1391,
-          "p05": 1012,
+          "p05": 1011,
           "p95": 1659,
           "source": "real-ana-telemetria"
         },
@@ -18844,7 +18836,7 @@
           "date": "2026-04-23",
           "level": 1513,
           "mlt": 1386,
-          "p05": 1001,
+          "p05": 1000,
           "p95": 1658,
           "source": "real-ana-telemetria"
         },
@@ -18891,7 +18883,7 @@
         {
           "date": "2026-04-29",
           "level": 1508,
-          "mlt": 1349,
+          "mlt": 1348,
           "p05": 944,
           "p95": 1654,
           "source": "real-ana-telemetria"
@@ -18915,7 +18907,7 @@
         {
           "date": "2026-05-02",
           "level": 1478,
-          "mlt": 1327,
+          "mlt": 1326,
           "p05": 928,
           "p95": 1646,
           "source": "real-ana-telemetria"
@@ -18923,7 +18915,7 @@
         {
           "date": "2026-05-03",
           "level": 1463,
-          "mlt": 1319,
+          "mlt": 1318,
           "p05": 924,
           "p95": 1642,
           "source": "real-ana-telemetria"
@@ -18931,7 +18923,7 @@
         {
           "date": "2026-05-04",
           "level": 1449,
-          "mlt": 1311,
+          "mlt": 1310,
           "p05": 919,
           "p95": 1630,
           "source": "real-ana-telemetria"
@@ -18947,7 +18939,7 @@
         {
           "date": "2026-05-06",
           "level": 1405,
-          "mlt": 1294,
+          "mlt": 1293,
           "p05": 900,
           "p95": 1624,
           "source": "real-ana-telemetria"
@@ -18971,7 +18963,7 @@
         {
           "date": "2026-05-09",
           "level": 1330,
-          "mlt": 1268,
+          "mlt": 1267,
           "p05": 868,
           "p95": 1598,
           "source": "real-ana-telemetria"
@@ -19027,7 +19019,7 @@
         {
           "date": "2026-05-16",
           "level": 1358,
-          "mlt": 1207,
+          "mlt": 1206,
           "p05": 785,
           "p95": 1543,
           "source": "real-ana-telemetria"
@@ -19043,7 +19035,7 @@
         {
           "date": "2026-05-18",
           "level": 1340,
-          "mlt": 1190,
+          "mlt": 1189,
           "p05": 770,
           "p95": 1519,
           "source": "real-ana-telemetria"
@@ -19095,6 +19087,14 @@
           "p05": 733,
           "p95": 1475,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1221,
+          "mlt": 1127,
+          "p05": 708,
+          "p95": 1470,
+          "source": "real-ana-telemetria"
         }
       ],
       "source": "real-ana-telemetria",
@@ -19105,23 +19105,15 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 717,
-      "delta7": -7,
-      "delta30": -63,
+      "current": 716,
+      "delta7": -3,
+      "delta30": -61,
       "risk": "baixo",
-      "mlt": 713,
-      "p95": 881,
+      "mlt": 709,
+      "p95": 879,
       "p05": 433,
       "station_code": "17730000",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 780,
-          "mlt": 804,
-          "p05": 600,
-          "p95": 919,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 777,
@@ -19174,7 +19166,7 @@
           "date": "2026-05-02",
           "level": 789,
           "mlt": 786,
-          "p05": 571,
+          "p05": 577,
           "p95": 919,
           "source": "real-ana-telemetria"
         },
@@ -19182,7 +19174,7 @@
           "date": "2026-05-03",
           "level": 789,
           "mlt": 783,
-          "p05": 471,
+          "p05": 472,
           "p95": 918,
           "source": "real-ana-telemetria"
         },
@@ -19239,7 +19231,7 @@
           "level": 758,
           "mlt": 761,
           "p05": 454,
-          "p95": 911,
+          "p95": 910,
           "source": "real-ana-telemetria"
         },
         {
@@ -19253,7 +19245,7 @@
         {
           "date": "2026-05-12",
           "level": 745,
-          "mlt": 755,
+          "mlt": 754,
           "p05": 452,
           "p95": 906,
           "source": "real-ana-telemetria"
@@ -19270,7 +19262,7 @@
           "date": "2026-05-14",
           "level": 738,
           "mlt": 748,
-          "p05": 448,
+          "p05": 449,
           "p95": 904,
           "source": "real-ana-telemetria"
         },
@@ -19353,17 +19345,17 @@
           "p05": 433,
           "p95": 881,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 716,
+          "mlt": 709,
+          "p05": 433,
+          "p95": 879,
+          "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
-        {
-          "date": "2025-05-25",
-          "level": 727,
-          "mlt": 709,
-          "p05": 433,
-          "p95": 880,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2025-05-26",
           "level": 725,
@@ -19393,13 +19385,13 @@
           "level": 716,
           "mlt": 695,
           "p05": 430,
-          "p95": 861,
+          "p95": 860,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-05-30",
           "level": 714,
-          "mlt": 691,
+          "mlt": 692,
           "p05": 430,
           "p95": 851,
           "source": "real-ana-telemetria"
@@ -19417,7 +19409,7 @@
           "level": 711,
           "mlt": 684,
           "p05": 430,
-          "p95": 838,
+          "p95": 837,
           "source": "real-ana-telemetria"
         },
         {
@@ -19431,7 +19423,7 @@
         {
           "date": "2025-06-03",
           "level": 707,
-          "mlt": 677,
+          "mlt": 678,
           "p05": 429,
           "p95": 828,
           "source": "real-ana-telemetria"
@@ -19455,7 +19447,7 @@
         {
           "date": "2025-06-06",
           "level": 702,
-          "mlt": 667,
+          "mlt": 668,
           "p05": 425,
           "p95": 806,
           "source": "real-ana-telemetria"
@@ -19487,7 +19479,7 @@
         {
           "date": "2025-06-10",
           "level": 692,
-          "mlt": 655,
+          "mlt": 656,
           "p05": 419,
           "p95": 788,
           "source": "real-ana-telemetria"
@@ -19519,7 +19511,7 @@
         {
           "date": "2025-06-14",
           "level": 692,
-          "mlt": 645,
+          "mlt": 646,
           "p05": 412,
           "p95": 774,
           "source": "real-ana-telemetria"
@@ -19543,7 +19535,7 @@
         {
           "date": "2025-06-17",
           "level": 688,
-          "mlt": 638,
+          "mlt": 639,
           "p05": 411,
           "p95": 763,
           "source": "real-ana-telemetria"
@@ -19575,7 +19567,7 @@
         {
           "date": "2025-06-21",
           "level": 683,
-          "mlt": 629,
+          "mlt": 630,
           "p05": 403,
           "p95": 749,
           "source": "real-ana-telemetria"
@@ -22096,7 +22088,7 @@
           "date": "2026-05-02",
           "level": 789,
           "mlt": 786,
-          "p05": 571,
+          "p05": 577,
           "p95": 919,
           "source": "real-ana-telemetria"
         },
@@ -22104,7 +22096,7 @@
           "date": "2026-05-03",
           "level": 789,
           "mlt": 783,
-          "p05": 471,
+          "p05": 472,
           "p95": 918,
           "source": "real-ana-telemetria"
         },
@@ -22161,7 +22153,7 @@
           "level": 758,
           "mlt": 761,
           "p05": 454,
-          "p95": 911,
+          "p95": 910,
           "source": "real-ana-telemetria"
         },
         {
@@ -22175,7 +22167,7 @@
         {
           "date": "2026-05-12",
           "level": 745,
-          "mlt": 755,
+          "mlt": 754,
           "p05": 452,
           "p95": 906,
           "source": "real-ana-telemetria"
@@ -22192,7 +22184,7 @@
           "date": "2026-05-14",
           "level": 738,
           "mlt": 748,
-          "p05": 448,
+          "p05": 449,
           "p95": 904,
           "source": "real-ana-telemetria"
         },
@@ -22275,6 +22267,14 @@
           "p05": 433,
           "p95": 881,
           "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 716,
+          "mlt": 709,
+          "p05": 433,
+          "p95": 879,
+          "source": "real-ana-telemetria"
         }
       ],
       "source": "real-ana-telemetria",
@@ -22285,23 +22285,15 @@
       "name": "Lábrea",
       "river": "Purus",
       "basin": "Purus",
-      "current": 1949,
-      "delta7": -71,
-      "delta30": -100,
+      "current": 1933,
+      "delta7": -80,
+      "delta30": -116,
       "risk": "baixo",
-      "mlt": 1806,
+      "mlt": 1793,
       "p95": 2076,
-      "p05": 1090,
+      "p05": 1068,
       "station_code": "13870000",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 2049,
-          "mlt": 2023,
-          "p05": 1834,
-          "p95": 2090,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 2049,
@@ -22321,8 +22313,8 @@
         {
           "date": "2026-04-28",
           "level": 2049,
-          "mlt": 2012,
-          "p05": 1778,
+          "mlt": 2011,
+          "p05": 1779,
           "p95": 2089,
           "source": "real-ana-telemetria"
         },
@@ -22346,7 +22338,7 @@
           "date": "2026-05-01",
           "level": 2053,
           "mlt": 1998,
-          "p05": 1718,
+          "p05": 1719,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -22354,7 +22346,7 @@
           "date": "2026-05-02",
           "level": 2053,
           "mlt": 1993,
-          "p05": 1701,
+          "p05": 1702,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -22362,7 +22354,7 @@
           "date": "2026-05-03",
           "level": 2053,
           "mlt": 1988,
-          "p05": 1681,
+          "p05": 1682,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -22370,7 +22362,7 @@
           "date": "2026-05-04",
           "level": 2052,
           "mlt": 1983,
-          "p05": 1655,
+          "p05": 1656,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -22385,8 +22377,8 @@
         {
           "date": "2026-05-06",
           "level": 2052,
-          "mlt": 1971,
-          "p05": 1604,
+          "mlt": 1970,
+          "p05": 1605,
           "p95": 2087,
           "source": "real-ana-telemetria"
         },
@@ -22402,7 +22394,7 @@
           "date": "2026-05-08",
           "level": 2048,
           "mlt": 1957,
-          "p05": 1550,
+          "p05": 1551,
           "p95": 2087,
           "source": "real-ana-telemetria"
         },
@@ -22410,7 +22402,7 @@
           "date": "2026-05-09",
           "level": 2046,
           "mlt": 1951,
-          "p05": 1526,
+          "p05": 1527,
           "p95": 2086,
           "source": "real-ana-telemetria"
         },
@@ -22418,7 +22410,7 @@
           "date": "2026-05-10",
           "level": 2044,
           "mlt": 1944,
-          "p05": 1497,
+          "p05": 1498,
           "p95": 2085,
           "source": "real-ana-telemetria"
         },
@@ -22426,15 +22418,15 @@
           "date": "2026-05-11",
           "level": 2042,
           "mlt": 1937,
-          "p05": 1471,
-          "p95": 2085,
+          "p05": 1472,
+          "p95": 2084,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 2040,
           "mlt": 1929,
-          "p05": 1444,
+          "p05": 1445,
           "p95": 2083,
           "source": "real-ana-telemetria"
         },
@@ -22450,7 +22442,7 @@
           "date": "2026-05-14",
           "level": 2032,
           "mlt": 1913,
-          "p05": 1391,
+          "p05": 1392,
           "p95": 2081,
           "source": "real-ana-telemetria"
         },
@@ -22458,7 +22450,7 @@
           "date": "2026-05-15",
           "level": 2028,
           "mlt": 1905,
-          "p05": 1360,
+          "p05": 1361,
           "p95": 2080,
           "source": "real-ana-telemetria"
         },
@@ -22474,14 +22466,14 @@
           "date": "2026-05-17",
           "level": 2020,
           "mlt": 1886,
-          "p05": 1302,
+          "p05": 1303,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 2013,
-          "mlt": 1875,
+          "mlt": 1876,
           "p05": 1280,
           "p95": 2078,
           "source": "real-ana-telemetria"
@@ -22489,32 +22481,32 @@
         {
           "date": "2026-05-19",
           "level": 2005,
-          "mlt": 1865,
-          "p05": 1248,
+          "mlt": 1866,
+          "p05": 1249,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 1996,
-          "mlt": 1854,
-          "p05": 1216,
+          "mlt": 1855,
+          "p05": 1217,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 2034,
-          "mlt": 1843,
-          "p05": 1184,
+          "mlt": 1844,
+          "p05": 1185,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-22",
           "level": 1974,
-          "mlt": 1831,
-          "p05": 1152,
+          "mlt": 1832,
+          "p05": 1153,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
@@ -22522,32 +22514,32 @@
           "date": "2026-05-23",
           "level": 1962,
           "mlt": 1819,
-          "p05": 1121,
+          "p05": 1122,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 1949,
+          "level": 1946,
           "mlt": 1806,
           "p05": 1090,
+          "p95": 2076,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1933,
+          "mlt": 1793,
+          "p05": 1068,
           "p95": 2076,
           "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
         {
-          "date": "2025-05-25",
-          "level": 1835,
-          "mlt": 1792,
-          "p05": 1068,
-          "p95": 2076,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2025-05-26",
           "level": 1811,
-          "mlt": 1778,
+          "mlt": 1779,
           "p05": 1044,
           "p95": 2075,
           "source": "real-ana-telemetria"
@@ -22555,16 +22547,16 @@
         {
           "date": "2025-05-27",
           "level": 1784,
-          "mlt": 1763,
-          "p05": 1021,
+          "mlt": 1764,
+          "p05": 1022,
           "p95": 2075,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-05-28",
           "level": 1756,
-          "mlt": 1749,
-          "p05": 1007,
+          "mlt": 1750,
+          "p05": 1008,
           "p95": 2074,
           "source": "real-ana-telemetria"
         },
@@ -22579,8 +22571,8 @@
         {
           "date": "2025-05-30",
           "level": 1702,
-          "mlt": 1718,
-          "p05": 964,
+          "mlt": 1719,
+          "p05": 965,
           "p95": 2071,
           "source": "real-ana-telemetria"
         },
@@ -22588,62 +22580,62 @@
           "date": "2025-05-31",
           "level": 1702,
           "mlt": 1702,
-          "p05": 937,
+          "p05": 938,
           "p95": 2069,
           "source": "real-ana-telemetria-filled"
         },
         {
           "date": "2025-06-01",
           "level": 1702,
-          "mlt": 1684,
-          "p05": 908,
+          "mlt": 1685,
+          "p05": 910,
           "p95": 2066,
           "source": "real-ana-telemetria-filled"
         },
         {
           "date": "2025-06-02",
           "level": 1702,
-          "mlt": 1666,
-          "p05": 887,
+          "mlt": 1667,
+          "p05": 888,
           "p95": 2062,
           "source": "real-ana-telemetria-filled"
         },
         {
           "date": "2025-06-03",
           "level": 1702,
-          "mlt": 1648,
-          "p05": 856,
+          "mlt": 1649,
+          "p05": 858,
           "p95": 2060,
           "source": "real-ana-telemetria-filled"
         },
         {
           "date": "2025-06-04",
           "level": 1666,
-          "mlt": 1628,
-          "p05": 837,
+          "mlt": 1629,
+          "p05": 838,
           "p95": 2056,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-05",
           "level": 1642,
-          "mlt": 1609,
-          "p05": 814,
+          "mlt": 1610,
+          "p05": 815,
           "p95": 2052,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-06",
           "level": 1572,
-          "mlt": 1588,
-          "p05": 795,
+          "mlt": 1589,
+          "p05": 796,
           "p95": 2049,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-07",
           "level": 1505,
-          "mlt": 1568,
+          "mlt": 1569,
           "p05": 780,
           "p95": 2047,
           "source": "real-ana-telemetria"
@@ -22651,39 +22643,39 @@
         {
           "date": "2025-06-08",
           "level": 1480,
-          "mlt": 1545,
-          "p05": 764,
+          "mlt": 1546,
+          "p05": 765,
           "p95": 2045,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-09",
           "level": 1454,
-          "mlt": 1522,
-          "p05": 750,
+          "mlt": 1524,
+          "p05": 751,
           "p95": 2042,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-10",
           "level": 1426,
-          "mlt": 1501,
-          "p05": 737,
+          "mlt": 1502,
+          "p05": 738,
           "p95": 2036,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-11",
           "level": 1399,
-          "mlt": 1479,
-          "p05": 724,
+          "mlt": 1481,
+          "p05": 725,
           "p95": 2032,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-12",
           "level": 1372,
-          "mlt": 1457,
+          "mlt": 1458,
           "p05": 714,
           "p95": 2028,
           "source": "real-ana-telemetria"
@@ -22691,15 +22683,15 @@
         {
           "date": "2025-06-13",
           "level": 1342,
-          "mlt": 1434,
-          "p05": 703,
+          "mlt": 1436,
+          "p05": 704,
           "p95": 2022,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-14",
           "level": 1314,
-          "mlt": 1412,
+          "mlt": 1414,
           "p05": 694,
           "p95": 2016,
           "source": "real-ana-telemetria"
@@ -22707,15 +22699,15 @@
         {
           "date": "2025-06-15",
           "level": 1285,
-          "mlt": 1389,
-          "p05": 685,
+          "mlt": 1391,
+          "p05": 686,
           "p95": 2008,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-16",
           "level": 1254,
-          "mlt": 1366,
+          "mlt": 1368,
           "p05": 676,
           "p95": 1997,
           "source": "real-ana-telemetria"
@@ -22723,7 +22715,7 @@
         {
           "date": "2025-06-17",
           "level": 1230,
-          "mlt": 1343,
+          "mlt": 1345,
           "p05": 667,
           "p95": 1984,
           "source": "real-ana-telemetria"
@@ -22731,15 +22723,15 @@
         {
           "date": "2025-06-18",
           "level": 1194,
-          "mlt": 1319,
-          "p05": 660,
+          "mlt": 1321,
+          "p05": 661,
           "p95": 1971,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-19",
           "level": 1166,
-          "mlt": 1296,
+          "mlt": 1298,
           "p05": 653,
           "p95": 1959,
           "source": "real-ana-telemetria"
@@ -22747,7 +22739,7 @@
         {
           "date": "2025-06-20",
           "level": 1136,
-          "mlt": 1272,
+          "mlt": 1275,
           "p05": 646,
           "p95": 1944,
           "source": "real-ana-telemetria"
@@ -22755,33 +22747,33 @@
         {
           "date": "2025-06-21",
           "level": 1112,
-          "mlt": 1249,
-          "p05": 638,
-          "p95": 1920,
+          "mlt": 1251,
+          "p05": 639,
+          "p95": 1925,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-22",
           "level": 1086,
-          "mlt": 1225,
-          "p05": 631,
-          "p95": 1896,
+          "mlt": 1228,
+          "p05": 632,
+          "p95": 1901,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-23",
           "level": 1066,
-          "mlt": 1202,
+          "mlt": 1205,
           "p05": 624,
-          "p95": 1875,
+          "p95": 1882,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2025-06-24",
           "level": 1048,
-          "mlt": 1179,
-          "p05": 617,
-          "p95": 1852,
+          "mlt": 1181,
+          "p05": 618,
+          "p95": 1858,
           "source": "real-ana-telemetria"
         },
         {
@@ -25243,8 +25235,8 @@
         {
           "date": "2026-04-28",
           "level": 2049,
-          "mlt": 2012,
-          "p05": 1778,
+          "mlt": 2011,
+          "p05": 1779,
           "p95": 2089,
           "source": "real-ana-telemetria"
         },
@@ -25268,7 +25260,7 @@
           "date": "2026-05-01",
           "level": 2053,
           "mlt": 1998,
-          "p05": 1718,
+          "p05": 1719,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -25276,7 +25268,7 @@
           "date": "2026-05-02",
           "level": 2053,
           "mlt": 1993,
-          "p05": 1701,
+          "p05": 1702,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -25284,7 +25276,7 @@
           "date": "2026-05-03",
           "level": 2053,
           "mlt": 1988,
-          "p05": 1681,
+          "p05": 1682,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -25292,7 +25284,7 @@
           "date": "2026-05-04",
           "level": 2052,
           "mlt": 1983,
-          "p05": 1655,
+          "p05": 1656,
           "p95": 2088,
           "source": "real-ana-telemetria"
         },
@@ -25307,8 +25299,8 @@
         {
           "date": "2026-05-06",
           "level": 2052,
-          "mlt": 1971,
-          "p05": 1604,
+          "mlt": 1970,
+          "p05": 1605,
           "p95": 2087,
           "source": "real-ana-telemetria"
         },
@@ -25324,7 +25316,7 @@
           "date": "2026-05-08",
           "level": 2048,
           "mlt": 1957,
-          "p05": 1550,
+          "p05": 1551,
           "p95": 2087,
           "source": "real-ana-telemetria"
         },
@@ -25332,7 +25324,7 @@
           "date": "2026-05-09",
           "level": 2046,
           "mlt": 1951,
-          "p05": 1526,
+          "p05": 1527,
           "p95": 2086,
           "source": "real-ana-telemetria"
         },
@@ -25340,7 +25332,7 @@
           "date": "2026-05-10",
           "level": 2044,
           "mlt": 1944,
-          "p05": 1497,
+          "p05": 1498,
           "p95": 2085,
           "source": "real-ana-telemetria"
         },
@@ -25348,15 +25340,15 @@
           "date": "2026-05-11",
           "level": 2042,
           "mlt": 1937,
-          "p05": 1471,
-          "p95": 2085,
+          "p05": 1472,
+          "p95": 2084,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-12",
           "level": 2040,
           "mlt": 1929,
-          "p05": 1444,
+          "p05": 1445,
           "p95": 2083,
           "source": "real-ana-telemetria"
         },
@@ -25372,7 +25364,7 @@
           "date": "2026-05-14",
           "level": 2032,
           "mlt": 1913,
-          "p05": 1391,
+          "p05": 1392,
           "p95": 2081,
           "source": "real-ana-telemetria"
         },
@@ -25380,7 +25372,7 @@
           "date": "2026-05-15",
           "level": 2028,
           "mlt": 1905,
-          "p05": 1360,
+          "p05": 1361,
           "p95": 2080,
           "source": "real-ana-telemetria"
         },
@@ -25396,14 +25388,14 @@
           "date": "2026-05-17",
           "level": 2020,
           "mlt": 1886,
-          "p05": 1302,
+          "p05": 1303,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-18",
           "level": 2013,
-          "mlt": 1875,
+          "mlt": 1876,
           "p05": 1280,
           "p95": 2078,
           "source": "real-ana-telemetria"
@@ -25411,32 +25403,32 @@
         {
           "date": "2026-05-19",
           "level": 2005,
-          "mlt": 1865,
-          "p05": 1248,
+          "mlt": 1866,
+          "p05": 1249,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 1996,
-          "mlt": 1854,
-          "p05": 1216,
+          "mlt": 1855,
+          "p05": 1217,
           "p95": 2078,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 2034,
-          "mlt": 1843,
-          "p05": 1184,
+          "mlt": 1844,
+          "p05": 1185,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-22",
           "level": 1974,
-          "mlt": 1831,
-          "p05": 1152,
+          "mlt": 1832,
+          "p05": 1153,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
@@ -25444,15 +25436,23 @@
           "date": "2026-05-23",
           "level": 1962,
           "mlt": 1819,
-          "p05": 1121,
+          "p05": 1122,
           "p95": 2077,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 1949,
+          "level": 1946,
           "mlt": 1806,
           "p05": 1090,
+          "p95": 2076,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 1933,
+          "mlt": 1793,
+          "p05": 1068,
           "p95": 2076,
           "source": "real-ana-telemetria"
         }
@@ -25465,23 +25465,15 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 706,
-      "delta7": 68,
-      "delta30": 179,
+      "current": 716,
+      "delta7": 71,
+      "delta30": 182,
       "risk": "baixo",
-      "mlt": 774,
-      "p95": 1010,
-      "p05": 527,
+      "mlt": 779,
+      "p95": 1012,
+      "p05": 536,
       "station_code": "14480002",
       "levels30d": [
-        {
-          "date": "2026-04-25",
-          "level": 527,
-          "mlt": 614,
-          "p05": 342,
-          "p95": 884,
-          "source": "real-ana-telemetria"
-        },
         {
           "date": "2026-04-26",
           "level": 534,
@@ -25493,7 +25485,7 @@
         {
           "date": "2026-04-27",
           "level": 539,
-          "mlt": 625,
+          "mlt": 626,
           "p05": 346,
           "p95": 892,
           "source": "real-ana-telemetria"
@@ -25517,7 +25509,7 @@
         {
           "date": "2026-04-30",
           "level": 552,
-          "mlt": 642,
+          "mlt": 643,
           "p05": 356,
           "p95": 899,
           "source": "real-ana-telemetria"
@@ -25525,7 +25517,7 @@
         {
           "date": "2026-05-01",
           "level": 557,
-          "mlt": 648,
+          "mlt": 649,
           "p05": 367,
           "p95": 902,
           "source": "real-ana-telemetria"
@@ -25581,7 +25573,7 @@
         {
           "date": "2026-05-08",
           "level": 588,
-          "mlt": 689,
+          "mlt": 690,
           "p05": 433,
           "p95": 934,
           "source": "real-ana-telemetria"
@@ -25589,7 +25581,7 @@
         {
           "date": "2026-05-09",
           "level": 590,
-          "mlt": 695,
+          "mlt": 696,
           "p05": 438,
           "p95": 939,
           "source": "real-ana-telemetria"
@@ -25613,7 +25605,7 @@
         {
           "date": "2026-05-12",
           "level": 602,
-          "mlt": 712,
+          "mlt": 713,
           "p05": 457,
           "p95": 954,
           "source": "real-ana-telemetria"
@@ -25629,7 +25621,7 @@
         {
           "date": "2026-05-14",
           "level": 614,
-          "mlt": 723,
+          "mlt": 724,
           "p05": 470,
           "p95": 967,
           "source": "real-ana-telemetria"
@@ -25661,7 +25653,7 @@
         {
           "date": "2026-05-18",
           "level": 645,
-          "mlt": 744,
+          "mlt": 745,
           "p05": 497,
           "p95": 989,
           "source": "real-ana-telemetria"
@@ -25669,32 +25661,32 @@
         {
           "date": "2026-05-19",
           "level": 652,
-          "mlt": 749,
-          "p05": 500,
+          "mlt": 750,
+          "p05": 501,
           "p95": 992,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 660,
-          "mlt": 754,
-          "p05": 505,
+          "mlt": 755,
+          "p05": 507,
           "p95": 996,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 674,
-          "mlt": 759,
-          "p05": 510,
+          "mlt": 760,
+          "p05": 514,
           "p95": 998,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-22",
           "level": 684,
-          "mlt": 764,
-          "p05": 516,
+          "mlt": 765,
+          "p05": 518,
           "p95": 1004,
           "source": "real-ana-telemetria"
         },
@@ -25702,33 +25694,33 @@
           "date": "2026-05-23",
           "level": 696,
           "mlt": 769,
-          "p05": 522,
+          "p05": 526,
           "p95": 1008,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 706,
+          "level": 708,
           "mlt": 774,
-          "p05": 527,
+          "p05": 528,
           "p95": 1010,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 716,
+          "mlt": 779,
+          "p05": 536,
+          "p95": 1012,
           "source": "real-ana-telemetria"
         }
       ],
       "levels12m": [
         {
-          "date": "2025-05-25",
-          "level": 800,
-          "mlt": 778,
-          "p05": 534,
-          "p95": 1012,
-          "source": "real-ana-telemetria"
-        },
-        {
           "date": "2025-05-26",
           "level": 803,
           "mlt": 783,
-          "p05": 539,
+          "p05": 543,
           "p95": 1016,
           "source": "real-ana-telemetria"
         },
@@ -25776,7 +25768,7 @@
           "date": "2025-06-01",
           "level": 829,
           "mlt": 811,
-          "p05": 583,
+          "p05": 584,
           "p95": 1032,
           "source": "real-ana-telemetria"
         },
@@ -25824,7 +25816,7 @@
           "date": "2025-06-07",
           "level": 857,
           "mlt": 836,
-          "p05": 626,
+          "p05": 627,
           "p95": 1037,
           "source": "real-ana-telemetria"
         },
@@ -25833,7 +25825,7 @@
           "level": 862,
           "mlt": 840,
           "p05": 638,
-          "p95": 1038,
+          "p95": 1037,
           "source": "real-ana-telemetria"
         },
         {
@@ -25879,7 +25871,7 @@
         {
           "date": "2025-06-14",
           "level": 898,
-          "mlt": 861,
+          "mlt": 860,
           "p05": 676,
           "p95": 1038,
           "source": "real-ana-telemetria"
@@ -25887,7 +25879,7 @@
         {
           "date": "2025-06-15",
           "level": 906,
-          "mlt": 864,
+          "mlt": 863,
           "p05": 684,
           "p95": 1038,
           "source": "real-ana-telemetria"
@@ -25896,7 +25888,7 @@
           "date": "2025-06-16",
           "level": 912,
           "mlt": 866,
-          "p05": 690,
+          "p05": 691,
           "p95": 1038,
           "source": "real-ana-telemetria"
         },
@@ -25911,7 +25903,7 @@
         {
           "date": "2025-06-18",
           "level": 924,
-          "mlt": 872,
+          "mlt": 871,
           "p05": 704,
           "p95": 1038,
           "source": "real-ana-telemetria"
@@ -25935,7 +25927,7 @@
         {
           "date": "2025-06-21",
           "level": 940,
-          "mlt": 879,
+          "mlt": 878,
           "p05": 715,
           "p95": 1038,
           "source": "real-ana-telemetria"
@@ -25943,7 +25935,7 @@
         {
           "date": "2025-06-22",
           "level": 946,
-          "mlt": 881,
+          "mlt": 880,
           "p05": 716,
           "p95": 1038,
           "source": "real-ana-telemetria"
@@ -25952,7 +25944,7 @@
           "date": "2025-06-23",
           "level": 950,
           "mlt": 882,
-          "p05": 719,
+          "p05": 718,
           "p95": 1038,
           "source": "real-ana-telemetria"
         },
@@ -25960,7 +25952,7 @@
           "date": "2025-06-24",
           "level": 952,
           "mlt": 884,
-          "p05": 722,
+          "p05": 721,
           "p95": 1038,
           "source": "real-ana-telemetria"
         },
@@ -28183,7 +28175,7 @@
         {
           "date": "2026-03-29",
           "level": 345,
-          "mlt": 486,
+          "mlt": 485,
           "p05": 249,
           "p95": 773,
           "source": "real-ana-telemetria"
@@ -28192,7 +28184,7 @@
           "date": "2026-03-30",
           "level": 347,
           "mlt": 489,
-          "p05": 252,
+          "p05": 251,
           "p95": 780,
           "source": "real-ana-telemetria"
         },
@@ -28216,7 +28208,7 @@
           "date": "2026-04-02",
           "level": 353,
           "mlt": 500,
-          "p05": 255,
+          "p05": 254,
           "p95": 799,
           "source": "real-ana-telemetria"
         },
@@ -28241,7 +28233,7 @@
           "level": 367,
           "mlt": 513,
           "p05": 258,
-          "p95": 811,
+          "p95": 812,
           "source": "real-ana-telemetria"
         },
         {
@@ -28271,7 +28263,7 @@
         {
           "date": "2026-04-09",
           "level": 410,
-          "mlt": 530,
+          "mlt": 531,
           "p05": 270,
           "p95": 833,
           "source": "real-ana-telemetria"
@@ -28329,7 +28321,7 @@
           "level": 475,
           "mlt": 565,
           "p05": 292,
-          "p95": 852,
+          "p95": 853,
           "source": "real-ana-telemetria"
         },
         {
@@ -28337,7 +28329,7 @@
           "level": 480,
           "mlt": 570,
           "p05": 297,
-          "p95": 855,
+          "p95": 856,
           "source": "real-ana-telemetria"
         },
         {
@@ -28391,9 +28383,9 @@
         {
           "date": "2026-04-24",
           "level": 520,
-          "mlt": 608,
+          "mlt": 609,
           "p05": 338,
-          "p95": 878,
+          "p95": 879,
           "source": "real-ana-telemetria"
         },
         {
@@ -28415,7 +28407,7 @@
         {
           "date": "2026-04-27",
           "level": 539,
-          "mlt": 625,
+          "mlt": 626,
           "p05": 346,
           "p95": 892,
           "source": "real-ana-telemetria"
@@ -28439,7 +28431,7 @@
         {
           "date": "2026-04-30",
           "level": 552,
-          "mlt": 642,
+          "mlt": 643,
           "p05": 356,
           "p95": 899,
           "source": "real-ana-telemetria"
@@ -28447,7 +28439,7 @@
         {
           "date": "2026-05-01",
           "level": 557,
-          "mlt": 648,
+          "mlt": 649,
           "p05": 367,
           "p95": 902,
           "source": "real-ana-telemetria"
@@ -28503,7 +28495,7 @@
         {
           "date": "2026-05-08",
           "level": 588,
-          "mlt": 689,
+          "mlt": 690,
           "p05": 433,
           "p95": 934,
           "source": "real-ana-telemetria"
@@ -28511,7 +28503,7 @@
         {
           "date": "2026-05-09",
           "level": 590,
-          "mlt": 695,
+          "mlt": 696,
           "p05": 438,
           "p95": 939,
           "source": "real-ana-telemetria"
@@ -28535,7 +28527,7 @@
         {
           "date": "2026-05-12",
           "level": 602,
-          "mlt": 712,
+          "mlt": 713,
           "p05": 457,
           "p95": 954,
           "source": "real-ana-telemetria"
@@ -28551,7 +28543,7 @@
         {
           "date": "2026-05-14",
           "level": 614,
-          "mlt": 723,
+          "mlt": 724,
           "p05": 470,
           "p95": 967,
           "source": "real-ana-telemetria"
@@ -28583,7 +28575,7 @@
         {
           "date": "2026-05-18",
           "level": 645,
-          "mlt": 744,
+          "mlt": 745,
           "p05": 497,
           "p95": 989,
           "source": "real-ana-telemetria"
@@ -28591,32 +28583,32 @@
         {
           "date": "2026-05-19",
           "level": 652,
-          "mlt": 749,
-          "p05": 500,
+          "mlt": 750,
+          "p05": 501,
           "p95": 992,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-20",
           "level": 660,
-          "mlt": 754,
-          "p05": 505,
+          "mlt": 755,
+          "p05": 507,
           "p95": 996,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-21",
           "level": 674,
-          "mlt": 759,
-          "p05": 510,
+          "mlt": 760,
+          "p05": 514,
           "p95": 998,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-22",
           "level": 684,
-          "mlt": 764,
-          "p05": 516,
+          "mlt": 765,
+          "p05": 518,
           "p95": 1004,
           "source": "real-ana-telemetria"
         },
@@ -28624,16 +28616,24 @@
           "date": "2026-05-23",
           "level": 696,
           "mlt": 769,
-          "p05": 522,
+          "p05": 526,
           "p95": 1008,
           "source": "real-ana-telemetria"
         },
         {
           "date": "2026-05-24",
-          "level": 706,
+          "level": 708,
           "mlt": 774,
-          "p05": 527,
+          "p05": 528,
           "p95": 1010,
+          "source": "real-ana-telemetria"
+        },
+        {
+          "date": "2026-05-25",
+          "level": 716,
+          "mlt": 779,
+          "p05": 536,
+          "p95": 1012,
           "source": "real-ana-telemetria"
         }
       ],
