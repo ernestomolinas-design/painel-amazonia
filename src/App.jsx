@@ -40,6 +40,7 @@ const UPPER_BASIN_STATIONS = [
   { id: "itaituba", name: "Itaituba", river: "Tapajós", basin: "Tapajós", current: 712, delta7: 6, delta30: 37, risk: "baixo", mlt: 690, p95: 880, p05: 390 },
   { id: "labrea", name: "Lábrea", river: "Purus", basin: "Purus", current: 1184, delta7: -11, delta30: 21, risk: "atenção", mlt: 1215, p95: 1480, p05: 720 },
   { id: "barcelos", name: "Barcelos", river: "Rio Negro", basin: "Negro", current: 500, delta7: 0, delta30: 0, risk: "baixo", mlt: 500, p95: 900, p05: 100 },
+  { id: "altamira", name: "Altamira", river: "Rio Xingu", basin: "Xingu", current: 520, delta7: 0, delta30: 0, risk: "baixo", mlt: 520, p95: 950, p05: 180 },
 ];
 
 const RAINFALL = [
@@ -48,6 +49,7 @@ const RAINFALL = [
   { basin: "Purus", obs7: 51, fcst7: 44, obs30: 208 },
   { basin: "Negro", obs7: 92, fcst7: 80, obs30: 316 },
   { basin: "Solimões", obs7: 78, fcst7: 62, obs30: 284 },
+  { basin: "Xingu", obs7: 44, fcst7: 38, obs30: 180 },
   { basin: "Baixo Amazonas", obs7: 55, fcst7: 48, obs30: 220 },
 ];
 
@@ -317,8 +319,8 @@ function runSelfTests() {
     { name: "Gráfico principal de 30 dias tem 30 linhas", pass: main30.length === 30 },
     { name: "Gráfico principal de 12 meses tem 365 linhas", pass: main12.length === 365 },
     { name: "Séries de 30 dias começam em zero", pass: main30[0].manaus === 0 && upper30[0].tabatinga === 0 },
-    { name: "Alta bacia usa uma sentinela por bacia", pass: activeStations(UPPER_BASIN_STATIONS).length === 5 },
-    { name: "Bacias Madeira, Tapajós, Purus, Negro e Solimões presentes", pass: ["Madeira", "Tapajós", "Purus", "Negro", "Solimões"].every((b) => basins.some((x) => x.basin === b)) },
+    { name: "Alta bacia usa sentinelas configuradas", pass: activeStations(UPPER_BASIN_STATIONS).length >= 5 },
+    { name: "Bacias Madeira, Tapajós, Purus, Negro, Solimões e Xingu presentes", pass: ["Madeira", "Tapajós", "Purus", "Negro", "Solimões", "Xingu"].every((b) => basins.some((x) => x.basin === b)) },
     { name: "Diagnóstico climático aceita valores nulos", pass: getDiagnostics(MAIN_STATIONS, UPPER_BASIN_STATIONS, [{ nino34: null, atlDipole: null }])[2].value.includes("0.0") },
   ];
 }
@@ -452,7 +454,7 @@ function getLastValidClimateValue(climate, key) {
     if (isNum(row?.[key])) {
       return {
         value: row[key],
-        label: row.label || "sem data",
+        label: row.label || row.date || "sem data",
         source: row.source || "fonte não informada",
       };
     }
@@ -463,20 +465,15 @@ function getLastValidClimateValue(climate, key) {
 
 function getDiagnostics(mainStations, upperStations, climate) {
   const all = [...activeStations(mainStations), ...activeStations(upperStations)];
-  const latest = Array.isArray(climate) && climate.length ? climate[climate.length - 1] : {};
-
   const latestNino = getLastValidClimateValue(climate, "nino34");
   const latestDipole = getLastValidClimateValue(climate, "atlDipole");
 
   const nino = latestNino ? latestNino.value : 0;
   const dipole = latestDipole ? latestDipole.value : 0;
 
-  const ninoIsCurrent = isNum(latest?.nino34);
-  const dipoleIsCurrent = isNum(latest?.atlDipole);
-
   const anomaly = all.reduce((best, station) => {
-    const relClim = station.current - num(station.mlt, station.current);
-    return !best || relClim > best.relClim ? { station, relClim } : best;
+    const relMlt = station.current - num(station.mlt, station.current);
+    return !best || relMlt > best.relMlt ? { station, relMlt } : best;
   }, null);
 
   const drop = activeStations(upperStations).reduce((best, station) => {
@@ -485,9 +482,9 @@ function getDiagnostics(mainStations, upperStations, climate) {
   }, null);
 
   const climateText =
-    nino >= 0.5 ? `Niño 3.4 positivo (${nino.toFixed(1)} °C)` :
-    nino <= -0.5 ? `Niño 3.4 negativo (${nino.toFixed(1)} °C)` :
-    `Niño 3.4 neutro (${nino.toFixed(1)} °C)`;
+    nino >= 0.5 ? `Niño 3.4 semanal positivo (${nino.toFixed(1)} °C)` :
+    nino <= -0.5 ? `Niño 3.4 semanal negativo (${nino.toFixed(1)} °C)` :
+    `Niño 3.4 semanal neutro (${nino.toFixed(1)} °C)`;
 
   const atlText =
     dipole > 0 ? `Norte mais quente que Sul (+${dipole.toFixed(1)})` :
@@ -496,11 +493,9 @@ function getDiagnostics(mainStations, upperStations, climate) {
 
   return [
     {
-      title: "Maior anomalia positiva",
+      title: "Maior anomalia positiva (preliminar)",
       value: anomaly ? anomaly.station.name : "—",
-      detail: anomaly
-        ? `${anomaly.relClim >= 0 ? "+" : ""}${anomaly.relClim} cm em relação à climatologia diária`
-        : "sem dados",
+      detail: anomaly ? `${anomaly.relMlt >= 0 ? "+" : ""}${anomaly.relMlt} cm em relação à climatologia diária` : "sem dados",
       icon: Waves,
       tone: "neutral",
     },
@@ -515,9 +510,7 @@ function getDiagnostics(mainStations, upperStations, climate) {
       title: "Sinal El Niño",
       value: latestNino ? climateText : "Niño 3.4 indisponível",
       detail: latestNino
-        ? ninoIsCurrent
-          ? `valor mensal mais recente carregado para ${latestNino.label}`
-          : `dado mensal mais recente ainda não disponível; exibindo último valor válido (${latestNino.label})`
+        ? `último valor semanal carregado: ${latestNino.label}`
         : "sem valor válido de Niño 3.4 no dashboard.json",
       icon: Activity,
       tone: nino >= 0.5 ? "warning" : "neutral",
@@ -525,11 +518,7 @@ function getDiagnostics(mainStations, upperStations, climate) {
     {
       title: "Dipolo Atlântico Tropical",
       value: latestDipole ? `${dipole >= 0 ? "+" : ""}${dipole.toFixed(1)}` : "indisponível",
-      detail: latestDipole
-        ? dipoleIsCurrent
-          ? atlText
-          : `${atlText}; dado mais recente válido: ${latestDipole.label}`
-        : "sem valor válido de dipolo no dashboard.json",
+      detail: latestDipole ? `${atlText}; último valor: ${latestDipole.label}` : "sem valor válido de dipolo no dashboard.json",
       icon: Waves,
       tone: dipole > 0 ? "warning" : "neutral",
     },
@@ -565,7 +554,7 @@ function DiagnosticStrip({ diagnostics }) {
 function ClimateCharts({ data }) {
   return (
     <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
-      <Panel title="Histórico recente — El Niño" subtitle="Índice Niño 3.4. Na versão operacional, vem de /data/dashboard.json." icon={Activity}>
+      <Panel title="Histórico semanal — El Niño" subtitle="Índice Niño 3.4 semanal NOAA/CPC. Na versão operacional, vem de /data/dashboard.json." icon={Activity}>
         <div className="h-[320px]">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 10, right: 20, left: 10, bottom: 10 }}>
@@ -583,7 +572,7 @@ function ClimateCharts({ data }) {
         </div>
       </Panel>
 
-      <Panel title="Histórico recente — Atlântico Tropical" subtitle="Atlântico Norte, Atlântico Sul e dipolo Norte–Sul." icon={Waves}>
+      <Panel title="Histórico semanal — Atlântico Tropical" subtitle="Atlântico Norte, Atlântico Sul e dipolo Norte–Sul, com dados semanais NOAA/OOPC." icon={Waves}>
         <div className="h-[320px]">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={data} margin={{ top: 10, right: 20, left: 10, bottom: 10 }}>
@@ -659,7 +648,7 @@ export default function HydroDashboard() {
             </div>
             <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Painel Amazônia — comparação operacional</h1>
             <p className="mt-2 max-w-4xl text-slate-600">
-              Painel comparativo com pontos críticos no eixo Amazonas — Manaus, Itacoatiara, Óbidos e Santarém — e uma estação sentinela a montante para cada bacia: Madeira, Tapajós, Purus, Negro e Solimões.
+              Painel comparativo com pontos críticos no eixo Amazonas — Manaus, Itacoatiara, Óbidos e Santarém — e uma estação sentinela a montante para cada bacia: Madeira, Tapajós, Purus, Negro, Solimões e Xingu.
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -684,11 +673,6 @@ export default function HydroDashboard() {
           <MultiStationLineChart data={main12} stations={mainSource} mode="main12" yLabel="cota absoluta (cm)" height={460} monthlyTicks />
         </Panel>
 
-        <Panel title="Pontos críticos — anomalia em relação à climatologia diária" subtitle="Diferença entre a cota observada e a média climatológica diária dos últimos 10 anos. Use este gráfico para auditar a climatologia nos pontos principais." icon={AlertTriangle}>
-          <MultiStationLineChart data={main12Anomaly} stations={mainSource} mode="main12Anomaly" yLabel="cm em relação à climatologia diária" height={460} monthlyTicks yDomain={main12AnomalyDomain} zeroLine />
-        </Panel>
-
-
         <Panel title="Tabela sintética — pontos críticos" subtitle="Escopo atual: Manaus, Itacoatiara, Óbidos e Santarém." icon={Database}>
           <Table rows={mainStations} />
         </Panel>
@@ -705,12 +689,15 @@ export default function HydroDashboard() {
           <MultiStationLineChart data={upper12} stations={upperSource} mode="upper12" yLabel="cota absoluta (cm)" height={460} monthlyTicks />
         </Panel>
 
+        <Panel title="Pontos críticos — anomalia em relação à climatologia diária" subtitle="Diferença entre a cota observada e a média climatológica diária dos últimos 10 anos. Use este gráfico para auditar a climatologia nos pontos principais." icon={AlertTriangle}>
+          <MultiStationLineChart data={main12Anomaly} stations={mainSource} mode="main12Anomaly" yLabel="cm em relação à climatologia diária" height={460} monthlyTicks yDomain={main12AnomalyDomain} zeroLine />
+        </Panel>
 
         <Panel title="Alta bacia — anomalia em relação à climatologia diária" subtitle="Diferença entre a cota observada e a média climatológica diária dos últimos 10 anos. Use este gráfico para identificar possíveis erros de escala, lacunas ou anomalias suspeitas." icon={AlertTriangle}>
           <MultiStationLineChart data={upper12Anomaly} stations={upperSource} mode="upper12Anomaly" yLabel="cm em relação à climatologia diária" height={460} monthlyTicks yDomain={upper12AnomalyDomain} zeroLine />
         </Panel>
 
-        <Panel title="Tabela sintética — estações a montante" subtitle="Dados das estações sentinela das bacias Madeira, Tapajós, Purus, Negro e Solimões." icon={Database}>
+        <Panel title="Tabela sintética — estações a montante" subtitle="Dados das estações sentinela das bacias Madeira, Tapajós, Purus, Negro, Solimões e Xingu." icon={Database}>
           <Table rows={upperStations} compact />
         </Panel>
 

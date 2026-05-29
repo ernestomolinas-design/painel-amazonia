@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T09:35:02-03:00",
+  "updatedAt": "2026-05-29T13:25:24-03:00",
   "date": "2026-05-29",
   "sourceMode": "operational",
   "metadata": {
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 1142,
-      "delta7": -84,
-      "delta30": -361,
+      "current": 1141,
+      "delta7": -85,
+      "delta30": -362,
       "risk": "baixo",
       "mlt": 1088,
       "p95": 1445,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-05-29",
-          "level": 1142,
+          "level": 1141,
           "mlt": 1088,
           "p05": 658,
           "p95": 1445,
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-05-29",
-          "level": 1142,
+          "level": 1141,
           "mlt": 1088,
           "p05": 658,
           "p95": 1445,
