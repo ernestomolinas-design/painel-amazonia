@@ -1,9 +1,10 @@
+# TESTE_ARQUIVO_CERTO_WEEKLY
 """
 Gerador operacional de public/data/dashboard.json para o Painel Hidroclimático Amazônia.
 
 Fontes:
 - ANA Telemetria para cotas: DadosHidrometeorologicos.
-- NOAA/PSL mensal para Niño 3.4.
+- NOAA/CPC semanal para Niño 3.4.
 - NOAA/OOPC semanal NetCDF para TNA, TSA e TASI.
 
 Instalação necessária para a parte OOPC:
@@ -40,7 +41,7 @@ CLIMATOLOGY_YEARS = 10
 CLIMATOLOGY_WINDOW_DAYS = 30
 
 ANA_TELEMETRIA_URL = "https://telemetriaws1.ana.gov.br/ServiceANA.asmx/DadosHidrometeorologicos"
-NOAA_NINO34_URL = "https://psl.noaa.gov/data/correlation/nina34.anom.data"
+NOAA_CPC_NINO34_WEEKLY_URL = "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for"
 NOAA_OOPC_TNA_NC_URL = "https://stateoftheocean.osmc.noaa.gov/sur/data/tna.nc"
 NOAA_OOPC_TSA_NC_URL = "https://stateoftheocean.osmc.noaa.gov/sur/data/tsa.nc"
 NOAA_OOPC_TASI_NC_URL = "https://stateoftheocean.osmc.noaa.gov/sur/data/tasi.nc"
@@ -55,6 +56,7 @@ STATION_CODES = {
     "itaituba": "17730000",
     "labrea": "13870000",
     "barcelos": "14480002",
+    "altamira": "18850000",
 }
 
 DATE_KEYS = ["date", "data", "Data", "dataHora", "DataHora", "timestamp", "Timestamp"]
@@ -105,6 +107,7 @@ UPPER_BASIN_STATIONS = [
     Station("itaituba", "Itaituba", "Tapajós", "Tapajós", 712, 6, 37, "baixo", 690, 880, 390, STATION_CODES["itaituba"]),
     Station("labrea", "Lábrea", "Purus", "Purus", 1184, -11, 21, "atenção", 1215, 1480, 720, STATION_CODES["labrea"]),
     Station("barcelos", "Barcelos", "Rio Negro", "Negro", 500, 0, 0, "baixo", 500, 900, 100, STATION_CODES["barcelos"]),
+    Station("altamira", "Altamira", "Rio Xingu", "Xingu", 520, 0, 0, "baixo", 520, 950, 180, STATION_CODES["altamira"]),
 ]
 
 RAINFALL_FALLBACK = [
@@ -113,6 +116,7 @@ RAINFALL_FALLBACK = [
     {"basin": "Purus", "obs7": 51, "fcst7": 44, "obs30": 208, "source": "demo"},
     {"basin": "Negro", "obs7": 92, "fcst7": 80, "obs30": 316, "source": "demo"},
     {"basin": "Solimões", "obs7": 78, "fcst7": 62, "obs30": 284, "source": "demo"},
+    {"basin": "Xingu", "obs7": 44, "fcst7": 38, "obs30": 180, "source": "demo"},
     {"basin": "Baixo Amazonas", "obs7": 55, "fcst7": 48, "obs30": 220, "source": "demo"},
 ]
 
@@ -494,46 +498,87 @@ def build_synthetic_series(station: Station, end_date: date, days: int) -> list[
 
 
 # -------------------------
-# CLIMA NOAA/PSL + NOAA/OOPC
+# CLIMA NOAA/CPC + NOAA/OOPC SEMANAL
 # -------------------------
 
 def build_climate_history(end_date: date, warnings: list[str], strict: bool) -> list[dict[str, Any]]:
     try:
-        nino = fetch_noaa_psl_monthly(NOAA_NINO34_URL)
+        nino = fetch_noaa_cpc_weekly_nino34(NOAA_CPC_NINO34_WEEKLY_URL)
         tna = fetch_oopc_netcdf_series(NOAA_OOPC_TNA_NC_URL)
         tsa = fetch_oopc_netcdf_series(NOAA_OOPC_TSA_NC_URL)
         tasi = fetch_oopc_netcdf_series(NOAA_OOPC_TASI_NC_URL)
-        rows = merge_climate_series_oopc(nino, tna, tsa, tasi, end_date, 29)
+        rows = merge_climate_series_weekly(nino, tna, tsa, tasi, end_date, weeks=104)
         if rows:
             return rows
-        raise RuntimeError("NOAA retornou séries climáticas vazias")
+        raise RuntimeError("NOAA retornou séries climáticas semanais vazias")
     except Exception as exc:
-        msg = f"climateHistory: falha NOAA/OOPC/PSL: {exc}; usando fallback sintético"
+        msg = f"climateHistory: falha NOAA/CPC/OOPC: {exc}; usando fallback sintético semanal"
         if strict:
             raise RuntimeError(msg) from exc
         warnings.append(msg)
         return build_synthetic_climate_history(end_date)
 
 
-def fetch_noaa_psl_monthly(url: str) -> dict[tuple[int, int], float]:
+def fetch_noaa_cpc_weekly_nino34(url: str) -> list[dict[str, Any]]:
+    """Lê a série semanal de SST/SSTA Niño 3.4 da NOAA/CPC.
+
+    Fonte esperada: wksst9120.for. O arquivo traz linhas semanais com pares
+    SST/anomalia para Niño 1+2, Niño 3, Niño 3.4 e Niño 4. O valor usado é a
+    anomalia de Niño 3.4.
+    """
     text = http_get_text(url)
-    values: dict[tuple[int, int], float] = {}
+    rows: list[dict[str, Any]] = []
+    month_map = {
+        "JAN": 1, "FEB": 2, "MAR": 3, "APR": 4, "MAY": 5, "JUN": 6,
+        "JUL": 7, "AUG": 8, "SEP": 9, "OCT": 10, "NOV": 11, "DEC": 12,
+    }
+
     for raw_line in text.splitlines():
-        parts = raw_line.strip().split()
-        if len(parts) < 13:
+        line = raw_line.strip()
+        if not line:
             continue
-        try:
-            year = int(parts[0])
-        except ValueError:
+
+        parts = line.split()
+        if not parts:
             continue
-        for month, raw in enumerate(parts[1:13], start=1):
+
+        raw_date = parts[0].upper()
+        parsed_date = None
+        if len(raw_date) >= 9 and raw_date[:2].isdigit() and raw_date[2:5] in month_map and raw_date[5:9].isdigit():
+            parsed_date = date(int(raw_date[5:9]), month_map[raw_date[2:5]], int(raw_date[:2]))
+        elif len(parts) >= 3 and parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit():
+            # fallback para tabelas YYYY MM DD ...
             try:
-                value = float(raw)
+                parsed_date = date(int(parts[0]), int(parts[1]), int(parts[2]))
+                parts = parts[2:]
             except ValueError:
-                continue
-            if value > -90:
-                values[(year, month)] = value
-    return values
+                parsed_date = None
+
+        if parsed_date is None:
+            continue
+
+        numbers: list[float] = []
+        for token in parts[1:]:
+            try:
+                numbers.append(float(token))
+            except ValueError:
+                pass
+
+        # Formato CPC típico: Nino1+2 SST/SSTA, Nino3 SST/SSTA,
+        # Nino3.4 SST/SSTA, Nino4 SST/SSTA. Logo, SSTA Nino3.4 = índice 5.
+        if len(numbers) >= 6:
+            nino34_anomaly = numbers[5]
+        elif len(numbers) >= 4:
+            # fallback conservador para formato somente com anomalias regionais
+            nino34_anomaly = numbers[2]
+        else:
+            continue
+
+        if math.isfinite(nino34_anomaly) and nino34_anomaly > -90:
+            rows.append({"date": parsed_date, "value": round(float(nino34_anomaly), 2)})
+
+    rows.sort(key=lambda row: row["date"])
+    return rows
 
 
 def fetch_oopc_netcdf_series(url: str) -> list[dict[str, Any]]:
@@ -542,7 +587,7 @@ def fetch_oopc_netcdf_series(url: str) -> list[dict[str, Any]]:
     with tempfile.NamedTemporaryFile(suffix=".nc", delete=False) as tmp:
         tmp_path = Path(tmp.name)
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "amazonia-hydro-dashboard/0.5"})
+        req = urllib.request.Request(url, headers={"User-Agent": "amazonia-hydro-dashboard/0.6"})
         with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as response:
             tmp_path.write_bytes(response.read())
         dataset = xr.open_dataset(tmp_path)
@@ -555,6 +600,7 @@ def fetch_oopc_netcdf_series(url: str) -> list[dict[str, Any]]:
                 parsed_value = parse_netcdf_value(raw_value)
                 if parsed_date is not None and parsed_value is not None:
                     rows.append({"date": parsed_date, "value": parsed_value})
+            rows.sort(key=lambda row: row["date"])
             return rows
         finally:
             dataset.close()
@@ -599,61 +645,72 @@ def parse_netcdf_value(value: Any) -> float | None:
     return parsed if math.isfinite(parsed) and parsed > -90 else None
 
 
-def latest_weekly_value_for_month(series: list[dict[str, Any]], year: int, month: int) -> float | None:
-    candidates = [row for row in series if isinstance(row.get("date"), date) and row["date"].year == year and row["date"].month == month and row.get("value") is not None]
+def latest_weekly_value_on_or_before(series: list[dict[str, Any]], target_date: date, max_lag_days: int = 14) -> float | None:
+    candidates = [
+        row for row in series
+        if isinstance(row.get("date"), date)
+        and row["date"] <= target_date
+        and (target_date - row["date"]).days <= max_lag_days
+        and row.get("value") is not None
+    ]
     if not candidates:
         return None
     candidates.sort(key=lambda row: row["date"])
     return round(float(candidates[-1]["value"]), 2)
 
 
-def merge_climate_series_oopc(
-    nino_monthly: dict[tuple[int, int], float],
+def merge_climate_series_weekly(
+    nino_weekly: list[dict[str, Any]],
     tna_weekly: list[dict[str, Any]],
     tsa_weekly: list[dict[str, Any]],
     tasi_weekly: list[dict[str, Any]],
     end_date: date,
-    months: int,
+    weeks: int,
 ) -> list[dict[str, Any]]:
-    start_month = month_add(end_date.replace(day=1), -(months - 1))
+    start_date = end_date - timedelta(days=weeks * 7)
+    usable_nino = [row for row in nino_weekly if isinstance(row.get("date"), date) and start_date <= row["date"] <= end_date]
+    if not usable_nino:
+        usable_nino = nino_weekly[-weeks:]
+
     rows = []
-    for index in range(months):
-        current = month_add(start_month, index)
-        key = (current.year, current.month)
-        nino34 = nino_monthly.get(key)
-        atl_north = latest_weekly_value_for_month(tna_weekly, current.year, current.month)
-        atl_south = latest_weekly_value_for_month(tsa_weekly, current.year, current.month)
-        tasi = latest_weekly_value_for_month(tasi_weekly, current.year, current.month)
+    for row in usable_nino[-weeks:]:
+        current_date = row["date"]
+        nino34 = row.get("value")
+        atl_north = latest_weekly_value_on_or_before(tna_weekly, current_date)
+        atl_south = latest_weekly_value_on_or_before(tsa_weekly, current_date)
+        tasi = latest_weekly_value_on_or_before(tasi_weekly, current_date)
+
         if atl_north is not None and atl_south is not None:
             dipole = round(atl_north - atl_south, 2)
             dipole_source = "TNA-TSA"
         else:
             dipole = tasi
             dipole_source = "TASI"
-        if nino34 is None and atl_north is None and atl_south is None and dipole is None:
-            continue
+
         rows.append({
-            "label": f"{MONTH_LABELS[current.month - 1]}/{str(current.year)[-2:]}",
-            "nino34": round(nino34, 2) if nino34 is not None else None,
+            "label": current_date.strftime("%d/%m/%y"),
+            "date": current_date.isoformat(),
+            "nino34": round(float(nino34), 2) if nino34 is not None else None,
             "atlNorth": atl_north,
             "atlSouth": atl_south,
             "atlDipole": dipole,
             "atlDipoleSource": dipole_source if dipole is not None else None,
-            "source": "NOAA/PSL + NOAA/OOPC weekly",
+            "source": "NOAA/CPC weekly + NOAA/OOPC weekly",
         })
     return rows
 
 
 def build_synthetic_climate_history(end_date: date) -> list[dict[str, Any]]:
-    start_month = month_add(end_date.replace(day=1), -28)
+    start_date = end_date - timedelta(days=103 * 7)
     rows = []
-    for index in range(29):
-        current = month_add(start_month, index)
-        nino34 = round(math.sin(index / 4.8) * 1.05 + math.cos(index / 8) * 0.38 + 0.28, 2)
-        atl_north = round(math.cos(index / 5.2) * 0.42 + 0.42, 2)
-        atl_south = round(math.sin(index / 6.4) * 0.34 + 0.36, 2)
+    for index in range(104):
+        current = start_date + timedelta(days=index * 7)
+        nino34 = round(math.sin(index / 7.5) * 0.75 + math.cos(index / 13) * 0.22 + 0.15, 2)
+        atl_north = round(math.cos(index / 8.0) * 0.34 + 0.35, 2)
+        atl_south = round(math.sin(index / 9.5) * 0.28 + 0.30, 2)
         rows.append({
-            "label": f"{MONTH_LABELS[current.month - 1]}/{str(current.year)[-2:]}",
+            "label": current.strftime("%d/%m/%y"),
+            "date": current.isoformat(),
             "nino34": nino34,
             "atlNorth": atl_north,
             "atlSouth": atl_south,
@@ -702,7 +759,7 @@ def build_dashboard(end_date: date | None = None, strict: bool = False) -> dict[
             "climatology": {"years": CLIMATOLOGY_YEARS, "windowDays": CLIMATOLOGY_WINDOW_DAYS},
             "anaTelemetriaUrl": ANA_TELEMETRIA_URL,
             "noaaSources": {
-                "nino34Monthly": NOAA_NINO34_URL,
+                "nino34Weekly": NOAA_CPC_NINO34_WEEKLY_URL,
                 "tnaWeekly": NOAA_OOPC_TNA_NC_URL,
                 "tsaWeekly": NOAA_OOPC_TSA_NC_URL,
                 "tasiWeekly": NOAA_OOPC_TASI_NC_URL,
@@ -732,7 +789,7 @@ def validate_dashboard(data: dict[str, Any]) -> list[str]:
             if len(station.get("levels12m", [])) != 365:
                 errors.append(f"{group_name}.{station_id}: levels12m deve ter 365 pontos")
     if len(data.get("climateHistory", [])) < 12:
-        errors.append("climateHistory deve ter pelo menos 12 pontos mensais")
+        errors.append("climateHistory deve ter pelo menos 12 pontos semanais")
     return errors
 
 
@@ -754,7 +811,7 @@ def run_self_tests() -> list[tuple[str, bool]]:
     return [
         ("dashboard valida sem erros", not errors),
         ("há 4 pontos críticos", len(dashboard["mainStations"]) == 4),
-        ("há 5 sentinelas de alta bacia", len(dashboard["upperBasinStations"]) == 5),
+        ("há 6 sentinelas de alta bacia", len(dashboard["upperBasinStations"]) == 6),
         ("cada estação tem 30 pontos", all(len(station["levels30d"]) == 30 for station in stations)),
         ("cada estação tem 365 pontos", all(len(station["levels12m"]) == 365 for station in stations)),
         ("climateHistory inclui Niño 3.4", any(row.get("nino34") is not None for row in climate)),
