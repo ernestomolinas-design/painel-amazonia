@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T11:31:51-03:00",
+  "updatedAt": "2026-06-11T20:05:06-03:00",
   "date": "2026-06-11",
   "sourceMode": "operational",
   "metadata": {
@@ -23,9 +23,9 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 2830,
-      "delta7": 27,
-      "delta30": 103,
+      "current": 2831,
+      "delta7": 28,
+      "delta30": 104,
       "risk": "baixo",
       "mlt": 2835,
       "p95": 2993,
@@ -266,7 +266,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 2830,
+          "level": 2831,
           "mlt": 2835,
           "p05": 2660,
           "p95": 2993,
@@ -3188,7 +3188,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 2830,
+          "level": 2831,
           "mlt": 2835,
           "p05": 2660,
           "p95": 2993,
@@ -12745,9 +12745,9 @@
       "name": "Tabatinga",
       "river": "Solimões",
       "basin": "Solimões",
-      "current": 1125,
-      "delta7": -41,
-      "delta30": -31,
+      "current": 1123,
+      "delta7": -43,
+      "delta30": -33,
       "risk": "baixo",
       "mlt": 1046,
       "p95": 1254,
@@ -12988,7 +12988,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 1125,
+          "level": 1123,
           "mlt": 1046,
           "p05": 686,
           "p95": 1254,
@@ -15910,7 +15910,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 1125,
+          "level": 1123,
           "mlt": 1046,
           "p05": 686,
           "p95": 1254,
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 945,
-      "delta7": -79,
-      "delta30": -326,
+      "current": 943,
+      "delta7": -81,
+      "delta30": -328,
       "risk": "baixo",
       "mlt": 964,
       "p95": 1329,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 945,
+          "level": 943,
           "mlt": 964,
           "p05": 515,
           "p95": 1329,
@@ -16387,7 +16387,7 @@
         {
           "date": "2025-07-08",
           "level": 1009,
-          "mlt": 680,
+          "mlt": 679,
           "p05": 319,
           "p95": 1118,
           "source": "real-ana-telemetria"
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 945,
+          "level": 943,
           "mlt": 964,
           "p05": 515,
           "p95": 1329,
@@ -22285,9 +22285,9 @@
       "name": "Lábrea",
       "river": "Purus",
       "basin": "Purus",
-      "current": 1355,
-      "delta7": -265,
-      "delta30": -680,
+      "current": 1348,
+      "delta7": -272,
+      "delta30": -687,
       "risk": "baixo",
       "mlt": 1490,
       "p95": 2028,
@@ -22305,7 +22305,7 @@
         {
           "date": "2026-05-14",
           "level": 2032,
-          "mlt": 1902,
+          "mlt": 1901,
           "p05": 1382,
           "p95": 2080,
           "source": "real-ana-telemetria"
@@ -22314,7 +22314,7 @@
           "date": "2026-05-15",
           "level": 2028,
           "mlt": 1893,
-          "p05": 1362,
+          "p05": 1359,
           "p95": 2079,
           "source": "real-ana-telemetria"
         },
@@ -22528,7 +22528,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 1355,
+          "level": 1348,
           "mlt": 1490,
           "p05": 735,
           "p95": 2028,
@@ -22603,7 +22603,7 @@
         {
           "date": "2025-06-20",
           "level": 1136,
-          "mlt": 1297,
+          "mlt": 1296,
           "p05": 652,
           "p95": 1936,
           "source": "real-ana-telemetria"
@@ -25227,7 +25227,7 @@
         {
           "date": "2026-05-14",
           "level": 2032,
-          "mlt": 1902,
+          "mlt": 1901,
           "p05": 1382,
           "p95": 2080,
           "source": "real-ana-telemetria"
@@ -25236,7 +25236,7 @@
           "date": "2026-05-15",
           "level": 2028,
           "mlt": 1893,
-          "p05": 1362,
+          "p05": 1359,
           "p95": 2079,
           "source": "real-ana-telemetria"
         },
@@ -25450,7 +25450,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 1355,
+          "level": 1348,
           "mlt": 1490,
           "p05": 735,
           "p95": 2028,
@@ -28645,9 +28645,9 @@
       "name": "Altamira",
       "river": "Rio Xingu",
       "basin": "Xingu",
-      "current": 636,
-      "delta7": 38,
-      "delta30": 0,
+      "current": 641,
+      "delta7": 43,
+      "delta30": 5,
       "risk": "baixo",
       "mlt": 633,
       "p95": 709,
@@ -28888,7 +28888,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 636,
+          "level": 641,
           "mlt": 633,
           "p05": 538,
           "p95": 709,
@@ -31810,7 +31810,7 @@
         },
         {
           "date": "2026-06-11",
-          "level": 636,
+          "level": 641,
           "mlt": 633,
           "p05": 538,
           "p95": 709,
