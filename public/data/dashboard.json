@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:53:30-03:00",
+  "updatedAt": "2026-06-25T08:22:37-03:00",
   "date": "2026-06-25",
   "sourceMode": "operational",
   "metadata": {
@@ -23,9 +23,9 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 2850,
-      "delta7": 3,
-      "delta30": 76,
+      "current": 2849,
+      "delta7": 2,
+      "delta30": 75,
       "risk": "baixo",
       "mlt": 2840,
       "p95": 2993,
@@ -266,7 +266,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 2850,
+          "level": 2849,
           "mlt": 2840,
           "p05": 2666,
           "p95": 2993,
@@ -3188,7 +3188,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 2850,
+          "level": 2849,
           "mlt": 2840,
           "p05": 2666,
           "p95": 2993,
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 915,
-      "delta7": 19,
-      "delta30": -269,
+      "current": 920,
+      "delta7": 24,
+      "delta30": -264,
       "risk": "baixo",
       "mlt": 816,
       "p95": 1202,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 915,
+          "level": 920,
           "mlt": 816,
           "p05": 395,
           "p95": 1202,
@@ -16267,7 +16267,7 @@
         {
           "date": "2025-07-07",
           "level": 1015,
-          "mlt": 694,
+          "mlt": 695,
           "p05": 324,
           "p95": 1123,
           "source": "real-ana-telemetria"
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 915,
+          "level": 920,
           "mlt": 816,
           "p05": 395,
           "p95": 1202,
@@ -28645,9 +28645,9 @@
       "name": "Altamira",
       "river": "Rio Xingu",
       "basin": "Xingu",
-      "current": 610,
-      "delta7": 5,
-      "delta30": -6,
+      "current": 611,
+      "delta7": 6,
+      "delta30": -5,
       "risk": "baixo",
       "mlt": 631,
       "p95": 687,
@@ -28888,7 +28888,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 610,
+          "level": 611,
           "mlt": 631,
           "p05": 538,
           "p95": 687,
@@ -31810,7 +31810,7 @@
         },
         {
           "date": "2026-06-25",
-          "level": 610,
+          "level": 611,
           "mlt": 631,
           "p05": 538,
           "p95": 687,
