@@ -22,6 +22,7 @@ import argparse
 import csv
 import json
 import math
+import re
 import sys
 import tempfile
 import urllib.error
@@ -519,12 +520,62 @@ def build_climate_history(end_date: date, warnings: list[str], strict: bool) -> 
         return build_synthetic_climate_history(end_date)
 
 
-def fetch_noaa_cpc_weekly_nino34(url: str) -> list[dict[str, Any]]:
-    """Lê a série semanal de SST/SSTA Niño 3.4 da NOAA/CPC.
+def parse_cpc_weekly_numeric_values(line_tail: str) -> list[float]:
+    """Extrai números do trecho de dados do arquivo wksst9120.for.
 
-    Fonte esperada: wksst9120.for. O arquivo traz linhas semanais com pares
-    SST/anomalia para Niño 1+2, Niño 3, Niño 3.4 e Niño 4. O valor usado é a
-    anomalia de Niño 3.4.
+    O arquivo CPC frequentemente traz pares SST/anomalia em largura fixa, e
+    valores negativos podem vir colados ao SST, por exemplo: ``28.7-0.2``.
+    Usar ``split()`` + ``float()`` perde essas anomalias negativas e desloca as
+    colunas. Esta rotina extrai todos os floats preservando sinais.
+    """
+    return [float(match.group(0)) for match in re.finditer(r"[+-]?\d+(?:\.\d+)?", line_tail)]
+
+
+def parse_cpc_weekly_date(parts: list[str], month_map: dict[str, int]) -> tuple[date | None, str]:
+    """Retorna a data e o restante da linha depois da data."""
+    if not parts:
+        return None, ""
+
+    raw_date = parts[0].upper()
+
+    # Formato CPC típico: 05JUN2024 ...
+    if len(raw_date) >= 9 and raw_date[:2].isdigit() and raw_date[2:5] in month_map and raw_date[5:9].isdigit():
+        try:
+            parsed = date(int(raw_date[5:9]), month_map[raw_date[2:5]], int(raw_date[:2]))
+            return parsed, " ".join(parts[1:])
+        except ValueError:
+            return None, ""
+
+    # Fallback: YYYY MM DD ...
+    if len(parts) >= 3 and parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit():
+        try:
+            parsed = date(int(parts[0]), int(parts[1]), int(parts[2]))
+            return parsed, " ".join(parts[3:])
+        except ValueError:
+            return None, ""
+
+    return None, ""
+
+
+def fetch_noaa_cpc_weekly_nino34(url: str) -> list[dict[str, Any]]:
+    """Lê a série semanal de anomalia Niño 3.4 da NOAA/CPC.
+
+    Fonte esperada: ``wksst9120.for``. O arquivo traz linhas semanais com pares
+    SST/anomalia para Niño 1+2, Niño 3, Niño 3.4 e Niño 4.
+
+    Ordem dos valores numéricos após a data:
+      0 Nino1+2 SST
+      1 Nino1+2 SSTA
+      2 Nino3 SST
+      3 Nino3 SSTA
+      4 Nino3.4 SST
+      5 Nino3.4 SSTA  <- valor correto para o painel
+      6 Nino4 SST
+      7 Nino4 SSTA
+
+    A rotina usa regex porque valores negativos podem vir colados ao SST
+    (ex.: ``28.7-0.2``). Também rejeita valores com módulo maior que 5 °C,
+    pois isso indicaria que uma SST absoluta entrou no lugar da anomalia.
     """
     text = http_get_text(url)
     rows: list[dict[str, Any]] = []
@@ -539,47 +590,33 @@ def fetch_noaa_cpc_weekly_nino34(url: str) -> list[dict[str, Any]]:
             continue
 
         parts = line.split()
-        if not parts:
-            continue
-
-        raw_date = parts[0].upper()
-        parsed_date = None
-        if len(raw_date) >= 9 and raw_date[:2].isdigit() and raw_date[2:5] in month_map and raw_date[5:9].isdigit():
-            parsed_date = date(int(raw_date[5:9]), month_map[raw_date[2:5]], int(raw_date[:2]))
-        elif len(parts) >= 3 and parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit():
-            # fallback para tabelas YYYY MM DD ...
-            try:
-                parsed_date = date(int(parts[0]), int(parts[1]), int(parts[2]))
-                parts = parts[2:]
-            except ValueError:
-                parsed_date = None
-
+        parsed_date, numeric_tail = parse_cpc_weekly_date(parts, month_map)
         if parsed_date is None:
             continue
 
-        numbers: list[float] = []
-        for token in parts[1:]:
-            try:
-                numbers.append(float(token))
-            except ValueError:
-                pass
+        numbers = parse_cpc_weekly_numeric_values(numeric_tail)
 
-        # Formato CPC típico: Nino1+2 SST/SSTA, Nino3 SST/SSTA,
-        # Nino3.4 SST/SSTA, Nino4 SST/SSTA. Logo, SSTA Nino3.4 = índice 5.
-        if len(numbers) >= 6:
+        if len(numbers) >= 8:
             nino34_anomaly = numbers[5]
         elif len(numbers) >= 4:
-            # fallback conservador para formato somente com anomalias regionais
+            # Fallback para eventual formato compacto só com anomalias regionais.
+            # Nesta hipótese: Nino1+2, Nino3, Nino3.4, Nino4.
             nino34_anomaly = numbers[2]
         else:
             continue
 
-        if math.isfinite(nino34_anomaly) and nino34_anomaly > -90:
-            rows.append({"date": parsed_date, "value": round(float(nino34_anomaly), 2)})
+        if not math.isfinite(nino34_anomaly) or nino34_anomaly <= -90:
+            continue
+
+        # Trava de sanidade: anomalias Niño 3.4 não devem aparecer como 28–30 °C.
+        # Se isso ocorrer, o parser pegou SST absoluta e a linha deve ser descartada.
+        if abs(nino34_anomaly) > 5:
+            continue
+
+        rows.append({"date": parsed_date, "value": round(float(nino34_anomaly), 2)})
 
     rows.sort(key=lambda row: row["date"])
     return rows
-
 
 def fetch_oopc_netcdf_series(url: str) -> list[dict[str, Any]]:
     import xarray as xr
