@@ -1,9 +1,12 @@
 {
-  "updatedAt": "2026-08-18T14:06:23-03:00",
+  "updatedAt": "2026-08-18T23:11:10-03:00",
   "date": "2026-08-18",
-  "sourceMode": "operational",
+  "sourceMode": "mixed-operational-fallback",
   "metadata": {
-    "warnings": [],
+    "warnings": [
+      "manaus: falha em ana-telemetria: The read operation timed out",
+      "manaus: sem série real suficiente; usando fallback sintético"
+    ],
     "stationCodesConfigured": 10,
     "climatology": {
       "years": 10,
@@ -23,3189 +26,3189 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 2586,
-      "delta7": -68,
-      "delta30": -212,
-      "risk": "baixo",
-      "mlt": 2594,
-      "p95": 2873,
-      "p05": 2095,
+      "current": 2746,
+      "delta7": 28,
+      "delta30": 106,
+      "risk": "atenção",
+      "mlt": 2680,
+      "p95": 2920,
+      "p05": 2140,
       "station_code": "14990000",
       "levels30d": [
         {
           "date": "2026-07-20",
-          "level": 2798,
-          "mlt": 2787,
-          "p05": 2565,
-          "p95": 2968,
-          "source": "real-ana-telemetria"
+          "level": 2645,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-21",
-          "level": 2794,
-          "mlt": 2783,
-          "p05": 2557,
-          "p95": 2966,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-22",
-          "level": 2789,
-          "mlt": 2779,
-          "p05": 2548,
-          "p95": 2964,
-          "source": "real-ana-telemetria"
+          "level": 2658,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-23",
-          "level": 2785,
-          "mlt": 2774,
-          "p05": 2540,
-          "p95": 2962,
-          "source": "real-ana-telemetria"
+          "level": 2663,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-24",
-          "level": 2780,
-          "mlt": 2770,
-          "p05": 2532,
-          "p95": 2959,
-          "source": "real-ana-telemetria"
+          "level": 2667,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-25",
-          "level": 2775,
-          "mlt": 2765,
-          "p05": 2520,
-          "p95": 2955,
-          "source": "real-ana-telemetria"
+          "level": 2670,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-26",
-          "level": 2770,
-          "mlt": 2760,
-          "p05": 2509,
-          "p95": 2952,
-          "source": "real-ana-telemetria"
+          "level": 2671,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-27",
-          "level": 2765,
-          "mlt": 2755,
-          "p05": 2500,
-          "p95": 2948,
-          "source": "real-ana-telemetria"
+          "level": 2671,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-28",
-          "level": 2759,
-          "mlt": 2750,
-          "p05": 2488,
-          "p95": 2946,
-          "source": "real-ana-telemetria"
+          "level": 2670,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-29",
-          "level": 2753,
-          "mlt": 2745,
-          "p05": 2478,
-          "p95": 2943,
-          "source": "real-ana-telemetria"
+          "level": 2669,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-30",
-          "level": 2746,
-          "mlt": 2739,
-          "p05": 2466,
-          "p95": 2939,
-          "source": "real-ana-telemetria"
+          "level": 2669,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-31",
-          "level": 2740,
-          "mlt": 2734,
-          "p05": 2449,
-          "p95": 2935,
-          "source": "real-ana-telemetria"
+          "level": 2669,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-01",
-          "level": 2733,
-          "mlt": 2728,
-          "p05": 2437,
-          "p95": 2931,
-          "source": "real-ana-telemetria"
+          "level": 2670,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-02",
-          "level": 2726,
-          "mlt": 2722,
-          "p05": 2426,
-          "p95": 2928,
-          "source": "real-ana-telemetria"
+          "level": 2673,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-03",
-          "level": 2719,
-          "mlt": 2715,
-          "p05": 2409,
-          "p95": 2924,
-          "source": "real-ana-telemetria"
+          "level": 2677,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-04",
-          "level": 2712,
-          "mlt": 2709,
-          "p05": 2394,
-          "p95": 2921,
-          "source": "real-ana-telemetria"
+          "level": 2682,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-05",
-          "level": 2705,
-          "mlt": 2702,
-          "p05": 2380,
-          "p95": 2919,
-          "source": "real-ana-telemetria"
+          "level": 2689,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-06",
           "level": 2697,
-          "mlt": 2695,
-          "p05": 2360,
-          "p95": 2915,
-          "source": "real-ana-telemetria"
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-07",
-          "level": 2689,
-          "mlt": 2688,
-          "p05": 2341,
-          "p95": 2912,
-          "source": "real-ana-telemetria"
+          "level": 2706,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-08",
-          "level": 2680,
+          "level": 2714,
           "mlt": 2680,
-          "p05": 2325,
-          "p95": 2908,
-          "source": "real-ana-telemetria"
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-09",
-          "level": 2671,
-          "mlt": 2673,
-          "p05": 2308,
-          "p95": 2904,
-          "source": "real-ana-telemetria"
+          "level": 2722,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-10",
-          "level": 2662,
-          "mlt": 2665,
-          "p05": 2284,
-          "p95": 2900,
-          "source": "real-ana-telemetria"
+          "level": 2728,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-11",
-          "level": 2654,
-          "mlt": 2657,
-          "p05": 2259,
-          "p95": 2898,
-          "source": "real-ana-telemetria"
+          "level": 2733,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-12",
-          "level": 2644,
-          "mlt": 2649,
-          "p05": 2234,
-          "p95": 2893,
-          "source": "real-ana-telemetria"
+          "level": 2737,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-13",
-          "level": 2635,
-          "mlt": 2640,
-          "p05": 2211,
-          "p95": 2889,
-          "source": "real-ana-telemetria"
+          "level": 2740,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-14",
-          "level": 2626,
-          "mlt": 2631,
-          "p05": 2188,
-          "p95": 2887,
-          "source": "real-ana-telemetria"
+          "level": 2741,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-15",
-          "level": 2616,
-          "mlt": 2622,
-          "p05": 2165,
-          "p95": 2884,
-          "source": "real-ana-telemetria"
+          "level": 2741,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-16",
-          "level": 2605,
-          "mlt": 2613,
-          "p05": 2141,
-          "p95": 2879,
-          "source": "real-ana-telemetria"
+          "level": 2741,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-17",
-          "level": 2594,
-          "mlt": 2604,
-          "p05": 2119,
-          "p95": 2876,
-          "source": "real-ana-telemetria"
+          "level": 2741,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-18",
-          "level": 2586,
-          "mlt": 2594,
-          "p05": 2095,
-          "p95": 2873,
-          "source": "real-ana-telemetria"
+          "level": 2741,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         }
       ],
       "levels12m": [
         {
           "date": "2025-08-19",
-          "level": 2760,
-          "mlt": 2584,
-          "p05": 2072,
-          "p95": 2869,
-          "source": "real-ana-telemetria"
+          "level": 2509,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-20",
-          "level": 2754,
-          "mlt": 2574,
-          "p05": 2050,
-          "p95": 2864,
-          "source": "real-ana-telemetria"
+          "level": 2512,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-21",
-          "level": 2747,
-          "mlt": 2563,
-          "p05": 2021,
-          "p95": 2860,
-          "source": "real-ana-telemetria"
+          "level": 2515,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-22",
-          "level": 2740,
-          "mlt": 2552,
-          "p05": 1996,
-          "p95": 2855,
-          "source": "real-ana-telemetria"
+          "level": 2518,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-23",
-          "level": 2733,
-          "mlt": 2541,
-          "p05": 1974,
-          "p95": 2851,
-          "source": "real-ana-telemetria"
+          "level": 2520,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-24",
-          "level": 2725,
-          "mlt": 2529,
-          "p05": 1952,
-          "p95": 2847,
-          "source": "real-ana-telemetria"
+          "level": 2523,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-25",
-          "level": 2718,
-          "mlt": 2517,
-          "p05": 1921,
-          "p95": 2842,
-          "source": "real-ana-telemetria"
+          "level": 2526,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-26",
-          "level": 2711,
-          "mlt": 2505,
-          "p05": 1899,
-          "p95": 2838,
-          "source": "real-ana-telemetria"
+          "level": 2529,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-27",
-          "level": 2703,
-          "mlt": 2493,
-          "p05": 1878,
-          "p95": 2833,
-          "source": "real-ana-telemetria"
+          "level": 2532,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-28",
-          "level": 2695,
-          "mlt": 2480,
-          "p05": 1854,
-          "p95": 2828,
-          "source": "real-ana-telemetria"
+          "level": 2535,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-29",
-          "level": 2686,
-          "mlt": 2467,
-          "p05": 1828,
-          "p95": 2823,
-          "source": "real-ana-telemetria"
+          "level": 2538,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-30",
-          "level": 2677,
-          "mlt": 2454,
-          "p05": 1812,
-          "p95": 2818,
-          "source": "real-ana-telemetria"
+          "level": 2542,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-08-31",
-          "level": 2669,
-          "mlt": 2441,
-          "p05": 1789,
-          "p95": 2813,
-          "source": "real-ana-telemetria"
+          "level": 2545,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-01",
-          "level": 2660,
-          "mlt": 2427,
-          "p05": 1770,
-          "p95": 2808,
-          "source": "real-ana-telemetria"
+          "level": 2548,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-02",
-          "level": 2651,
-          "mlt": 2413,
-          "p05": 1748,
-          "p95": 2802,
-          "source": "real-ana-telemetria"
+          "level": 2551,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-03",
-          "level": 2641,
-          "mlt": 2400,
-          "p05": 1722,
-          "p95": 2797,
-          "source": "real-ana-telemetria"
+          "level": 2554,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-04",
-          "level": 2631,
-          "mlt": 2385,
-          "p05": 1693,
-          "p95": 2791,
-          "source": "real-ana-telemetria"
+          "level": 2558,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-05",
-          "level": 2621,
-          "mlt": 2371,
-          "p05": 1663,
-          "p95": 2785,
-          "source": "real-ana-telemetria"
+          "level": 2561,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-06",
-          "level": 2610,
-          "mlt": 2357,
-          "p05": 1633,
-          "p95": 2779,
-          "source": "real-ana-telemetria"
+          "level": 2564,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-07",
-          "level": 2599,
-          "mlt": 2342,
-          "p05": 1602,
-          "p95": 2773,
-          "source": "real-ana-telemetria"
+          "level": 2568,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-08",
-          "level": 2588,
-          "mlt": 2327,
-          "p05": 1579,
-          "p95": 2767,
-          "source": "real-ana-telemetria"
+          "level": 2571,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-09",
-          "level": 2577,
-          "mlt": 2312,
-          "p05": 1556,
-          "p95": 2760,
-          "source": "real-ana-telemetria"
+          "level": 2574,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-10",
-          "level": 2565,
-          "mlt": 2297,
-          "p05": 1536,
-          "p95": 2754,
-          "source": "real-ana-telemetria"
+          "level": 2578,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-11",
-          "level": 2552,
-          "mlt": 2282,
-          "p05": 1517,
-          "p95": 2747,
-          "source": "real-ana-telemetria"
+          "level": 2581,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-12",
-          "level": 2540,
-          "mlt": 2267,
-          "p05": 1502,
-          "p95": 2740,
-          "source": "real-ana-telemetria"
+          "level": 2584,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-13",
-          "level": 2527,
-          "mlt": 2252,
-          "p05": 1485,
-          "p95": 2734,
-          "source": "real-ana-telemetria"
+          "level": 2588,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-14",
-          "level": 2514,
-          "mlt": 2236,
-          "p05": 1469,
-          "p95": 2726,
-          "source": "real-ana-telemetria"
+          "level": 2591,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-15",
-          "level": 2501,
-          "mlt": 2221,
-          "p05": 1455,
-          "p95": 2718,
-          "source": "real-ana-telemetria"
+          "level": 2595,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-16",
-          "level": 2487,
-          "mlt": 2206,
-          "p05": 1441,
-          "p95": 2711,
-          "source": "real-ana-telemetria"
+          "level": 2598,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-17",
-          "level": 2472,
-          "mlt": 2190,
-          "p05": 1424,
-          "p95": 2703,
-          "source": "real-ana-telemetria"
+          "level": 2601,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-18",
-          "level": 2458,
-          "mlt": 2175,
-          "p05": 1407,
-          "p95": 2695,
-          "source": "real-ana-telemetria"
+          "level": 2605,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-19",
-          "level": 2443,
-          "mlt": 2160,
-          "p05": 1391,
-          "p95": 2687,
-          "source": "real-ana-telemetria"
+          "level": 2608,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-20",
-          "level": 2428,
-          "mlt": 2145,
-          "p05": 1377,
-          "p95": 2679,
-          "source": "real-ana-telemetria"
+          "level": 2612,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-21",
-          "level": 2413,
-          "mlt": 2130,
-          "p05": 1365,
-          "p95": 2671,
-          "source": "real-ana-telemetria"
+          "level": 2615,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-22",
-          "level": 2398,
-          "mlt": 2116,
-          "p05": 1351,
-          "p95": 2662,
-          "source": "real-ana-telemetria"
+          "level": 2618,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-23",
-          "level": 2381,
-          "mlt": 2101,
-          "p05": 1336,
-          "p95": 2653,
-          "source": "real-ana-telemetria"
+          "level": 2622,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-24",
-          "level": 2364,
-          "mlt": 2087,
-          "p05": 1326,
-          "p95": 2643,
-          "source": "real-ana-telemetria"
+          "level": 2625,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-25",
-          "level": 2348,
-          "mlt": 2072,
-          "p05": 1313,
-          "p95": 2633,
-          "source": "real-ana-telemetria"
+          "level": 2629,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-26",
-          "level": 2332,
-          "mlt": 2058,
-          "p05": 1301,
-          "p95": 2623,
-          "source": "real-ana-telemetria"
+          "level": 2632,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-27",
-          "level": 2317,
-          "mlt": 2044,
-          "p05": 1288,
-          "p95": 2613,
-          "source": "real-ana-telemetria"
+          "level": 2635,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-28",
-          "level": 2301,
-          "mlt": 2030,
-          "p05": 1277,
-          "p95": 2603,
-          "source": "real-ana-telemetria"
+          "level": 2639,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-29",
-          "level": 2285,
-          "mlt": 2016,
-          "p05": 1273,
-          "p95": 2593,
-          "source": "real-ana-telemetria"
+          "level": 2642,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-09-30",
-          "level": 2269,
-          "mlt": 2003,
-          "p05": 1271,
-          "p95": 2583,
-          "source": "real-ana-telemetria"
+          "level": 2645,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-01",
-          "level": 2253,
-          "mlt": 1990,
-          "p05": 1268,
-          "p95": 2571,
-          "source": "real-ana-telemetria"
+          "level": 2649,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-02",
-          "level": 2236,
-          "mlt": 1977,
-          "p05": 1266,
-          "p95": 2560,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-03",
-          "level": 2220,
-          "mlt": 1964,
-          "p05": 1265,
-          "p95": 2548,
-          "source": "real-ana-telemetria"
+          "level": 2655,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-04",
-          "level": 2202,
-          "mlt": 1951,
-          "p05": 1264,
-          "p95": 2536,
-          "source": "real-ana-telemetria"
+          "level": 2658,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-05",
-          "level": 2186,
-          "mlt": 1939,
-          "p05": 1259,
-          "p95": 2523,
-          "source": "real-ana-telemetria"
+          "level": 2662,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-06",
-          "level": 2170,
-          "mlt": 1927,
-          "p05": 1256,
-          "p95": 2511,
-          "source": "real-ana-telemetria"
+          "level": 2665,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-07",
-          "level": 2154,
-          "mlt": 1916,
-          "p05": 1255,
-          "p95": 2499,
-          "source": "real-ana-telemetria"
+          "level": 2668,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-08",
-          "level": 2139,
-          "mlt": 1904,
-          "p05": 1253,
-          "p95": 2486,
-          "source": "real-ana-telemetria"
+          "level": 2671,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-09",
-          "level": 2125,
-          "mlt": 1893,
-          "p05": 1252,
-          "p95": 2473,
-          "source": "real-ana-telemetria"
+          "level": 2674,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-10",
-          "level": 2113,
-          "mlt": 1883,
-          "p05": 1251,
-          "p95": 2457,
-          "source": "real-ana-telemetria"
+          "level": 2678,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-11",
-          "level": 2099,
-          "mlt": 1873,
-          "p05": 1249,
-          "p95": 2443,
-          "source": "real-ana-telemetria"
+          "level": 2681,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-12",
-          "level": 2085,
-          "mlt": 1863,
-          "p05": 1249,
-          "p95": 2427,
-          "source": "real-ana-telemetria"
+          "level": 2684,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-13",
-          "level": 2071,
-          "mlt": 1853,
-          "p05": 1249,
-          "p95": 2412,
-          "source": "real-ana-telemetria"
+          "level": 2687,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-14",
-          "level": 2057,
-          "mlt": 1844,
-          "p05": 1249,
-          "p95": 2397,
-          "source": "real-ana-telemetria"
+          "level": 2690,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-15",
-          "level": 2045,
-          "mlt": 1835,
-          "p05": 1249,
-          "p95": 2382,
-          "source": "real-ana-telemetria"
+          "level": 2693,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-16",
-          "level": 2031,
-          "mlt": 1827,
-          "p05": 1249,
-          "p95": 2364,
-          "source": "real-ana-telemetria"
+          "level": 2696,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-17",
-          "level": 2019,
-          "mlt": 1819,
-          "p05": 1249,
-          "p95": 2347,
-          "source": "real-ana-telemetria"
+          "level": 2699,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-18",
-          "level": 2007,
-          "mlt": 1811,
-          "p05": 1249,
-          "p95": 2333,
-          "source": "real-ana-telemetria"
+          "level": 2702,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-19",
-          "level": 1994,
-          "mlt": 1804,
-          "p05": 1249,
-          "p95": 2319,
-          "source": "real-ana-telemetria"
+          "level": 2705,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-20",
-          "level": 1983,
-          "mlt": 1797,
-          "p05": 1249,
-          "p95": 2299,
-          "source": "real-ana-telemetria"
+          "level": 2708,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-21",
-          "level": 1973,
-          "mlt": 1791,
-          "p05": 1249,
-          "p95": 2280,
-          "source": "real-ana-telemetria"
+          "level": 2710,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-22",
-          "level": 1963,
-          "mlt": 1785,
-          "p05": 1249,
-          "p95": 2264,
-          "source": "real-ana-telemetria"
+          "level": 2713,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-23",
-          "level": 1954,
-          "mlt": 1779,
-          "p05": 1249,
-          "p95": 2248,
-          "source": "real-ana-telemetria"
+          "level": 2716,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-24",
-          "level": 1947,
-          "mlt": 1774,
-          "p05": 1249,
-          "p95": 2227,
-          "source": "real-ana-telemetria"
+          "level": 2719,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-25",
-          "level": 1940,
-          "mlt": 1769,
-          "p05": 1249,
-          "p95": 2208,
-          "source": "real-ana-telemetria"
+          "level": 2722,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-26",
-          "level": 1933,
-          "mlt": 1765,
-          "p05": 1249,
-          "p95": 2187,
-          "source": "real-ana-telemetria"
+          "level": 2724,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-27",
-          "level": 1926,
-          "mlt": 1761,
-          "p05": 1249,
-          "p95": 2172,
-          "source": "real-ana-telemetria"
+          "level": 2727,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-28",
-          "level": 1919,
-          "mlt": 1758,
-          "p05": 1249,
-          "p95": 2157,
-          "source": "real-ana-telemetria"
+          "level": 2730,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-29",
-          "level": 1912,
-          "mlt": 1755,
-          "p05": 1249,
-          "p95": 2139,
-          "source": "real-ana-telemetria"
+          "level": 2732,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-30",
-          "level": 1906,
-          "mlt": 1752,
-          "p05": 1249,
-          "p95": 2119,
-          "source": "real-ana-telemetria"
+          "level": 2735,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-10-31",
-          "level": 1901,
-          "mlt": 1750,
-          "p05": 1249,
-          "p95": 2104,
-          "source": "real-ana-telemetria"
+          "level": 2738,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-01",
-          "level": 1897,
-          "mlt": 1748,
-          "p05": 1249,
-          "p95": 2092,
-          "source": "real-ana-telemetria"
+          "level": 2740,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-02",
-          "level": 1893,
-          "mlt": 1746,
-          "p05": 1249,
-          "p95": 2084,
-          "source": "real-ana-telemetria"
+          "level": 2743,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-03",
-          "level": 1889,
-          "mlt": 1745,
-          "p05": 1249,
-          "p95": 2074,
-          "source": "real-ana-telemetria"
+          "level": 2745,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-04",
-          "level": 1887,
-          "mlt": 1744,
-          "p05": 1249,
-          "p95": 2072,
-          "source": "real-ana-telemetria"
+          "level": 2748,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-05",
-          "level": 1885,
-          "mlt": 1744,
-          "p05": 1249,
-          "p95": 2070,
-          "source": "real-ana-telemetria"
+          "level": 2750,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-06",
-          "level": 1884,
-          "mlt": 1744,
-          "p05": 1251,
-          "p95": 2069,
-          "source": "real-ana-telemetria"
+          "level": 2753,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-07",
-          "level": 1885,
-          "mlt": 1744,
-          "p05": 1253,
-          "p95": 2067,
-          "source": "real-ana-telemetria"
+          "level": 2755,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-08",
-          "level": 1884,
-          "mlt": 1745,
-          "p05": 1254,
-          "p95": 2063,
-          "source": "real-ana-telemetria"
+          "level": 2758,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-09",
-          "level": 1884,
-          "mlt": 1746,
-          "p05": 1255,
-          "p95": 2064,
-          "source": "real-ana-telemetria"
+          "level": 2760,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-10",
-          "level": 1883,
-          "mlt": 1747,
-          "p05": 1256,
-          "p95": 2067,
-          "source": "real-ana-telemetria"
+          "level": 2763,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-11",
-          "level": 1884,
-          "mlt": 1749,
-          "p05": 1260,
-          "p95": 2070,
-          "source": "real-ana-telemetria"
+          "level": 2765,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-12",
-          "level": 1887,
-          "mlt": 1751,
-          "p05": 1265,
-          "p95": 2072,
-          "source": "real-ana-telemetria"
+          "level": 2767,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-13",
-          "level": 1889,
-          "mlt": 1753,
-          "p05": 1266,
-          "p95": 2074,
-          "source": "real-ana-telemetria"
+          "level": 2770,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-14",
-          "level": 1893,
-          "mlt": 1755,
-          "p05": 1268,
-          "p95": 2082,
-          "source": "real-ana-telemetria"
+          "level": 2772,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-15",
-          "level": 1896,
-          "mlt": 1758,
-          "p05": 1270,
-          "p95": 2090,
-          "source": "real-ana-telemetria"
+          "level": 2774,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-16",
-          "level": 1900,
-          "mlt": 1761,
-          "p05": 1272,
-          "p95": 2097,
-          "source": "real-ana-telemetria"
+          "level": 2777,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-17",
-          "level": 1903,
-          "mlt": 1765,
-          "p05": 1274,
-          "p95": 2106,
-          "source": "real-ana-telemetria"
+          "level": 2779,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-18",
-          "level": 1905,
-          "mlt": 1768,
-          "p05": 1278,
-          "p95": 2112,
-          "source": "real-ana-telemetria"
+          "level": 2781,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-19",
-          "level": 1907,
-          "mlt": 1772,
-          "p05": 1281,
-          "p95": 2121,
-          "source": "real-ana-telemetria"
+          "level": 2784,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-20",
-          "level": 1911,
-          "mlt": 1777,
-          "p05": 1284,
-          "p95": 2129,
-          "source": "real-ana-telemetria"
+          "level": 2786,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-21",
-          "level": 1914,
-          "mlt": 1781,
-          "p05": 1288,
-          "p95": 2137,
-          "source": "real-ana-telemetria"
+          "level": 2788,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-22",
-          "level": 1917,
-          "mlt": 1786,
-          "p05": 1289,
-          "p95": 2145,
-          "source": "real-ana-telemetria"
+          "level": 2790,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-23",
-          "level": 1920,
-          "mlt": 1791,
-          "p05": 1290,
-          "p95": 2154,
-          "source": "real-ana-telemetria"
+          "level": 2793,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-24",
-          "level": 1925,
-          "mlt": 1796,
-          "p05": 1293,
-          "p95": 2162,
-          "source": "real-ana-telemetria"
+          "level": 2795,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-25",
-          "level": 1930,
-          "mlt": 1802,
-          "p05": 1297,
-          "p95": 2169,
-          "source": "real-ana-telemetria"
+          "level": 2797,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-26",
-          "level": 1935,
-          "mlt": 1807,
-          "p05": 1299,
-          "p95": 2178,
-          "source": "real-ana-telemetria"
+          "level": 2799,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-27",
-          "level": 1940,
-          "mlt": 1813,
-          "p05": 1303,
-          "p95": 2185,
-          "source": "real-ana-telemetria"
+          "level": 2801,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-28",
-          "level": 1946,
-          "mlt": 1819,
-          "p05": 1306,
-          "p95": 2188,
-          "source": "real-ana-telemetria"
+          "level": 2803,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-29",
-          "level": 1954,
-          "mlt": 1826,
-          "p05": 1309,
-          "p95": 2198,
-          "source": "real-ana-telemetria"
+          "level": 2806,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-11-30",
-          "level": 1965,
-          "mlt": 1832,
-          "p05": 1311,
-          "p95": 2209,
-          "source": "real-ana-telemetria"
+          "level": 2808,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-01",
-          "level": 1975,
-          "mlt": 1839,
-          "p05": 1312,
-          "p95": 2217,
-          "source": "real-ana-telemetria"
+          "level": 2810,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-02",
-          "level": 1984,
-          "mlt": 1846,
-          "p05": 1313,
-          "p95": 2227,
-          "source": "real-ana-telemetria"
+          "level": 2812,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-03",
-          "level": 1994,
-          "mlt": 1852,
-          "p05": 1320,
-          "p95": 2236,
-          "source": "real-ana-telemetria"
+          "level": 2814,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-04",
-          "level": 2006,
-          "mlt": 1860,
-          "p05": 1338,
-          "p95": 2246,
-          "source": "real-ana-telemetria"
+          "level": 2816,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-05",
-          "level": 2019,
-          "mlt": 1867,
-          "p05": 1358,
-          "p95": 2255,
-          "source": "real-ana-telemetria"
+          "level": 2818,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-06",
-          "level": 2029,
-          "mlt": 1874,
-          "p05": 1373,
-          "p95": 2265,
-          "source": "real-ana-telemetria"
+          "level": 2821,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-07",
-          "level": 2040,
-          "mlt": 1882,
-          "p05": 1388,
-          "p95": 2274,
-          "source": "real-ana-telemetria"
+          "level": 2823,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-08",
-          "level": 2052,
-          "mlt": 1889,
-          "p05": 1402,
-          "p95": 2282,
-          "source": "real-ana-telemetria"
+          "level": 2825,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-09",
-          "level": 2062,
-          "mlt": 1897,
-          "p05": 1409,
-          "p95": 2290,
-          "source": "real-ana-telemetria"
+          "level": 2827,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-10",
-          "level": 2072,
-          "mlt": 1904,
-          "p05": 1419,
-          "p95": 2298,
-          "source": "real-ana-telemetria"
+          "level": 2829,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-11",
-          "level": 2082,
-          "mlt": 1912,
-          "p05": 1422,
-          "p95": 2306,
-          "source": "real-ana-telemetria"
+          "level": 2831,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-12",
-          "level": 2091,
-          "mlt": 1920,
-          "p05": 1424,
-          "p95": 2314,
-          "source": "real-ana-telemetria"
+          "level": 2833,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-13",
-          "level": 2099,
-          "mlt": 1928,
-          "p05": 1429,
-          "p95": 2321,
-          "source": "real-ana-telemetria"
+          "level": 2835,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-14",
-          "level": 2106,
-          "mlt": 1936,
-          "p05": 1433,
-          "p95": 2328,
-          "source": "real-ana-telemetria"
+          "level": 2837,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-15",
-          "level": 2114,
-          "mlt": 1944,
-          "p05": 1438,
-          "p95": 2336,
-          "source": "real-ana-telemetria"
+          "level": 2840,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-16",
-          "level": 2123,
-          "mlt": 1952,
-          "p05": 1444,
-          "p95": 2345,
-          "source": "real-ana-telemetria"
+          "level": 2842,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-17",
-          "level": 2130,
-          "mlt": 1960,
-          "p05": 1451,
-          "p95": 2353,
-          "source": "real-ana-telemetria"
+          "level": 2844,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-18",
-          "level": 2137,
-          "mlt": 1968,
-          "p05": 1459,
-          "p95": 2359,
-          "source": "real-ana-telemetria"
+          "level": 2846,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-19",
-          "level": 2146,
-          "mlt": 1976,
-          "p05": 1466,
-          "p95": 2364,
-          "source": "real-ana-telemetria"
+          "level": 2848,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-20",
-          "level": 2155,
-          "mlt": 1984,
-          "p05": 1476,
-          "p95": 2371,
-          "source": "real-ana-telemetria"
+          "level": 2850,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-21",
-          "level": 2162,
-          "mlt": 1992,
-          "p05": 1483,
-          "p95": 2376,
-          "source": "real-ana-telemetria"
+          "level": 2852,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-22",
-          "level": 2168,
-          "mlt": 2000,
-          "p05": 1491,
-          "p95": 2381,
-          "source": "real-ana-telemetria"
+          "level": 2854,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-23",
-          "level": 2171,
-          "mlt": 2008,
-          "p05": 1500,
-          "p95": 2386,
-          "source": "real-ana-telemetria"
+          "level": 2856,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-24",
-          "level": 2178,
-          "mlt": 2017,
-          "p05": 1510,
-          "p95": 2390,
-          "source": "real-ana-telemetria"
+          "level": 2858,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-25",
-          "level": 2182,
-          "mlt": 2025,
-          "p05": 1520,
-          "p95": 2395,
-          "source": "real-ana-telemetria"
+          "level": 2861,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-26",
-          "level": 2184,
-          "mlt": 2033,
-          "p05": 1531,
-          "p95": 2399,
-          "source": "real-ana-telemetria"
+          "level": 2863,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-27",
-          "level": 2186,
-          "mlt": 2041,
-          "p05": 1545,
-          "p95": 2402,
-          "source": "real-ana-telemetria"
+          "level": 2865,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-28",
-          "level": 2188,
-          "mlt": 2049,
-          "p05": 1558,
-          "p95": 2407,
-          "source": "real-ana-telemetria"
+          "level": 2867,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-29",
-          "level": 2190,
-          "mlt": 2057,
-          "p05": 1572,
-          "p95": 2409,
-          "source": "real-ana-telemetria"
+          "level": 2869,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-30",
-          "level": 2192,
-          "mlt": 2066,
-          "p05": 1585,
-          "p95": 2415,
-          "source": "real-ana-telemetria"
+          "level": 2871,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2025-12-31",
-          "level": 2194,
-          "mlt": 2074,
-          "p05": 1600,
-          "p95": 2417,
-          "source": "real-ana-telemetria"
+          "level": 2873,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-01",
-          "level": 2196,
-          "mlt": 2082,
-          "p05": 1618,
-          "p95": 2419,
-          "source": "real-ana-telemetria"
+          "level": 2875,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-02",
-          "level": 2198,
-          "mlt": 2090,
-          "p05": 1635,
-          "p95": 2422,
-          "source": "real-ana-telemetria"
+          "level": 2877,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-03",
-          "level": 2198,
-          "mlt": 2098,
-          "p05": 1652,
-          "p95": 2424,
-          "source": "real-ana-telemetria"
+          "level": 2879,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-04",
-          "level": 2197,
-          "mlt": 2106,
-          "p05": 1669,
-          "p95": 2427,
-          "source": "real-ana-telemetria"
+          "level": 2881,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-05",
-          "level": 2196,
-          "mlt": 2114,
-          "p05": 1684,
-          "p95": 2430,
-          "source": "real-ana-telemetria"
+          "level": 2883,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-06",
-          "level": 2198,
-          "mlt": 2122,
-          "p05": 1701,
-          "p95": 2434,
-          "source": "real-ana-telemetria"
+          "level": 2885,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-07",
-          "level": 2199,
-          "mlt": 2130,
-          "p05": 1714,
-          "p95": 2435,
-          "source": "real-ana-telemetria"
+          "level": 2887,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-08",
-          "level": 2199,
-          "mlt": 2138,
-          "p05": 1719,
-          "p95": 2438,
-          "source": "real-ana-telemetria"
+          "level": 2889,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-09",
-          "level": 2199,
-          "mlt": 2146,
-          "p05": 1721,
-          "p95": 2441,
-          "source": "real-ana-telemetria"
+          "level": 2891,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-10",
-          "level": 2200,
-          "mlt": 2154,
-          "p05": 1723,
-          "p95": 2442,
-          "source": "real-ana-telemetria"
+          "level": 2893,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-11",
-          "level": 2200,
-          "mlt": 2162,
-          "p05": 1735,
-          "p95": 2445,
-          "source": "real-ana-telemetria"
+          "level": 2895,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-12",
-          "level": 2199,
-          "mlt": 2169,
-          "p05": 1747,
-          "p95": 2447,
-          "source": "real-ana-telemetria"
+          "level": 2897,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-13",
-          "level": 2200,
-          "mlt": 2177,
-          "p05": 1760,
-          "p95": 2449,
-          "source": "real-ana-telemetria"
+          "level": 2899,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-14",
-          "level": 2200,
-          "mlt": 2184,
-          "p05": 1776,
-          "p95": 2450,
-          "source": "real-ana-telemetria"
+          "level": 2901,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-15",
-          "level": 2199,
-          "mlt": 2192,
-          "p05": 1791,
-          "p95": 2455,
-          "source": "real-ana-telemetria"
+          "level": 2903,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-16",
-          "level": 2198,
-          "mlt": 2199,
-          "p05": 1807,
-          "p95": 2460,
-          "source": "real-ana-telemetria"
+          "level": 2905,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-17",
-          "level": 2198,
-          "mlt": 2207,
-          "p05": 1825,
-          "p95": 2465,
-          "source": "real-ana-telemetria"
+          "level": 2907,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-18",
-          "level": 2198,
-          "mlt": 2214,
-          "p05": 1841,
-          "p95": 2471,
-          "source": "real-ana-telemetria"
+          "level": 2909,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-19",
-          "level": 2199,
-          "mlt": 2221,
-          "p05": 1858,
-          "p95": 2476,
-          "source": "real-ana-telemetria"
+          "level": 2911,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-20",
-          "level": 2200,
-          "mlt": 2228,
-          "p05": 1876,
-          "p95": 2482,
-          "source": "real-ana-telemetria"
+          "level": 2913,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-21",
-          "level": 2205,
-          "mlt": 2235,
-          "p05": 1892,
-          "p95": 2487,
-          "source": "real-ana-telemetria"
+          "level": 2914,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-22",
-          "level": 2212,
-          "mlt": 2242,
-          "p05": 1905,
-          "p95": 2492,
-          "source": "real-ana-telemetria"
+          "level": 2916,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-23",
-          "level": 2218,
-          "mlt": 2248,
-          "p05": 1911,
-          "p95": 2497,
-          "source": "real-ana-telemetria"
+          "level": 2918,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-24",
-          "level": 2224,
-          "mlt": 2255,
-          "p05": 1915,
-          "p95": 2500,
-          "source": "real-ana-telemetria"
+          "level": 2920,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-25",
-          "level": 2231,
-          "mlt": 2262,
-          "p05": 1921,
-          "p95": 2506,
-          "source": "real-ana-telemetria"
+          "level": 2922,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-26",
-          "level": 2238,
-          "mlt": 2268,
-          "p05": 1931,
-          "p95": 2511,
-          "source": "real-ana-telemetria"
+          "level": 2923,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-27",
-          "level": 2246,
-          "mlt": 2275,
-          "p05": 1942,
-          "p95": 2517,
-          "source": "real-ana-telemetria"
+          "level": 2925,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-28",
-          "level": 2253,
-          "mlt": 2281,
-          "p05": 1953,
-          "p95": 2521,
-          "source": "real-ana-telemetria"
+          "level": 2927,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-29",
-          "level": 2261,
-          "mlt": 2287,
-          "p05": 1962,
-          "p95": 2527,
-          "source": "real-ana-telemetria"
+          "level": 2928,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-30",
-          "level": 2269,
-          "mlt": 2293,
-          "p05": 1970,
-          "p95": 2530,
-          "source": "real-ana-telemetria"
+          "level": 2930,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-01-31",
-          "level": 2278,
-          "mlt": 2300,
-          "p05": 1979,
-          "p95": 2534,
-          "source": "real-ana-telemetria"
+          "level": 2931,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-01",
-          "level": 2288,
-          "mlt": 2305,
-          "p05": 1988,
-          "p95": 2539,
-          "source": "real-ana-telemetria"
+          "level": 2933,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-02",
-          "level": 2298,
-          "mlt": 2311,
-          "p05": 1999,
-          "p95": 2544,
-          "source": "real-ana-telemetria"
+          "level": 2934,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-03",
-          "level": 2306,
-          "mlt": 2317,
-          "p05": 2010,
-          "p95": 2550,
-          "source": "real-ana-telemetria"
+          "level": 2936,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-04",
-          "level": 2315,
-          "mlt": 2323,
-          "p05": 2020,
-          "p95": 2554,
-          "source": "real-ana-telemetria"
+          "level": 2937,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-05",
-          "level": 2322,
-          "mlt": 2329,
-          "p05": 2033,
-          "p95": 2558,
-          "source": "real-ana-telemetria"
+          "level": 2939,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-06",
-          "level": 2333,
-          "mlt": 2334,
-          "p05": 2044,
-          "p95": 2561,
-          "source": "real-ana-telemetria"
+          "level": 2940,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-07",
-          "level": 2343,
-          "mlt": 2340,
-          "p05": 2055,
-          "p95": 2565,
-          "source": "real-ana-telemetria"
+          "level": 2941,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-08",
-          "level": 2351,
-          "mlt": 2345,
-          "p05": 2064,
-          "p95": 2569,
-          "source": "real-ana-telemetria"
+          "level": 2942,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-09",
-          "level": 2360,
-          "mlt": 2350,
-          "p05": 2072,
-          "p95": 2572,
-          "source": "real-ana-telemetria"
+          "level": 2944,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-10",
-          "level": 2368,
-          "mlt": 2356,
-          "p05": 2078,
-          "p95": 2575,
-          "source": "real-ana-telemetria"
+          "level": 2945,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-11",
-          "level": 2375,
-          "mlt": 2361,
-          "p05": 2086,
-          "p95": 2578,
-          "source": "real-ana-telemetria"
+          "level": 2946,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-12",
-          "level": 2382,
-          "mlt": 2366,
-          "p05": 2093,
-          "p95": 2580,
-          "source": "real-ana-telemetria"
+          "level": 2947,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-13",
-          "level": 2388,
-          "mlt": 2371,
-          "p05": 2102,
-          "p95": 2582,
-          "source": "real-ana-telemetria"
+          "level": 2948,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-14",
-          "level": 2394,
-          "mlt": 2376,
-          "p05": 2108,
-          "p95": 2584,
-          "source": "real-ana-telemetria"
+          "level": 2949,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-15",
-          "level": 2399,
-          "mlt": 2381,
-          "p05": 2118,
-          "p95": 2586,
-          "source": "real-ana-telemetria"
+          "level": 2950,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-16",
-          "level": 2405,
-          "mlt": 2386,
-          "p05": 2130,
-          "p95": 2588,
-          "source": "real-ana-telemetria"
+          "level": 2951,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-17",
-          "level": 2409,
-          "mlt": 2391,
-          "p05": 2137,
-          "p95": 2592,
-          "source": "real-ana-telemetria"
+          "level": 2951,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-18",
-          "level": 2418,
-          "mlt": 2396,
-          "p05": 2146,
-          "p95": 2596,
-          "source": "real-ana-telemetria"
+          "level": 2952,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-19",
-          "level": 2424,
-          "mlt": 2401,
-          "p05": 2151,
-          "p95": 2600,
-          "source": "real-ana-telemetria"
+          "level": 2953,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-20",
-          "level": 2427,
-          "mlt": 2406,
-          "p05": 2157,
-          "p95": 2604,
-          "source": "real-ana-telemetria"
+          "level": 2953,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-21",
-          "level": 2431,
-          "mlt": 2411,
-          "p05": 2162,
-          "p95": 2608,
-          "source": "real-ana-telemetria"
+          "level": 2954,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-22",
-          "level": 2434,
-          "mlt": 2416,
-          "p05": 2169,
-          "p95": 2614,
-          "source": "real-ana-telemetria"
+          "level": 2954,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-23",
-          "level": 2438,
-          "mlt": 2421,
-          "p05": 2176,
-          "p95": 2619,
-          "source": "real-ana-telemetria"
+          "level": 2955,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-24",
-          "level": 2441,
-          "mlt": 2426,
-          "p05": 2181,
-          "p95": 2627,
-          "source": "real-ana-telemetria"
+          "level": 2955,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-25",
-          "level": 2442,
-          "mlt": 2430,
-          "p05": 2185,
-          "p95": 2632,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-26",
-          "level": 2445,
-          "mlt": 2435,
-          "p05": 2189,
-          "p95": 2637,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-27",
-          "level": 2447,
-          "mlt": 2440,
-          "p05": 2191,
-          "p95": 2644,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-02-28",
-          "level": 2449,
-          "mlt": 2444,
-          "p05": 2193,
-          "p95": 2650,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-01",
-          "level": 2451,
-          "mlt": 2449,
-          "p05": 2199,
-          "p95": 2657,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-02",
-          "level": 2452,
-          "mlt": 2454,
-          "p05": 2209,
-          "p95": 2664,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-03",
-          "level": 2454,
-          "mlt": 2458,
-          "p05": 2215,
-          "p95": 2672,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-04",
-          "level": 2455,
-          "mlt": 2463,
-          "p05": 2220,
-          "p95": 2679,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-05",
-          "level": 2456,
-          "mlt": 2468,
-          "p05": 2221,
-          "p95": 2685,
-          "source": "real-ana-telemetria"
+          "level": 2956,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-06",
-          "level": 2457,
-          "mlt": 2472,
-          "p05": 2223,
-          "p95": 2692,
-          "source": "real-ana-telemetria"
+          "level": 2955,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-07",
-          "level": 2459,
-          "mlt": 2477,
-          "p05": 2226,
-          "p95": 2699,
-          "source": "real-ana-telemetria"
+          "level": 2955,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-08",
-          "level": 2460,
-          "mlt": 2481,
-          "p05": 2234,
-          "p95": 2705,
-          "source": "real-ana-telemetria"
+          "level": 2954,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-09",
-          "level": 2463,
-          "mlt": 2486,
-          "p05": 2239,
-          "p95": 2711,
-          "source": "real-ana-telemetria"
+          "level": 2954,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-10",
-          "level": 2465,
-          "mlt": 2490,
-          "p05": 2245,
-          "p95": 2718,
-          "source": "real-ana-telemetria"
+          "level": 2953,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-11",
-          "level": 2468,
-          "mlt": 2495,
-          "p05": 2249,
-          "p95": 2726,
-          "source": "real-ana-telemetria"
+          "level": 2953,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-12",
-          "level": 2471,
-          "mlt": 2499,
-          "p05": 2256,
-          "p95": 2731,
-          "source": "real-ana-telemetria"
+          "level": 2952,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-13",
-          "level": 2474,
-          "mlt": 2504,
-          "p05": 2261,
-          "p95": 2737,
-          "source": "real-ana-telemetria"
+          "level": 2951,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-14",
-          "level": 2477,
-          "mlt": 2509,
-          "p05": 2265,
-          "p95": 2744,
-          "source": "real-ana-telemetria"
+          "level": 2950,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-15",
-          "level": 2480,
-          "mlt": 2513,
-          "p05": 2270,
-          "p95": 2750,
-          "source": "real-ana-telemetria"
+          "level": 2949,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-16",
-          "level": 2481,
-          "mlt": 2518,
-          "p05": 2274,
-          "p95": 2755,
-          "source": "real-ana-telemetria"
+          "level": 2948,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-17",
-          "level": 2483,
-          "mlt": 2522,
-          "p05": 2278,
-          "p95": 2760,
-          "source": "real-ana-telemetria"
+          "level": 2947,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-18",
-          "level": 2485,
-          "mlt": 2527,
-          "p05": 2285,
-          "p95": 2764,
-          "source": "real-ana-telemetria"
+          "level": 2946,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-19",
-          "level": 2493,
-          "mlt": 2532,
-          "p05": 2290,
-          "p95": 2769,
-          "source": "real-ana-telemetria"
+          "level": 2944,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-20",
-          "level": 2498,
-          "mlt": 2536,
-          "p05": 2295,
-          "p95": 2774,
-          "source": "real-ana-telemetria"
+          "level": 2943,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-21",
-          "level": 2501,
-          "mlt": 2541,
-          "p05": 2303,
-          "p95": 2778,
-          "source": "real-ana-telemetria"
+          "level": 2942,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-22",
-          "level": 2504,
-          "mlt": 2546,
-          "p05": 2308,
-          "p95": 2782,
-          "source": "real-ana-telemetria"
+          "level": 2940,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-23",
-          "level": 2507,
-          "mlt": 2550,
-          "p05": 2314,
-          "p95": 2785,
-          "source": "real-ana-telemetria"
+          "level": 2939,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-24",
-          "level": 2510,
-          "mlt": 2555,
-          "p05": 2320,
-          "p95": 2789,
-          "source": "real-ana-telemetria"
+          "level": 2937,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-25",
-          "level": 2516,
-          "mlt": 2560,
-          "p05": 2330,
-          "p95": 2793,
-          "source": "real-ana-telemetria"
+          "level": 2935,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-26",
-          "level": 2521,
-          "mlt": 2565,
-          "p05": 2338,
-          "p95": 2796,
-          "source": "real-ana-telemetria"
+          "level": 2933,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-27",
-          "level": 2525,
-          "mlt": 2569,
-          "p05": 2345,
-          "p95": 2800,
-          "source": "real-ana-telemetria"
+          "level": 2931,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-28",
-          "level": 2533,
-          "mlt": 2574,
-          "p05": 2352,
-          "p95": 2806,
-          "source": "real-ana-telemetria"
+          "level": 2930,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-29",
-          "level": 2535,
-          "mlt": 2579,
-          "p05": 2356,
-          "p95": 2811,
-          "source": "real-ana-telemetria"
+          "level": 2928,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-30",
-          "level": 2537,
-          "mlt": 2584,
-          "p05": 2360,
-          "p95": 2814,
-          "source": "real-ana-telemetria"
+          "level": 2925,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-03-31",
-          "level": 2543,
-          "mlt": 2588,
-          "p05": 2366,
-          "p95": 2819,
-          "source": "real-ana-telemetria"
+          "level": 2923,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-01",
-          "level": 2548,
-          "mlt": 2593,
-          "p05": 2371,
-          "p95": 2824,
-          "source": "real-ana-telemetria"
+          "level": 2921,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-02",
-          "level": 2549,
-          "mlt": 2598,
-          "p05": 2375,
-          "p95": 2830,
-          "source": "real-ana-telemetria"
+          "level": 2919,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-03",
-          "level": 2551,
-          "mlt": 2602,
-          "p05": 2381,
-          "p95": 2835,
-          "source": "real-ana-telemetria"
+          "level": 2916,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-04",
-          "level": 2562,
-          "mlt": 2607,
-          "p05": 2387,
-          "p95": 2841,
-          "source": "real-ana-telemetria"
+          "level": 2914,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-05",
-          "level": 2564,
-          "mlt": 2612,
-          "p05": 2393,
-          "p95": 2846,
-          "source": "real-ana-telemetria"
+          "level": 2911,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-06",
-          "level": 2566,
-          "mlt": 2617,
-          "p05": 2398,
-          "p95": 2849,
-          "source": "real-ana-telemetria"
+          "level": 2909,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-07",
-          "level": 2570,
-          "mlt": 2621,
-          "p05": 2402,
-          "p95": 2853,
-          "source": "real-ana-telemetria"
+          "level": 2906,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-08",
-          "level": 2575,
-          "mlt": 2626,
-          "p05": 2407,
-          "p95": 2858,
-          "source": "real-ana-telemetria"
+          "level": 2903,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-09",
-          "level": 2580,
-          "mlt": 2631,
-          "p05": 2411,
-          "p95": 2862,
-          "source": "real-ana-telemetria"
+          "level": 2901,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-10",
-          "level": 2584,
-          "mlt": 2635,
-          "p05": 2416,
-          "p95": 2865,
-          "source": "real-ana-telemetria"
+          "level": 2898,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-11",
-          "level": 2588,
-          "mlt": 2640,
-          "p05": 2424,
-          "p95": 2869,
-          "source": "real-ana-telemetria"
+          "level": 2895,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-12",
-          "level": 2594,
-          "mlt": 2645,
-          "p05": 2432,
-          "p95": 2873,
-          "source": "real-ana-telemetria"
+          "level": 2892,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-13",
-          "level": 2599,
-          "mlt": 2649,
-          "p05": 2437,
-          "p95": 2877,
-          "source": "real-ana-telemetria"
+          "level": 2889,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-14",
-          "level": 2607,
-          "mlt": 2654,
-          "p05": 2440,
-          "p95": 2881,
-          "source": "real-ana-telemetria"
+          "level": 2886,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-15",
-          "level": 2615,
-          "mlt": 2659,
-          "p05": 2441,
-          "p95": 2886,
-          "source": "real-ana-telemetria"
+          "level": 2883,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-16",
-          "level": 2619,
-          "mlt": 2663,
-          "p05": 2442,
-          "p95": 2891,
-          "source": "real-ana-telemetria"
+          "level": 2880,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-17",
-          "level": 2624,
-          "mlt": 2668,
-          "p05": 2442,
-          "p95": 2896,
-          "source": "real-ana-telemetria"
+          "level": 2877,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-18",
-          "level": 2627,
-          "mlt": 2672,
-          "p05": 2442,
-          "p95": 2900,
-          "source": "real-ana-telemetria"
+          "level": 2873,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-19",
-          "level": 2631,
-          "mlt": 2677,
-          "p05": 2443,
-          "p95": 2905,
-          "source": "real-ana-telemetria"
+          "level": 2870,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-20",
-          "level": 2634,
-          "mlt": 2681,
-          "p05": 2444,
-          "p95": 2908,
-          "source": "real-ana-telemetria"
+          "level": 2867,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-21",
-          "level": 2638,
-          "mlt": 2686,
-          "p05": 2445,
-          "p95": 2911,
-          "source": "real-ana-telemetria"
+          "level": 2863,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-22",
-          "level": 2643,
-          "mlt": 2690,
-          "p05": 2445,
-          "p95": 2914,
-          "source": "real-ana-telemetria"
+          "level": 2860,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-23",
-          "level": 2649,
-          "mlt": 2695,
-          "p05": 2446,
-          "p95": 2917,
-          "source": "real-ana-telemetria"
+          "level": 2857,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-24",
-          "level": 2653,
-          "mlt": 2699,
-          "p05": 2448,
+          "level": 2853,
+          "mlt": 2680,
+          "p05": 2140,
           "p95": 2920,
-          "source": "real-ana-telemetria"
+          "source": "demo"
         },
         {
           "date": "2026-04-25",
-          "level": 2656,
-          "mlt": 2704,
-          "p05": 2451,
-          "p95": 2923,
-          "source": "real-ana-telemetria"
+          "level": 2850,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-26",
-          "level": 2661,
-          "mlt": 2708,
-          "p05": 2457,
-          "p95": 2925,
-          "source": "real-ana-telemetria"
+          "level": 2846,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-27",
-          "level": 2665,
-          "mlt": 2713,
-          "p05": 2463,
-          "p95": 2928,
-          "source": "real-ana-telemetria"
+          "level": 2843,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-28",
-          "level": 2668,
-          "mlt": 2717,
-          "p05": 2468,
-          "p95": 2931,
-          "source": "real-ana-telemetria"
+          "level": 2839,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-29",
-          "level": 2672,
-          "mlt": 2721,
-          "p05": 2475,
-          "p95": 2933,
-          "source": "real-ana-telemetria"
+          "level": 2835,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-04-30",
-          "level": 2675,
-          "mlt": 2726,
-          "p05": 2480,
-          "p95": 2935,
-          "source": "real-ana-telemetria"
+          "level": 2832,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-01",
-          "level": 2680,
-          "mlt": 2730,
-          "p05": 2487,
-          "p95": 2936,
-          "source": "real-ana-telemetria"
+          "level": 2828,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-02",
-          "level": 2683,
-          "mlt": 2734,
-          "p05": 2493,
-          "p95": 2938,
-          "source": "real-ana-telemetria"
+          "level": 2824,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-03",
-          "level": 2688,
-          "mlt": 2738,
-          "p05": 2498,
-          "p95": 2940,
-          "source": "real-ana-telemetria"
+          "level": 2821,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-04",
-          "level": 2694,
-          "mlt": 2742,
-          "p05": 2505,
-          "p95": 2943,
-          "source": "real-ana-telemetria"
+          "level": 2817,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-05",
-          "level": 2698,
-          "mlt": 2747,
-          "p05": 2511,
-          "p95": 2945,
-          "source": "real-ana-telemetria"
+          "level": 2813,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-06",
-          "level": 2704,
-          "mlt": 2751,
-          "p05": 2518,
-          "p95": 2948,
-          "source": "real-ana-telemetria"
+          "level": 2810,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-07",
-          "level": 2708,
-          "mlt": 2755,
-          "p05": 2523,
-          "p95": 2951,
-          "source": "real-ana-telemetria"
+          "level": 2806,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-08",
-          "level": 2711,
-          "mlt": 2759,
-          "p05": 2528,
-          "p95": 2953,
-          "source": "real-ana-telemetria"
+          "level": 2802,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-09",
-          "level": 2714,
-          "mlt": 2763,
-          "p05": 2534,
-          "p95": 2956,
-          "source": "real-ana-telemetria"
+          "level": 2798,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-10",
-          "level": 2716,
-          "mlt": 2767,
-          "p05": 2538,
-          "p95": 2960,
-          "source": "real-ana-telemetria"
+          "level": 2795,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-11",
-          "level": 2718,
-          "mlt": 2770,
-          "p05": 2543,
-          "p95": 2960,
-          "source": "real-ana-telemetria"
+          "level": 2791,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-12",
-          "level": 2721,
-          "mlt": 2774,
-          "p05": 2548,
-          "p95": 2961,
-          "source": "real-ana-telemetria"
+          "level": 2787,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-13",
-          "level": 2727,
-          "mlt": 2778,
-          "p05": 2553,
-          "p95": 2964,
-          "source": "real-ana-telemetria"
+          "level": 2783,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-14",
-          "level": 2729,
-          "mlt": 2782,
-          "p05": 2557,
-          "p95": 2966,
-          "source": "real-ana-telemetria"
+          "level": 2780,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-15",
-          "level": 2734,
-          "mlt": 2785,
-          "p05": 2563,
-          "p95": 2968,
-          "source": "real-ana-telemetria"
+          "level": 2776,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-16",
-          "level": 2738,
-          "mlt": 2789,
-          "p05": 2566,
-          "p95": 2970,
-          "source": "real-ana-telemetria"
+          "level": 2772,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-17",
-          "level": 2740,
-          "mlt": 2792,
-          "p05": 2570,
-          "p95": 2973,
-          "source": "real-ana-telemetria"
+          "level": 2769,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-18",
-          "level": 2742,
-          "mlt": 2796,
-          "p05": 2574,
-          "p95": 2974,
-          "source": "real-ana-telemetria"
+          "level": 2765,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-19",
-          "level": 2745,
-          "mlt": 2799,
-          "p05": 2577,
-          "p95": 2976,
-          "source": "real-ana-telemetria"
+          "level": 2761,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-20",
-          "level": 2747,
-          "mlt": 2802,
-          "p05": 2582,
-          "p95": 2980,
-          "source": "real-ana-telemetria"
+          "level": 2758,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-21",
-          "level": 2752,
-          "mlt": 2805,
-          "p05": 2586,
-          "p95": 2983,
-          "source": "real-ana-telemetria"
+          "level": 2754,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-22",
-          "level": 2756,
-          "mlt": 2808,
-          "p05": 2592,
-          "p95": 2985,
-          "source": "real-ana-telemetria"
+          "level": 2751,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-23",
-          "level": 2760,
-          "mlt": 2811,
-          "p05": 2598,
-          "p95": 2986,
-          "source": "real-ana-telemetria"
+          "level": 2747,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-24",
-          "level": 2764,
-          "mlt": 2814,
-          "p05": 2603,
-          "p95": 2988,
-          "source": "real-ana-telemetria"
+          "level": 2744,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-25",
-          "level": 2767,
-          "mlt": 2817,
-          "p05": 2608,
-          "p95": 2989,
-          "source": "real-ana-telemetria"
+          "level": 2740,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-26",
-          "level": 2770,
-          "mlt": 2820,
-          "p05": 2612,
-          "p95": 2991,
-          "source": "real-ana-telemetria"
+          "level": 2737,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-27",
-          "level": 2774,
-          "mlt": 2822,
-          "p05": 2616,
-          "p95": 2992,
-          "source": "real-ana-telemetria"
+          "level": 2734,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-28",
-          "level": 2778,
-          "mlt": 2825,
-          "p05": 2620,
-          "p95": 2993,
-          "source": "real-ana-telemetria"
+          "level": 2730,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-29",
-          "level": 2780,
-          "mlt": 2827,
-          "p05": 2624,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2727,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-30",
-          "level": 2783,
-          "mlt": 2829,
-          "p05": 2630,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2724,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-05-31",
-          "level": 2789,
-          "mlt": 2831,
-          "p05": 2636,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2721,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-01",
-          "level": 2795,
-          "mlt": 2833,
-          "p05": 2640,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2718,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-02",
-          "level": 2798,
-          "mlt": 2835,
-          "p05": 2645,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2715,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-03",
-          "level": 2800,
-          "mlt": 2837,
-          "p05": 2650,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2712,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-04",
-          "level": 2803,
-          "mlt": 2839,
-          "p05": 2655,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2709,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-05",
-          "level": 2806,
-          "mlt": 2841,
-          "p05": 2658,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2706,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-06",
-          "level": 2811,
-          "mlt": 2842,
-          "p05": 2663,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2703,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-07",
-          "level": 2815,
-          "mlt": 2844,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2700,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-08",
-          "level": 2819,
-          "mlt": 2845,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2697,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-09",
-          "level": 2824,
-          "mlt": 2847,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2695,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-10",
-          "level": 2828,
-          "mlt": 2848,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2692,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-11",
-          "level": 2832,
-          "mlt": 2849,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2690,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-12",
-          "level": 2835,
-          "mlt": 2850,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2687,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-13",
-          "level": 2837,
-          "mlt": 2851,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2685,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-14",
-          "level": 2839,
-          "mlt": 2851,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2683,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-15",
-          "level": 2841,
-          "mlt": 2852,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2680,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-16",
-          "level": 2843,
-          "mlt": 2852,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2678,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-17",
-          "level": 2845,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2676,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-18",
-          "level": 2847,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2674,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-19",
-          "level": 2848,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2672,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-20",
-          "level": 2848,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2995,
-          "source": "real-ana-telemetria"
+          "level": 2671,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-21",
-          "level": 2849,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2669,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-22",
-          "level": 2849,
-          "mlt": 2853,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2667,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-23",
-          "level": 2849,
-          "mlt": 2852,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2666,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-24",
-          "level": 2849,
-          "mlt": 2851,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2664,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-25",
-          "level": 2849,
-          "mlt": 2850,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2663,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-26",
-          "level": 2849,
-          "mlt": 2850,
-          "p05": 2664,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2661,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-27",
-          "level": 2849,
-          "mlt": 2848,
-          "p05": 2665,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2660,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-28",
-          "level": 2849,
-          "mlt": 2847,
-          "p05": 2665,
-          "p95": 2994,
-          "source": "real-ana-telemetria"
+          "level": 2659,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-29",
-          "level": 2849,
-          "mlt": 2846,
-          "p05": 2664,
-          "p95": 2993,
-          "source": "real-ana-telemetria"
+          "level": 2658,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-06-30",
-          "level": 2850,
-          "mlt": 2844,
-          "p05": 2663,
-          "p95": 2991,
-          "source": "real-ana-telemetria"
+          "level": 2657,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-01",
-          "level": 2850,
-          "mlt": 2843,
-          "p05": 2663,
-          "p95": 2989,
-          "source": "real-ana-telemetria"
+          "level": 2656,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-02",
-          "level": 2848,
-          "mlt": 2841,
-          "p05": 2661,
-          "p95": 2988,
-          "source": "real-ana-telemetria"
+          "level": 2655,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-03",
-          "level": 2846,
-          "mlt": 2839,
-          "p05": 2660,
-          "p95": 2988,
-          "source": "real-ana-telemetria"
+          "level": 2655,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-04",
-          "level": 2845,
-          "mlt": 2837,
-          "p05": 2657,
-          "p95": 2985,
-          "source": "real-ana-telemetria"
+          "level": 2654,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-05",
-          "level": 2843,
-          "mlt": 2835,
-          "p05": 2654,
-          "p95": 2983,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-06",
-          "level": 2840,
-          "mlt": 2833,
-          "p05": 2650,
-          "p95": 2980,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-07",
-          "level": 2838,
-          "mlt": 2830,
-          "p05": 2645,
-          "p95": 2977,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-08",
-          "level": 2836,
-          "mlt": 2828,
-          "p05": 2639,
-          "p95": 2976,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-09",
-          "level": 2834,
-          "mlt": 2825,
-          "p05": 2635,
-          "p95": 2975,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-10",
-          "level": 2831,
-          "mlt": 2822,
-          "p05": 2629,
-          "p95": 2975,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-11",
-          "level": 2828,
-          "mlt": 2819,
-          "p05": 2624,
-          "p95": 2975,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-12",
-          "level": 2826,
-          "mlt": 2816,
-          "p05": 2619,
-          "p95": 2974,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-13",
-          "level": 2822,
-          "mlt": 2813,
-          "p05": 2613,
-          "p95": 2974,
-          "source": "real-ana-telemetria"
+          "level": 2652,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-14",
-          "level": 2819,
-          "mlt": 2810,
-          "p05": 2605,
-          "p95": 2973,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-15",
-          "level": 2817,
-          "mlt": 2806,
-          "p05": 2598,
-          "p95": 2973,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-16",
-          "level": 2813,
-          "mlt": 2803,
-          "p05": 2592,
-          "p95": 2973,
-          "source": "real-ana-telemetria"
+          "level": 2653,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-17",
-          "level": 2809,
-          "mlt": 2799,
-          "p05": 2586,
-          "p95": 2973,
-          "source": "real-ana-telemetria"
+          "level": 2654,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-18",
-          "level": 2805,
-          "mlt": 2795,
-          "p05": 2580,
-          "p95": 2972,
-          "source": "real-ana-telemetria"
+          "level": 2655,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-19",
-          "level": 2802,
-          "mlt": 2791,
-          "p05": 2573,
-          "p95": 2970,
-          "source": "real-ana-telemetria"
+          "level": 2655,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-20",
-          "level": 2798,
-          "mlt": 2787,
-          "p05": 2565,
-          "p95": 2968,
-          "source": "real-ana-telemetria"
+          "level": 2656,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-21",
-          "level": 2794,
-          "mlt": 2783,
-          "p05": 2557,
-          "p95": 2966,
-          "source": "real-ana-telemetria"
+          "level": 2657,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-22",
-          "level": 2789,
-          "mlt": 2779,
-          "p05": 2548,
-          "p95": 2964,
-          "source": "real-ana-telemetria"
+          "level": 2658,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-23",
-          "level": 2785,
-          "mlt": 2774,
-          "p05": 2540,
-          "p95": 2962,
-          "source": "real-ana-telemetria"
+          "level": 2659,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-24",
-          "level": 2780,
-          "mlt": 2770,
-          "p05": 2532,
-          "p95": 2959,
-          "source": "real-ana-telemetria"
+          "level": 2660,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-25",
-          "level": 2775,
-          "mlt": 2765,
-          "p05": 2520,
-          "p95": 2955,
-          "source": "real-ana-telemetria"
+          "level": 2661,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-26",
-          "level": 2770,
-          "mlt": 2760,
-          "p05": 2509,
-          "p95": 2952,
-          "source": "real-ana-telemetria"
+          "level": 2662,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-27",
-          "level": 2765,
-          "mlt": 2755,
-          "p05": 2500,
-          "p95": 2948,
-          "source": "real-ana-telemetria"
+          "level": 2664,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-28",
-          "level": 2759,
-          "mlt": 2750,
-          "p05": 2488,
-          "p95": 2946,
-          "source": "real-ana-telemetria"
+          "level": 2665,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-29",
-          "level": 2753,
-          "mlt": 2745,
-          "p05": 2478,
-          "p95": 2943,
-          "source": "real-ana-telemetria"
+          "level": 2666,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-30",
-          "level": 2746,
-          "mlt": 2739,
-          "p05": 2466,
-          "p95": 2939,
-          "source": "real-ana-telemetria"
+          "level": 2668,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-07-31",
-          "level": 2740,
-          "mlt": 2734,
-          "p05": 2449,
-          "p95": 2935,
-          "source": "real-ana-telemetria"
+          "level": 2670,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-01",
-          "level": 2733,
-          "mlt": 2728,
-          "p05": 2437,
-          "p95": 2931,
-          "source": "real-ana-telemetria"
+          "level": 2671,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-02",
-          "level": 2726,
-          "mlt": 2722,
-          "p05": 2426,
-          "p95": 2928,
-          "source": "real-ana-telemetria"
+          "level": 2673,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-03",
-          "level": 2719,
-          "mlt": 2715,
-          "p05": 2409,
-          "p95": 2924,
-          "source": "real-ana-telemetria"
+          "level": 2675,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-04",
-          "level": 2712,
-          "mlt": 2709,
-          "p05": 2394,
-          "p95": 2921,
-          "source": "real-ana-telemetria"
+          "level": 2677,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-05",
-          "level": 2705,
-          "mlt": 2702,
-          "p05": 2380,
-          "p95": 2919,
-          "source": "real-ana-telemetria"
+          "level": 2678,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-06",
-          "level": 2697,
-          "mlt": 2695,
-          "p05": 2360,
-          "p95": 2915,
-          "source": "real-ana-telemetria"
+          "level": 2680,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-07",
-          "level": 2689,
-          "mlt": 2688,
-          "p05": 2341,
-          "p95": 2912,
-          "source": "real-ana-telemetria"
+          "level": 2682,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-08",
-          "level": 2680,
+          "level": 2685,
           "mlt": 2680,
-          "p05": 2325,
-          "p95": 2908,
-          "source": "real-ana-telemetria"
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-09",
-          "level": 2671,
-          "mlt": 2673,
-          "p05": 2308,
-          "p95": 2904,
-          "source": "real-ana-telemetria"
+          "level": 2687,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-10",
-          "level": 2662,
-          "mlt": 2665,
-          "p05": 2284,
-          "p95": 2900,
-          "source": "real-ana-telemetria"
+          "level": 2689,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-11",
-          "level": 2654,
-          "mlt": 2657,
-          "p05": 2259,
-          "p95": 2898,
-          "source": "real-ana-telemetria"
+          "level": 2691,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-12",
-          "level": 2644,
-          "mlt": 2649,
-          "p05": 2234,
-          "p95": 2893,
-          "source": "real-ana-telemetria"
+          "level": 2694,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-13",
-          "level": 2635,
-          "mlt": 2640,
-          "p05": 2211,
-          "p95": 2889,
-          "source": "real-ana-telemetria"
+          "level": 2696,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-14",
-          "level": 2626,
-          "mlt": 2631,
-          "p05": 2188,
-          "p95": 2887,
-          "source": "real-ana-telemetria"
+          "level": 2698,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-15",
-          "level": 2616,
-          "mlt": 2622,
-          "p05": 2165,
-          "p95": 2884,
-          "source": "real-ana-telemetria"
+          "level": 2701,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-16",
-          "level": 2605,
-          "mlt": 2613,
-          "p05": 2141,
-          "p95": 2879,
-          "source": "real-ana-telemetria"
+          "level": 2703,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-17",
-          "level": 2594,
-          "mlt": 2604,
-          "p05": 2119,
-          "p95": 2876,
-          "source": "real-ana-telemetria"
+          "level": 2706,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         },
         {
           "date": "2026-08-18",
-          "level": 2586,
-          "mlt": 2594,
-          "p05": 2095,
-          "p95": 2873,
-          "source": "real-ana-telemetria"
+          "level": 2708,
+          "mlt": 2680,
+          "p05": 2140,
+          "p95": 2920,
+          "source": "demo"
         }
       ],
-      "source": "real-ana-telemetria",
-      "warning": null
+      "source": "demo-fallback",
+      "warning": "manaus: sem série real suficiente; usando fallback sintético"
     },
     {
       "id": "itacoatiara",
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 1146,
-      "delta7": -55,
-      "delta30": -175,
+      "current": 1144,
+      "delta7": -57,
+      "delta30": -177,
       "risk": "baixo",
       "mlt": 1148,
       "p95": 1396,
@@ -3446,7 +3449,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 1146,
+          "level": 1144,
           "mlt": 1148,
           "p05": 740,
           "p95": 1396,
@@ -6368,7 +6371,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 1146,
+          "level": 1144,
           "mlt": 1148,
           "p05": 740,
           "p95": 1396,
@@ -6383,9 +6386,9 @@
       "name": "Óbidos",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 586,
-      "delta7": -28,
-      "delta30": -111,
+      "current": 585,
+      "delta7": -29,
+      "delta30": -112,
       "risk": "baixo",
       "mlt": 581,
       "p95": 741,
@@ -6626,7 +6629,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 586,
+          "level": 585,
           "mlt": 581,
           "p05": 348,
           "p95": 741,
@@ -9548,7 +9551,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 586,
+          "level": 585,
           "mlt": 581,
           "p05": 348,
           "p95": 741,
@@ -15925,9 +15928,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 487,
-      "delta7": -63,
-      "delta30": -94,
+      "current": 486,
+      "delta7": -64,
+      "delta30": -95,
       "risk": "baixo",
       "mlt": 363,
       "p95": 598,
@@ -16168,7 +16171,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 487,
+          "level": 486,
           "mlt": 363,
           "p05": 166,
           "p95": 598,
@@ -19090,7 +19093,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 487,
+          "level": 486,
           "mlt": 363,
           "p05": 166,
           "p95": 598,
@@ -19105,9 +19108,9 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 507,
-      "delta7": -24,
-      "delta30": -102,
+      "current": 510,
+      "delta7": -21,
+      "delta30": -99,
       "risk": "baixo",
       "mlt": 489,
       "p95": 633,
@@ -19348,7 +19351,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 507,
+          "level": 510,
           "mlt": 489,
           "p05": 298,
           "p95": 633,
@@ -22270,7 +22273,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 507,
+          "level": 510,
           "mlt": 489,
           "p05": 298,
           "p95": 633,
@@ -22285,9 +22288,9 @@
       "name": "Lábrea",
       "river": "Purus",
       "basin": "Purus",
-      "current": 625,
-      "delta7": -27,
-      "delta30": -153,
+      "current": 624,
+      "delta7": -28,
+      "delta30": -154,
       "risk": "baixo",
       "mlt": 580,
       "p95": 772,
@@ -22528,7 +22531,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 625,
+          "level": 624,
           "mlt": 580,
           "p05": 399,
           "p95": 772,
@@ -25450,7 +25453,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 625,
+          "level": 624,
           "mlt": 580,
           "p05": 399,
           "p95": 772,
@@ -25465,9 +25468,9 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 624,
-      "delta7": -85,
-      "delta30": -278,
+      "current": 622,
+      "delta7": -87,
+      "delta30": -280,
       "risk": "baixo",
       "mlt": 750,
       "p95": 956,
@@ -25708,7 +25711,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 624,
+          "level": 622,
           "mlt": 750,
           "p05": 460,
           "p95": 956,
@@ -28630,7 +28633,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 624,
+          "level": 622,
           "mlt": 750,
           "p05": 460,
           "p95": 956,
@@ -28645,9 +28648,9 @@
       "name": "Altamira",
       "river": "Rio Xingu",
       "basin": "Xingu",
-      "current": 662,
-      "delta7": 12,
-      "delta30": 19,
+      "current": 663,
+      "delta7": 13,
+      "delta30": 20,
       "risk": "baixo",
       "mlt": 620,
       "p95": 686,
@@ -28888,7 +28891,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 662,
+          "level": 663,
           "mlt": 620,
           "p05": 479,
           "p95": 686,
@@ -31810,7 +31813,7 @@
         },
         {
           "date": "2026-08-18",
-          "level": 662,
+          "level": 663,
           "mlt": 620,
           "p05": 479,
           "p95": 686,
