@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T02:04:11-03:00",
+  "updatedAt": "2026-09-02T10:01:34-03:00",
   "date": "2026-09-02",
   "sourceMode": "operational",
   "metadata": {
@@ -23,9 +23,9 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 2394,
-      "delta7": -92,
-      "delta30": -318,
+      "current": 2391,
+      "delta7": -95,
+      "delta30": -321,
       "risk": "baixo",
       "mlt": 2414,
       "p95": 2801,
@@ -36,7 +36,7 @@
           "date": "2026-08-04",
           "level": 2712,
           "mlt": 2704,
-          "p05": 2393,
+          "p05": 2390,
           "p95": 2921,
           "source": "real-ana-telemetria"
         },
@@ -266,7 +266,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 2394,
+          "level": 2391,
           "mlt": 2414,
           "p05": 1755,
           "p95": 2801,
@@ -2958,7 +2958,7 @@
           "date": "2026-08-04",
           "level": 2712,
           "mlt": 2704,
-          "p05": 2393,
+          "p05": 2390,
           "p95": 2921,
           "source": "real-ana-telemetria"
         },
@@ -3188,7 +3188,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 2394,
+          "level": 2391,
           "mlt": 2414,
           "p05": 1755,
           "p95": 2801,
@@ -3203,9 +3203,9 @@
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 986,
-      "delta7": -76,
-      "delta30": -263,
+      "current": 984,
+      "delta7": -78,
+      "delta30": -265,
       "risk": "baixo",
       "mlt": 1000,
       "p95": 1328,
@@ -3446,7 +3446,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 986,
+          "level": 984,
           "mlt": 1000,
           "p05": 460,
           "p95": 1328,
@@ -6130,7 +6130,7 @@
           "date": "2026-08-03",
           "level": 1255,
           "mlt": 1247,
-          "p05": 986,
+          "p05": 984,
           "p95": 1439,
           "source": "real-ana-telemetria"
         },
@@ -6368,7 +6368,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 986,
+          "level": 984,
           "mlt": 1000,
           "p05": 460,
           "p95": 1328,
@@ -6383,9 +6383,9 @@
       "name": "Óbidos",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 487,
-      "delta7": -42,
-      "delta30": -157,
+      "current": 486,
+      "delta7": -43,
+      "delta30": -158,
       "risk": "baixo",
       "mlt": 493,
       "p95": 698,
@@ -6626,7 +6626,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 487,
+          "level": 486,
           "mlt": 493,
           "p05": 157,
           "p95": 698,
@@ -9548,7 +9548,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 487,
+          "level": 486,
           "mlt": 493,
           "p05": 157,
           "p95": 698,
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 423,
-      "delta7": -118,
-      "delta30": -164,
+      "current": 418,
+      "delta7": -123,
+      "delta30": -169,
       "risk": "baixo",
       "mlt": 301,
       "p95": 481,
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 423,
+          "level": 418,
           "mlt": 301,
           "p05": 121,
           "p95": 481,
@@ -16219,7 +16219,7 @@
         {
           "date": "2025-09-08",
           "level": 277,
-          "mlt": 281,
+          "mlt": 280,
           "p05": 97,
           "p95": 462,
           "source": "real-ana-telemetria"
@@ -16309,7 +16309,7 @@
           "level": 293,
           "mlt": 255,
           "p05": 51,
-          "p95": 420,
+          "p95": 418,
           "source": "real-ana-telemetria"
         },
         {
@@ -16397,7 +16397,7 @@
           "level": 231,
           "mlt": 246,
           "p05": 50,
-          "p95": 418,
+          "p95": 417,
           "source": "real-ana-telemetria"
         },
         {
@@ -16405,7 +16405,7 @@
           "level": 227,
           "mlt": 246,
           "p05": 50,
-          "p95": 420,
+          "p95": 419,
           "source": "real-ana-telemetria"
         },
         {
@@ -16413,7 +16413,7 @@
           "level": 231,
           "mlt": 246,
           "p05": 50,
-          "p95": 422,
+          "p95": 420,
           "source": "real-ana-telemetria"
         },
         {
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 423,
+          "level": 418,
           "mlt": 301,
           "p05": 121,
           "p95": 481,
@@ -19105,9 +19105,9 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 428,
-      "delta7": -23,
-      "delta30": -132,
+      "current": 425,
+      "delta7": -26,
+      "delta30": -135,
       "risk": "baixo",
       "mlt": 427,
       "p95": 591,
@@ -19348,7 +19348,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 428,
+          "level": 425,
           "mlt": 427,
           "p05": 187,
           "p95": 591,
@@ -22270,7 +22270,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 428,
+          "level": 425,
           "mlt": 427,
           "p05": 187,
           "p95": 591,
@@ -28645,9 +28645,9 @@
       "name": "Altamira",
       "river": "Rio Xingu",
       "basin": "Xingu",
-      "current": 650,
-      "delta7": -12,
-      "delta30": -8,
+      "current": 652,
+      "delta7": -10,
+      "delta30": -6,
       "risk": "baixo",
       "mlt": 590,
       "p95": 678,
@@ -28888,7 +28888,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 650,
+          "level": 652,
           "mlt": 590,
           "p05": 364,
           "p95": 678,
@@ -31810,7 +31810,7 @@
         },
         {
           "date": "2026-09-02",
-          "level": 650,
+          "level": 652,
           "mlt": 590,
           "p05": 364,
           "p95": 678,
