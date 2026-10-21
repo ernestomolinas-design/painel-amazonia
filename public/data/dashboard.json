@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-21T11:10:42-03:00",
+  "updatedAt": "2026-10-21T17:24:49-03:00",
   "date": "2026-10-21",
   "sourceMode": "mixed-operational-fallback",
   "metadata": {
     "warnings": [
-      "santarem: falha em ana-telemetria: The read operation timed out",
+      "santarem: falha em ana-telemetria: HTTP 500 em https://telemetriaws1.ana.gov.br/ServiceANA.asmx/DadosHidrometeorologicos?CodEstacao=17900000&DataInicio=23%2F09%2F2016&DataFim=21%2F10%2F2026",
       "santarem: sem série real suficiente; usando fallback sintético",
-      "tabatinga: falha em ana-telemetria: The read operation timed out",
+      "tabatinga: falha em ana-telemetria: HTTP 500 em https://telemetriaws1.ana.gov.br/ServiceANA.asmx/DadosHidrometeorologicos?CodEstacao=10100000&DataInicio=23%2F09%2F2016&DataFim=21%2F10%2F2026",
       "tabatinga: sem série real suficiente; usando fallback sintético"
     ],
     "stationCodesConfigured": 10,
@@ -28,9 +28,9 @@
       "name": "Manaus",
       "river": "Rio Negro / Amazonas",
       "basin": "Pontos críticos",
-      "current": 1698,
-      "delta7": -52,
-      "delta30": -337,
+      "current": 1697,
+      "delta7": -53,
+      "delta30": -338,
       "risk": "baixo",
       "mlt": 1792,
       "p95": 2276,
@@ -271,7 +271,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 1698,
+          "level": 1697,
           "mlt": 1792,
           "p05": 1252,
           "p95": 2276,
@@ -3193,7 +3193,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 1698,
+          "level": 1697,
           "mlt": 1792,
           "p05": 1252,
           "p95": 2276,
@@ -3208,9 +3208,9 @@
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 375,
-      "delta7": -52,
-      "delta30": -311,
+      "current": 374,
+      "delta7": -53,
+      "delta30": -312,
       "risk": "baixo",
       "mlt": 476,
       "p95": 891,
@@ -3451,7 +3451,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 375,
+          "level": 374,
           "mlt": 476,
           "p05": 18,
           "p95": 891,
@@ -6373,7 +6373,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 375,
+          "level": 374,
           "mlt": 476,
           "p05": 18,
           "p95": 891,
@@ -6388,9 +6388,9 @@
       "name": "Óbidos",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 84,
-      "delta7": -48,
-      "delta30": -215,
+      "current": 83,
+      "delta7": -49,
+      "delta30": -216,
       "risk": "baixo",
       "mlt": 166,
       "p95": 429,
@@ -6631,7 +6631,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 84,
+          "level": 83,
           "mlt": 166,
           "p05": -90,
           "p95": 429,
@@ -9553,7 +9553,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 84,
+          "level": 83,
           "mlt": 166,
           "p05": -90,
           "p95": 429,
@@ -15930,9 +15930,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 456,
-      "delta7": 197,
-      "delta30": 124,
+      "current": 466,
+      "delta7": 207,
+      "delta30": 134,
       "risk": "baixo",
       "mlt": 292,
       "p95": 599,
@@ -16088,7 +16088,7 @@
           "level": 296,
           "mlt": 265,
           "p05": 51,
-          "p95": 455,
+          "p95": 456,
           "source": "real-ana-telemetria"
         },
         {
@@ -16096,7 +16096,7 @@
           "level": 290,
           "mlt": 267,
           "p05": 51,
-          "p95": 459,
+          "p95": 460,
           "source": "real-ana-telemetria"
         },
         {
@@ -16173,7 +16173,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 456,
+          "level": 466,
           "mlt": 292,
           "p05": 74,
           "p95": 599,
@@ -19010,7 +19010,7 @@
           "level": 296,
           "mlt": 265,
           "p05": 51,
-          "p95": 455,
+          "p95": 456,
           "source": "real-ana-telemetria"
         },
         {
@@ -19018,7 +19018,7 @@
           "level": 290,
           "mlt": 267,
           "p05": 51,
-          "p95": 459,
+          "p95": 460,
           "source": "real-ana-telemetria"
         },
         {
@@ -19095,7 +19095,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 456,
+          "level": 466,
           "mlt": 292,
           "p05": 74,
           "p95": 599,
@@ -25470,9 +25470,9 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 402,
-      "delta7": -4,
-      "delta30": 8,
+      "current": 403,
+      "delta7": -3,
+      "delta30": 9,
       "risk": "baixo",
       "mlt": 387,
       "p95": 578,
@@ -25713,7 +25713,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 402,
+          "level": 403,
           "mlt": 387,
           "p05": 204,
           "p95": 578,
@@ -28635,7 +28635,7 @@
         },
         {
           "date": "2026-10-21",
-          "level": 402,
+          "level": 403,
           "mlt": 387,
           "p05": 204,
           "p95": 578,
