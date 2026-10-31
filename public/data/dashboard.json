@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:48:24-03:00",
+  "updatedAt": "2026-10-31T17:20:20-03:00",
   "date": "2026-10-31",
   "sourceMode": "operational",
   "metadata": {
@@ -3203,9 +3203,9 @@
       "name": "Itacoatiara",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 345,
-      "delta7": -12,
-      "delta30": -185,
+      "current": 344,
+      "delta7": -13,
+      "delta30": -186,
       "risk": "baixo",
       "mlt": 436,
       "p95": 748,
@@ -3446,7 +3446,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 345,
+          "level": 344,
           "mlt": 436,
           "p05": 18,
           "p95": 748,
@@ -6368,7 +6368,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 345,
+          "level": 344,
           "mlt": 436,
           "p05": 18,
           "p95": 748,
@@ -6383,9 +6383,9 @@
       "name": "Óbidos",
       "river": "Rio Amazonas",
       "basin": "Pontos críticos",
-      "current": 77,
-      "delta7": 2,
-      "delta30": -131,
+      "current": 76,
+      "delta7": 1,
+      "delta30": -132,
       "risk": "baixo",
       "mlt": 135,
       "p95": 351,
@@ -6626,7 +6626,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 77,
+          "level": 76,
           "mlt": 135,
           "p05": -91,
           "p95": 351,
@@ -6669,7 +6669,7 @@
         {
           "date": "2025-11-05",
           "level": 191,
-          "mlt": 128,
+          "mlt": 127,
           "p05": -91,
           "p95": 304,
           "source": "real-ana-telemetria"
@@ -9548,7 +9548,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 77,
+          "level": 76,
           "mlt": 135,
           "p05": -91,
           "p95": 351,
@@ -9563,9 +9563,9 @@
       "name": "Santarém",
       "river": "Rio Amazonas / Tapajós",
       "basin": "Pontos críticos",
-      "current": 142,
-      "delta7": 6,
-      "delta30": -106,
+      "current": 141,
+      "delta7": 5,
+      "delta30": -107,
       "risk": "baixo",
       "mlt": 188,
       "p95": 363,
@@ -9806,7 +9806,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 142,
+          "level": 141,
           "mlt": 188,
           "p05": 21,
           "p95": 363,
@@ -12728,7 +12728,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 142,
+          "level": 141,
           "mlt": 188,
           "p05": 21,
           "p95": 363,
@@ -15925,9 +15925,9 @@
       "name": "Porto Velho",
       "river": "Madeira",
       "basin": "Madeira",
-      "current": 439,
-      "delta7": -15,
-      "delta30": 139,
+      "current": 450,
+      "delta7": -4,
+      "delta30": 150,
       "risk": "baixo",
       "mlt": 347,
       "p95": 684,
@@ -15963,7 +15963,7 @@
           "level": 264,
           "mlt": 258,
           "p05": 51,
-          "p95": 440,
+          "p95": 442,
           "source": "real-ana-telemetria"
         },
         {
@@ -15979,7 +15979,7 @@
           "level": 268,
           "mlt": 262,
           "p05": 51,
-          "p95": 445,
+          "p95": 447,
           "source": "real-ana-telemetria"
         },
         {
@@ -16168,7 +16168,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 439,
+          "level": 450,
           "mlt": 347,
           "p05": 88,
           "p95": 684,
@@ -18885,7 +18885,7 @@
           "level": 264,
           "mlt": 258,
           "p05": 51,
-          "p95": 440,
+          "p95": 442,
           "source": "real-ana-telemetria"
         },
         {
@@ -18901,7 +18901,7 @@
           "level": 268,
           "mlt": 262,
           "p05": 51,
-          "p95": 445,
+          "p95": 447,
           "source": "real-ana-telemetria"
         },
         {
@@ -19090,7 +19090,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 439,
+          "level": 450,
           "mlt": 347,
           "p05": 88,
           "p95": 684,
@@ -19105,9 +19105,9 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 187,
-      "delta7": 19,
-      "delta30": -47,
+      "current": 186,
+      "delta7": 18,
+      "delta30": -48,
       "risk": "baixo",
       "mlt": 230,
       "p95": 342,
@@ -19348,7 +19348,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 187,
+          "level": 186,
           "mlt": 230,
           "p05": 103,
           "p95": 342,
@@ -22270,7 +22270,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 187,
+          "level": 186,
           "mlt": 230,
           "p05": 103,
           "p95": 342,
@@ -25465,9 +25465,9 @@
       "name": "Barcelos",
       "river": "Rio Negro",
       "basin": "Negro",
-      "current": 390,
-      "delta7": -14,
-      "delta30": 0,
+      "current": 389,
+      "delta7": -15,
+      "delta30": -1,
       "risk": "baixo",
       "mlt": 373,
       "p95": 521,
@@ -25708,7 +25708,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 390,
+          "level": 389,
           "mlt": 373,
           "p05": 204,
           "p95": 521,
@@ -28630,7 +28630,7 @@
         },
         {
           "date": "2026-10-31",
-          "level": 390,
+          "level": 389,
           "mlt": 373,
           "p05": 204,
           "p95": 521,
