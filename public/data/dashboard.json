@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T13:40:46-03:00",
+  "updatedAt": "2026-11-10T19:00:06-03:00",
   "date": "2026-11-10",
   "sourceMode": "operational",
   "metadata": {
@@ -9563,9 +9563,9 @@
       "name": "Santarém",
       "river": "Rio Amazonas / Tapajós",
       "basin": "Pontos críticos",
-      "current": 134,
-      "delta7": 3,
-      "delta30": -61,
+      "current": 136,
+      "delta7": 5,
+      "delta30": -59,
       "risk": "baixo",
       "mlt": 181,
       "p95": 306,
@@ -9806,7 +9806,7 @@
         },
         {
           "date": "2026-11-10",
-          "level": 134,
+          "level": 136,
           "mlt": 181,
           "p05": 23,
           "p95": 306,
@@ -12728,7 +12728,7 @@
         },
         {
           "date": "2026-11-10",
-          "level": 134,
+          "level": 136,
           "mlt": 181,
           "p05": 23,
           "p95": 306,
@@ -19105,9 +19105,9 @@
       "name": "Itaituba",
       "river": "Tapajós",
       "basin": "Tapajós",
-      "current": 184,
-      "delta7": 5,
-      "delta30": -10,
+      "current": 183,
+      "delta7": 4,
+      "delta30": -11,
       "risk": "baixo",
       "mlt": 241,
       "p95": 373,
@@ -19348,7 +19348,7 @@
         },
         {
           "date": "2026-11-10",
-          "level": 184,
+          "level": 183,
           "mlt": 241,
           "p05": 134,
           "p95": 373,
@@ -22270,7 +22270,7 @@
         },
         {
           "date": "2026-11-10",
-          "level": 184,
+          "level": 183,
           "mlt": 241,
           "p05": 134,
           "p95": 373,
